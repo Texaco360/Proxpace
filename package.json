@@ -1,0 +1,39 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-css": "sass --update --style=expanded scss/style.scss:assets/css/style.css",
+    "sass-dev": "sass --watch --update --style=compressed scss/style.scss:assets/css/style.min.css",
+    "sass-prod": "sass --no-source-map --style=compressed scss/style.scss:assets/css/style.min.css",
+    "css-prefix": "postcss --replace assets/css/style.css --use autoprefixer --map",
+    "css-purge-full": "purgecss --keyframes --css assets/css/style.css --content ./*.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
+    "css-purge-min": "purgecss --keyframes --css assets/css/style.min.css --content ./*.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
+    "js-rollup": "rollup js/main.js --file ./assets/js/bundle.js --format cjs",
+    "js-minify": "terser ./assets/js/bundle.js -c -m -o ./assets/js/bundle.min.js",
+    "dev": "npm-run-all sass-prod js-rollup js-minify",
+    "build": "npm-run-all sass-prod css-prefix js-rollup js-minify",
+    "serve": "serve"
+  },
+  "dependencies": {
+    "@fontsource/lato": "^4.5.0",
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "purgecss": "^4.1.3",
+    "rollup": "^2.64.0",
+    "sass": "^1.48.0",
+    "serve": "^13.0.2",
+    "terser": "^5.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

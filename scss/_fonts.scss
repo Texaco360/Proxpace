@@ -1,0 +1,19 @@
+// installeren van de font lato
+// 1) installeer fonts met npm install @fontsource/lato
+// 2) kopieer fonts uit ../node_modules/@fontsource/lato/files naar ../assets/fonts/
+// 3) pas onderstaande scss aan
+
+@use "../node_modules/@fontsource/lato/scss/mixins" as lato;
+
+$font : 'lato';
+$fweights: 300,400,700;//vul hier de gewenste weight in
+$fstyles: normal , italic ;
+$fdir:'../fonts';
+
+@each $fstyle in $fstyles {
+  @each $fweight in $fweights {
+    @include lato.fontFace($weight:#{$fweight},$style:#{$fstyle},$fontDir:#{$fdir},$unicodeMap:latin)
+  }
+}
+
+
