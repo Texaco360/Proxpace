@@ -51,18 +51,24 @@
         <div class="hero-input">
             <form>
                 <div class="input-group p-2">
-                    <input type="search" class="form-control" placeholder="Locatie" aria-label="Locatie" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-search pe-2"></i></span>
+                    <input type="text" class="form-control" placeholder="Locatie" aria-label="Locatie" aria-describedby="basic-addon1">
                 </div>
                 <div class="input-group">
-                    <div class=" p-2">
-                        <input type="search" class="form-control" placeholder="Datum" aria-label="Datum" aria-describedby="basic-addon1">
+                    <div class="p-2 col-6">
+                        <input type="date" class="form-control" placeholder="Datum" aria-label="Datum">
                     </div>
-                    <div class=" p-2">
-                        <input type="search" class="form-control" placeholder="Aantal Personen" aria-label="Aantal Personen" aria-describedby="basic-addon1">
+                    <div class=" p-2 col-6">
+                        <div class="d-flex">
+                            <span class="input-group-text" id="basic-addon2"><i class="bi bi-person"></i></span><input type="search" class="form-control" placeholder="Aantal Personen" aria-label="Aantal Personen" aria-describedby="basic-addon2">
+                        </div>
                     </div>
                 </div>
                 <div class="input-group p-2">
-                    <input type="range" class="form-range input-group-lg" id="customRange1">
+                    <div class="row">
+                        <div><i class="bi bi-geo-alt"></i><p> max.<span> 50 </span>km </p></div>
+                        <input type="range" class="form-range input-group-lg" id="customRange1">
+                    </div>
                 </div>
                 <div class="input-group col-4 ps-2">
                     <button class="btn btn-secondary"><i class="bi bi-search pe-2"></i> Zoek</button>
