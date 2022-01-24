@@ -16,6 +16,11 @@
 
 
 //footer start
-
+footer{
+  .nav-link:hover{
+    color: blue!important;
+    text-decoration: underline;
+  }
+}
 
 //footer end
