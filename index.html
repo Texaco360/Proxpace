@@ -14,11 +14,11 @@
 <header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-10 mx-auto">
+            <div class="col-12 col-xl-10 mx-auto">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid my-5">
-                        <a class="navbar-brand d-none d-lg-block w-50" href="#">
-                            <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="Proxpace" width="375" class="img-fluid">
+                        <a class="navbar-brand d-none d-lg-block pe-4 w-50 pt-0" href="#">
+                            <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="Proxpace" width="375" class="img-fluid ">
                         </a>
                         <a class="navbar-brand d-lg-none w-50" href="#">
                             <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="Proxpace" class=" img-fluid">
@@ -27,41 +27,65 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end text-primary mt-0" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <div class="wrapper pt-5 d-lg-flex">
-                                    <li class="nav-item">
-                                        <div class="pe-4">
-                                            <a class="nav-link fs-5" aria-current="page" href="#">BLOG</a>
-                                        </div>
+                            <ul id="nav-content-desktop" class="navbar-nav" >
+                                <div class="d-flex justify-content-end pt-3 d-lg-none">
+                                    <a href="#" class="nav-link p-0">NL/</a>
+                                    <a href="#" class="nav-link p-0">EN/</a>
+                                    <a href="#" class="nav-link py-0 ps-0">FR</a>
+                                </div>
 
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="btn btn-secondary btn-lg text-light me-4" href="#">
+
+                                    <li class="nav-item order-lg-2">
+                                        <a class="btn btn-secondary btn-lg text-light me-4 mt-3 mt-lg-5" href="#">
                                             <div class="px-3 fs-5 ">
                                                 HUREN
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="nav-item">
+                                    <li class="nav-item order-lg-3">
                                         <div class="pe-4">
-                                            <a class="btn btn-outline-secondary btn-lg fs-5" href="#">VERHUREN</a>
+                                            <a class="btn btn-outline-secondary btn-lg fs-5 mt-3 mt-lg-5" href="#">VERHUREN</a>
                                         </div>
-
                                     </li>
-                                </div>
-
-                                <li class="nav-item">
-                                    <div class="text-end pt-4">
-                                        <div class="d-flex justify-content-end">
-                                            <a href="#" class="nav-link p-0">NL/</a>
-                                            <a href="#" class="nav-link p-0">EN/</a>
-                                            <a href="#" class="nav-link py-0 ps-0">FR</a>
+                                    <li class="nav-item order-lg-1">
+                                        <div class="pe-4 pt-3 pt-lg-5">
+                                            <a class="nav-link fs-5" aria-current="page" href="#">BLOG</a>
                                         </div>
+                                    </li>
 
-                                        <a class="nav-link text-end fs-5" aria-current="page" href="#">LOGIN / REGISTREER</a>
+                                <li class="nav-item order-lg-4 pt-lg-4">
+                                    <div class="d-none justify-content-end pt-1 d-lg-flex">
+                                        <a href="#" class="nav-link p-0">NL/</a>
+                                        <a href="#" class="nav-link p-0">EN/</a>
+                                        <a href="#" class="nav-link py-0 ps-0">FR</a>
+                                    </div>
+                                    <div class="text-start text-lg-end pt-1 pt-lg-0">
+                                        <div class="d-lg-flex">
+                                            <a class="nav-link fs-5" aria-current="page" href="#">LOGIN</a>
+                                            <span class="nav-link fs-5 px-0 d-none d-lg-inline">/</span>
+                                            <a class="nav-link fs-5" aria-current="page" href="#">REGISTREER</a>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
+                            <!--<div id="nav-content-mobile" >
+                                <ul class="navbar-nav d-lg-none">
+                                    <li class="nav-item pt-4 px-4">
+                                        <a class="btn btn-secondary btn-lg text-light w-100" href="#">
+                                            <div class="px-3 fs-5 ">
+                                                HUREN
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item pt-4 px-4" >
+                                            <a class="btn btn-outline-secondary btn-lg fs-5 w-100" href="#">VERHUREN</a>
+                                    </li>
+                                    <li class="nav-item pt-4 px-4" >
+                                        <a class="btn btn-outline-secondary btn-lg fs-5 w-100" href="#">VERHUREN</a>
+                                    </li>
+
+                                </ul>
+                            </div>-->
                         </div>
                     </div>
                 </nav>
