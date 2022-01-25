@@ -51,27 +51,25 @@
         <div class="hero-input">
             <form>
                 <div class="input-group p-2">
-                    <span class="input-group-text" id="basic-addon1"><i class="bi bi-search pe-2"></i></span>
-                    <input type="text" class="form-control" placeholder="Locatie" aria-label="Locatie" aria-describedby="basic-addon1">
+                    <span class="input-group-text bg-transparent" id="basic-addon1"><i class="bi bi-search text-white"></i></span>
+                    <input type="search" class="form-control" placeholder="Locatie" aria-label="Locatie" aria-describedby="basic-addon1">
                 </div>
-                <div class="input-group">
-                    <div class="p-2 col-6">
+                <div class="input-group p-2">
+                    <div class="col-6 pe-2">
                         <input type="date" class="form-control" placeholder="Datum" aria-label="Datum">
                     </div>
-                    <div class=" p-2 col-6">
-                        <div class="d-flex">
-                            <span class="input-group-text" id="basic-addon2"><i class="bi bi-person"></i></span><input type="search" class="form-control" placeholder="Aantal Personen" aria-label="Aantal Personen" aria-describedby="basic-addon2">
+                    <div class="col-6 ps-2">
+                        <div class="input-group">
+                            <span class="input-group-text bg-transparent" id="basic-addon2"><i class="bi bi-person text-white"></i></span>
+                            <input type="text" class="form-control" placeholder="Aantal Personen" aria-label="Aantal Personen" aria-describedby="basic-addon2">
                         </div>
                     </div>
                 </div>
                 <div class="input-group p-2">
-                    <div class="row">
-                        <div><i class="bi bi-geo-alt"></i><p> max.<span> 50 </span>km </p></div>
-                        <input type="range" class="form-range input-group-lg" id="customRange1">
-                    </div>
+                        <input type="range" class="form-range p-3 w-100" id="customRange1" aria-describedby="basic-addon3">
                 </div>
-                <div class="input-group col-4 ps-2">
-                    <button class="btn btn-secondary"><i class="bi bi-search pe-2"></i> Zoek</button>
+                <div class="input-group col-4 ps-2 mt-2">
+                    <button class="btn btn-trans" type="button"><i class="bi bi-search pe-2"></i> Zoek</button>
                 </div>
             </form>
         </div>

@@ -3,6 +3,10 @@
 .btn-default {
   @include button-variant(purple, black, red, green, yellow, blue);
 }
+.btn-trans {
+  @include button-variant(rgba(255,255,255,0), white, white,rgba(255,255,255,0), white, white);
+}
+
 
 //mixins
 
