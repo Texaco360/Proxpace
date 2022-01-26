@@ -49,7 +49,7 @@
       }
       &::-webkit-slider-thumb {
         box-shadow: 0px 0px 2px #A6A6A6;
-        border: 1px solid #000000;
+        margin: -6px -6px 0px -6px;
         height: 15px;
         width: 15px;
         border-radius: 4px;
@@ -60,7 +60,6 @@
       }
       &::-moz-range-thumb {
         box-shadow: 0px 0px 2px #A6A6A6;
-        border: 1px solid #000000;
         height: 15px;
         width: 15px;
         border-radius: 4px;
@@ -70,13 +69,40 @@
       }
       &::-ms-thumb {
         box-shadow: 0px 0px 2px #A6A6A6;
-        border: 1px solid #000000;
         height: 15px;
         width: 15px;
         border-radius: 4px;
         background: #FFFFFF;
         cursor: pointer;
         transform: rotate(45deg);
+      }
+      &::-ms-track {
+        width: 100%;
+        height: 2px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        color: transparent;
+      }
+      &:focus::-webkit-slider-runnable-track {
+        background: #FFFFFF;
+      }
+      &::-moz-range-track {
+        width: 100%;
+        height: 2px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: #FFFFFF;
+        border-radius: 0px;
+      }
+      &::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 2px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: #FFFFFF;
+        border-radius: 0px;
       }
     }
   }
@@ -109,12 +135,12 @@
   }
   .hero-triangle{
     position: absolute;
-    width: 35%;
+    width: 30%;
     bottom: 0;
   }
   .hero-input{
     position: absolute;
-    bottom: 25%;
+    bottom: 20%;
     right: 10%;
   }
   .hero-text{
@@ -126,19 +152,21 @@
     object-fit: cover;
     height: 500px;
   }
-  .carousel-indicators [data-bs-target] {
-    margin: 10px;
-    height: 15px;
-    width: 15px;
-    background-color: transparent;
-    border-radius: 3px;
-    border: white 3px solid;
-    transform: rotate(45deg);
+  .carousel-indicators {
+    [data-bs-target] {
+      margin: 10px;
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      border-radius: 3px;
+      border: white 3px solid;
+      transform: rotate(45deg);
+    }
+    .active {
+      background-color: white;
+      color: white;
+    }
   }
-  .carousel-indicators .active {
-    background-color: white;
-  }
-
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
     .hero-image{
@@ -147,7 +175,7 @@
     }
     .hero-input{
       position: absolute;
-      bottom: 25%;
+      bottom: 20%;
       right: 10%;
     }
   }
