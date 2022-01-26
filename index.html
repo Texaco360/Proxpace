@@ -11,17 +11,6 @@
 </head>
 <body>
 <!--START HEADER EN NAVBAR-->
-<div class="container">
-    <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        </ul>
-    </header>
-</div>
 
 <!--EINDE HEADER EN NAVBAR-->
     <!--START MAIN -->
@@ -66,7 +55,9 @@
                     </div>
                 </div>
                 <div class="input-group p-2">
-                        <input type="range" class="form-range p-3 " id="customRange1" aria-describedby="basic-addon3">
+                    <div class="d-flex w-100">
+                        <span class="input-group-text bg-transparent hero-border-right hero-border-radius text-white" id="basic-addon3"> <img src="assets/images/logo-icons/placeholder%20wit.svg" alt="pointer" width="25" height="25" class="pe-1"> max. 50 km</span><input type="range" class="form-range hero-border-left p-4" id="customRange1" aria-describedby="basic-addon3">
+                    </div>
                 </div>
                 <div class="input-group col-4 ps-2 mt-2">
                     <button class="btn btn-trans" type="button"><i class="bi bi-search pe-2"></i> Zoek</button>
