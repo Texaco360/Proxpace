@@ -18082,36 +18082,6 @@ textarea.form-control-lg {
   }
 }
 /*button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%))*/
-.btn-default {
-  color: red;
-  background-color: purple;
-  border-color: black;
-}
-.btn-default:hover {
-  color: blue;
-  background-color: green;
-  border-color: yellow;
-}
-.btn-check:focus + .btn-default, .btn-default:focus {
-  color: blue;
-  background-color: green;
-  border-color: yellow;
-  box-shadow: 0 0 0 0.25rem rgba(38, 0, 0, 0.5);
-}
-.btn-check:checked + .btn-default, .btn-check:active + .btn-default, .btn-default:active, .btn-default.active, .show > .btn-default.dropdown-toggle {
-  color: #fff;
-  background-color: #993399;
-  border-color: #1a1a1a;
-}
-.btn-check:checked + .btn-default:focus, .btn-check:active + .btn-default:focus, .btn-default:active:focus, .btn-default.active:focus, .show > .btn-default.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(38, 0, 0, 0.5);
-}
-.btn-default:disabled, .btn-default.disabled {
-  color: #fff;
-  background-color: purple;
-  border-color: black;
-}
-
 .btn-trans {
   color: white;
   background-color: rgba(255, 255, 255, 0);
@@ -18412,7 +18382,6 @@ footer .nav-link:hover {
 .home .mycard {
   border-radius: 25px;
   -webkit-transition: box-shadow 0.6s ease-out;
-  width: 450px;
   height: auto;
 }
 .home .card {
