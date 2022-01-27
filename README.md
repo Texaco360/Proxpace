@@ -1,10 +1,25 @@
 # Proxpace
 ## Installation
-local folder run command:\
-`git clone https://github.com/Texaco360/Proxpace.git`\
+local folder run command:  
+`git clone https://github.com/Texaco360/Proxpace.git`  
 \
-cd into the directory. Then type:\
-`npm install`\
+cd into the directory. Then type:  
+`npm install`
+## Branches
+Elk **SCRUM team** maakt op de dev branch een pagina branch aan.  
+bvb :  
+`git chechout dev`  
+`git branch blogpagina`
+
+lees verderop hoe je eeb html pagina aan project toevoegt.
+
+Vanop de gemaakte pagina branch maat elk **teamlid** zijn eigen branches aan.\
+bvb :\
+`git chechout blogpagina`\
+`git branch sidebar`\
+`git checkout sidebar`  
+\
+start met coderen !
 
 ## Usage
 ### SCSS
