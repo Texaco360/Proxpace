@@ -1,8 +1,6 @@
 //scss herbruikbaar voor op elke pagine
 /*button-variant($background, $border, $hover-background: darken($background, 7.5%), $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%))*/
-.btn-default {
-  @include button-variant(purple, black, red, green, yellow, blue);
-}
+
 .btn-trans {
   @include button-variant(rgba(255,255,255,0), white, white,rgba(255,255,255,0), white, white);
 }
