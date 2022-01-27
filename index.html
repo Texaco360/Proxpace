@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
 
     <title>Home</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -16,25 +17,29 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a aria-current="page" class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                       id="navbarDropdown" role="button">
                         Dropdown
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>
@@ -43,14 +48,14 @@
                 </li>
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
     </div>
 </nav>
 <div class="nav-item">
-    <a href="themeKit.html" class="nav-link text-success">Theme</a>
+    <a class="nav-link text-success" href="themeKit.html">Theme</a>
 </div>
 <button class="btn btn-custom  mx-6 mt-6">Knop</button>
 <button class="btn btn-default border-4 mx-6 mt-6">Knop</button>
@@ -61,7 +66,10 @@
 
 
 <!--EINDE HEADER EN NAVBAR-->
-    <!--START MAIN -->
+<!--START MAIN -->
+<main class="home">
+
+
     <!--START HERO -->
 
 
@@ -71,10 +79,127 @@
 
     <!--EINDE REVIEW-->
     <!--START LOCATIES-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class=" col-lg-8 pb-5 pt-3">
+                <div class="vierkantlijn"></div>
+            </div>
+            <div class="col-lg-4 utg ">
+                <h2><b>Uitgelichte locaties</b></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="row">
+                    <div class="col-lg-4 ">
+                        <div class="card border-0">
+                            <a href="" class="contentcard">
+<!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                            <div class="position-relative overflow-hidden mycard">
+                                <img class="card-img-top img-fluid "
+                                     src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                     style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                            </div>
 
+                            <div class="position-absolute ps-5">
+                                <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                            </div>
+
+                            <div class="card-body p-2" style="width: 450px">
+                                <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                <p class="card-text inherit">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                            </div>
+                            <div class="d-flex justify-content-between pt-2 pb-3 ps-2"style="width: 450px">
+                                <div class="col-lg-9">
+                                    <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img alt="" src="assets/images/logo-icons/personen.svg" style="width:1.8rem;">
+                                    <span style="height:1.3rem;"> x 50</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="card border-0">
+                            <a href="" class="contentcard">
+<!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                            <div class="position-relative overflow-hidden mycard">
+                                <img class="card-img-top img-fluid "
+                                     src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                     style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                            </div>
+
+                            <div class="position-absolute ">
+                                <span class="badge round-pill bg-warning text-white pe-4 ps-4">Polyvalente ruimte</span>
+                            </div>
+
+                            <div class="card-body p-2" style="width: 450px">
+                                <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                <p class="card-text inherit">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                            </div>
+                            <div class="d-flex justify-content-between pt-2 pb-3 ps-2"style="width: 450px">
+                                <div class="col-lg-9">
+                                    <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img alt="" src="assets/images/logo-icons/personen.svg" style="width:1.8rem;">
+                                    <span style="height:1.3rem;"> x 50</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="card border-0">
+                            <a href="" class="contentcard">
+<!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                            <div class="position-relative overflow-hidden mycard">
+                                <img class="card-img-top img-fluid "
+                                     src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                     style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                            </div>
+
+                            <div class="position-absolute">
+                                <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                            </div>
+
+                            <div class="card-body p-2" style="width: 450px">
+                                <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                <p class="card-text inherit">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                            </div>
+                            <div class="d-flex justify-content-between pt-2 pb-3 ps-2"style="width: 450px">
+                                <div class="col-lg-9">
+                                    <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                    <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                </div>
+                                <div class="col-lg-3">
+                                    <img alt="" src="assets/images/logo-icons/personen.svg" style="width:1.8rem;">
+                                    <span style="height:1.3rem;"> x 50</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
 
     <!--EINDE LOCATIES-->
     <!--EINDE MAIN -->
+</main>
 <!--START FOOTER-->
 
 
