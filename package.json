@@ -7,7 +7,8 @@
     "sass-css": "sass --update --style=expanded scss/style.scss:assets/css/style.css",
     "sass-dev": "sass --watch --update --style=compressed scss/style.scss:assets/css/style.min.css",
     "sass-prod": "sass --no-source-map --style=compressed scss/style.scss:assets/css/style.min.css",
-    "css-prefix": "postcss --replace assets/css/style.css --use autoprefixer --map",
+
+    "css-prefix": "postcss --replace assets/css/style.min.css --use autoprefixer --map",
     "css-purge-full": "purgecss --keyframes --css assets/css/style.css --content ./*.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
     "css-purge-min": "purgecss --keyframes --css assets/css/style.min.css --content ./*.html \"node_modules/bootstrap/js/dist/{util,modal}.js\" --output assets/css/",
     "js-rollup": "rollup js/main.js --file ./assets/js/bundle.js --format cjs",
