@@ -127,8 +127,17 @@
       border-right: none;
     }
   }
+  .hero-border-left-radius{
+    border-radius: 5px 0px 0px 5px;
+  }
+  .hero-border-right-radius{
+    border-radius: 0px 5px 5px 0px;
+  }
   .hero-border-radius{
     border-radius: 0;
+  }
+  .hero-border{
+    border: white 3px solid;
   }
   .hero-block{
     position: relative;
@@ -174,7 +183,7 @@
     }
     .hero-input{
       position: absolute;
-      bottom: 20%;
+      bottom: 10%;
       right: 10%;
     }
   }
