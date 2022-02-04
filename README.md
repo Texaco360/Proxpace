@@ -15,7 +15,7 @@ lees verderop hoe je eeb html pagina aan project toevoegt.
 
 Vanop de gemaakte pagina branch maat elk **teamlid** zijn eigen branches aan.\
 bvb :\
-`git chechout blogpagina`\
+`git checkout blogpagina`\
 `git branch sidebar`\
 `git checkout sidebar`  
 \
