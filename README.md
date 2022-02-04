@@ -26,42 +26,42 @@ bvb :\
 \
 start met coderen !
 
-## Usage
+## Gebruik van de themekit
 ### SCSS
 
-Write custom css that is unique for the page into the _pagename.sccs.\
-SCSS that is used on other pages can be witten into de _global.scss file.
+Schrijf css die uniek is voor de pagina in pagina_naam.sccs.\
+SCSS die ook op andere pagina's gebruikt wordt kan je plaatsen in de _global.scss file.
 
-type `npm run sass-dev` to compile de sccs to the `style.min.css`
+type `npm run sass-dev` om de scss te compileren naar `style.min.css`
 
-### Adding an extra HTML page.
+### Een extra HTML pagina toevoegen.
 
-1) Add a new html page to de project folder.
-in the header add css-link:
+1) Voeg een niewe html pagina toe in de project folder.
+plaats in de header de volgende css-link:
 ` <link rel="stylesheet" href="assets/css/style.min.css">`
 
-2) in above the closing body tag add javacript link:
+2) juist boven de afsluitende body-tag voeg je volgend script toe:
 `<script src="./assets/js/bundle.min.js"></script>`
 
-3) in the main tag add a .pagename class:\
+3) voorzie ook een main tag en plaats daarop een klasse met dezefde naam als de pagina .paginanaam class:\
     \<main class="pagename"\>\
       ...\
     \</main\>
 
-4) create new scss file: _newPagename.scss and add:\
+4) maak een nieuwe scss file aan: _paginanaam.scss en voeg bovenstaande klasse toe :\
 
-    .pagename \{
+    .paginanaam \{
 
       \}
 
-5) open style.scss and at the bottom of the file add:\
-`@import "newPagename";`
+5) open nu style.scss en voeg onderaan volgende toe:\
+`@import "paginanaam";`
 
 ### Theming .
 
 #### ThemeKit
-Open Themekit.html in the browser to overview all bootstrap elements.
+Op de Themekit.html kun je alle bootstrap elementen terugvinden op een pagina.
 
-The theme can be overwritten by adding or changing the bootstrap variables in the _variables.scss.
-Custom maps can be made in the _custom-maps.scss file.
-Add fonts in the the _fonts.scss file.
+Het bootstrap thema kan aangepast worden door de bootstrap variabelen toe te voegen aan _variables.scss.
+In het _custom-maps.scss bestand kunnen eigen maps en mixins aangemaakt worden
+In de _fonts.scss file kunnen de fonts ingeladen worden. Ook om het bootstrap font te vervangen.
