@@ -14,54 +14,7 @@
 
 <!--DEMO HTML KAN MAG GEWIST  WORDEN-->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a aria-current="page" class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                       id="navbarDropdown" role="button">
-                        Dropdown
-                    </a>
-                    <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-    </div>
-</nav>
-<div class="nav-item">
-    <a class="nav-link text-success" href="themeKit.html">Theme</a>
-</div>
-<button class="btn btn-custom  mx-6 mt-6">Knop</button>
-<button class="btn btn-default border-4 mx-6 mt-6">Knop</button>
-<h2><i class="bi bi-wifi p-4"></i></h2>
-<h2><i class="bi bi-emoji-sunglasses p-4 text-success"></i></h2>
+
 <!--EINDE DEMO HTML-->
 <!--START HEADER EN NAVBAR-->
 
@@ -80,7 +33,7 @@
 
     <!--EINDE REVIEW-->
     <!--START LOCATIES-->
-    <div class="container-fluid mt-5 mb-5">
+    <div class="container-fluid mt-5 mb-sm-5">
         <div class="row">
             <div class=" col-lg-8 pb-5 pt-3">
                 <div class="vierkantlijn"></div>
@@ -91,20 +44,22 @@
         </div>
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
-                <div class="row">
-                    <div class="col-lg-4  pb-5">
-                        <div class="card border-0">
+                <div class="row g-5">
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
                             <a class="contentcard" href="">
                                 <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
-                                <div class="position-relative overflow-hidden mycard">
-                                    <img class="card-img-top img-fluid "
-                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+<!--                                    <img class="card-img-top img-fluid "-->
+<!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+<!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
                                 </div>
 
-                                <div class="position-absolute ps-5">
-                                    <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                </div>
+
 
                                 <div class="card-body p-2" >
                                     <h5 class="card-title pt-2 pb-3 ">Card title</h5>
@@ -112,14 +67,14 @@
                                         and make
                                         up the bulk of the card's content.</p>
                                 </div>
-                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                    <div class="col-9">
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
                                         <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
                                     </div>
-                                    <div class="col-3 align-content-end">
+                                    <div class="col-lg-3">
                                         <img alt="" src="assets/images/logo-icons/personen.svg"
                                              style="width:1.8rem;">
                                         <span style="height:1.3rem;"> x 50</span>
@@ -128,19 +83,53 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">
-                        <div class="card border-0">
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
                             <a class="contentcard" href="">
                                 <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
-                                <div class="position-relative overflow-hidden mycard">
-                                    <img class="card-img-top img-fluid "
-                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-max-vakhtbovych-7511743.jpg')";>
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
+                                </div>
+                                <div class="card-body p-2" >
+                                    <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                    <p class="card-text inherit">Some quick example text to build on the card title
+                                        and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
+                                        <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <img alt="" src="assets/images/logo-icons/personen.svg"
+                                             style="width:1.8rem;">
+                                        <span style="height:1.3rem;"> x 50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
+                            <a class="contentcard" href="">
+                                <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-rodnae-productions-7648016.jpg')";>
+                                    <!--                                    <img class="card-img-top img-fluid "-->
+                                    <!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+                                    <!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
                                 </div>
 
-                                <div class="position-absolute ">
-                                    <span class="badge round-pill bg-warning text-white pe-4 ps-4">Polyvalente ruimte</span>
-                                </div>
+
 
                                 <div class="card-body p-2" >
                                     <h5 class="card-title pt-2 pb-3 ">Card title</h5>
@@ -148,36 +137,184 @@
                                         and make
                                         up the bulk of the card's content.</p>
                                 </div>
-                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                    <div class="col-10">
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
                                         <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
                                         <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
                                     </div>
-                                    <div class="col-2 align-content-end">
+                                    <div class="col-lg-3">
                                         <img alt="" src="assets/images/logo-icons/personen.svg"
                                              style="width:1.8rem;">
-                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <span style="height:1.3rem;"> x 50</span>
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 ">
-                        <div class="card border-0">
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
                             <a class="contentcard" href="">
                                 <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
-                                <div class="position-relative overflow-hidden mycard">
-                                    <img class="card-img-top img-fluid "
-                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-startup-stock-photos-7070.jpg')";>
+                                    <!--                                    <img class="card-img-top img-fluid "-->
+                                    <!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+                                    <!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
                                 </div>
 
-                                <div class="position-absolute">
-                                    <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+
+
+                                <div class="card-body p-2" >
+                                    <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                    <p class="card-text inherit">Some quick example text to build on the card title
+                                        and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
+                                        <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <img alt="" src="assets/images/logo-icons/personen.svg"
+                                             style="width:1.8rem;">
+                                        <span style="height:1.3rem;"> x 50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
+                            <a class="contentcard" href="">
+                                <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/s-o-c-i-a-l-c-u-t-1RT4txDDAbM-unsplash.jpg')";>
+                                    <!--                                    <img class="card-img-top img-fluid "-->
+                                    <!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+                                    <!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
                                 </div>
 
+
+
+                                <div class="card-body p-2" >
+                                    <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                    <p class="card-text inherit">Some quick example text to build on the card title
+                                        and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
+                                        <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <img alt="" src="assets/images/logo-icons/personen.svg"
+                                             style="width:1.8rem;">
+                                        <span style="height:1.3rem;"> x 50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
+                            <a class="contentcard" href="">
+                                <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg')";>
+                                    <!--                                    <img class="card-img-top img-fluid "-->
+                                    <!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+                                    <!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="card-body p-2" >
+                                    <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                    <p class="card-text inherit">Some quick example text to build on the card title
+                                        and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
+                                        <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <img alt="" src="assets/images/logo-icons/personen.svg"
+                                             style="width:1.8rem;">
+                                        <span style="height:1.3rem;"> x 50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
+                            <a class="contentcard" href="">
+                                <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                    <!--                                    <img class="card-img-top img-fluid "-->
+                                    <!--                                         src="assets/images/homepage/pexels-pixabay-416320.jpg"-->
+                                    <!--                                         style=" height: 445px; object-fit: cover; object-position: 100% 10;">-->
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="card-body p-2" >
+                                    <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                    <p class="card-text inherit">Some quick example text to build on the card title
+                                        and make
+                                        up the bulk of the card's content.</p>
+                                </div>
+                                <div class="d-flex justify-content-between pt-2 pb-3 ps-2" >
+                                    <div class="col-lg-9">
+                                        <img alt="" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                        <img alt="" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <img alt="" src="assets/images/logo-icons/personen.svg"
+                                             style="width:1.8rem;">
+                                        <span style="height:1.3rem;"> x 50</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 ">
+                        <div class="card border-0 pt-5">
+                            <a class="contentcard" href="">
+                                <!--                                LOCATIE TOEVOEGEN VAN DE RUIMTE-->
+                                <div class="position-relative overflow-hidden mycard"
+                                     style="background-image: url('./assets/images/homepage/pexels-max-vakhtbovych-7511743.jpg')";>
+                                    <div class="position-absolute position">
+                                        <span class="badge round-pill bg-success text-white pe-4 ps-4">Vergaderruimte</span>
+                                    </div>
+                                </div>
                                 <div class="card-body p-2" >
                                     <h5 class="card-title pt-2 pb-3 ">Card title</h5>
                                     <p class="card-text inherit">Some quick example text to build on the card title
