@@ -6,16 +6,21 @@ local folder run command:
 cd into the directory. Then type:  
 `npm install`
 ## Branches
+### Workflow diagram 
+\
+\
+![workflow](https://github.com/Texaco360/Proxpace/blob/main/Workflow.drawio.png) 
+### Workflow uitleg
 Elk **SCRUM team** maakt op de dev branch een pagina branch aan.  
 bvb :  
 `git chechout dev`  
-`git branch blogpagina`
+`git branch shoppagina`
 
 lees verderop hoe je eeb html pagina aan project toevoegt.
 
 Vanop de gemaakte pagina branch maat elk **teamlid** zijn eigen branches aan.\
 bvb :\
-`git checkout blogpagina`\
+`git checkout shoppagina`\
 `git branch sidebar`\
 `git checkout sidebar`  
 \
