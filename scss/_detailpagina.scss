@@ -1,0 +1,19 @@
+
+//aanmaak van css variabelen niet toegelaten . deze worden in _eigen-variabelen gezet
+//classes die ook op andere pagina kunnen gebruikt worden voorzien in _global.scss (o.a. classes voor header en footer)
+
+//alle scss te voorzien in de home klasse . Ze wordt voorzien op de main tag van de pagina
+
+.detailpagina{
+  /***START MAIN***/
+  /**START SLIDER**/
+  /**EINDE SLIDER**/
+  /**START Beschrijving**/
+  /**EINDE Beschrijving**/
+  /**START MAPS**/
+  /**EINDE MAPS**/
+  /**START HOST**/
+  /**EINDE HOST**/
+  /***EINDE MAIN***/
+}
+
