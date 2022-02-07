@@ -15,6 +15,15 @@
       color: white;
     }
   }
+  #carouselExampleCaptions{
+     position:relative;
+   }
+  .captionTekst{
+    position:absolute;
+    z-index: 2000;
+    Top: 0;
+    Left: 0;
+  }
   /*EINDE LODE*/
 
   /*BEGIN VIKTOR*/
