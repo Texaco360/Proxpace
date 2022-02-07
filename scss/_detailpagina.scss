@@ -15,11 +15,21 @@
   }
   .spinner-large{
     position: relative;
+    z-index: 12;
   }
-  .vierkantlijn {
-    background-image: url('../assets/images/homepage/Rectangle32.png');
+  .vierkantlijn-slider {
+    background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
     height: 11px;
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    z-index: -10;
+  }
+  .buttons-slider{
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
   }
   /**EINDE SLIDER**/
   /**START Beschrijving**/
