@@ -7,6 +7,20 @@
 .detailpagina{
   /***START MAIN***/
   /**START SLIDER**/
+  .spinner-small{
+    position: absolute;
+    z-index: 10;
+    bottom: 62%;
+    left: 34%;
+  }
+  .spinner-large{
+    position: relative;
+  }
+  .vierkantlijn {
+    background-image: url('../assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+  }
   /**EINDE SLIDER**/
   /**START Beschrijving**/
   /**EINDE Beschrijving**/
