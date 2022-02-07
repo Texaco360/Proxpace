@@ -254,10 +254,14 @@
 
   .locatiefoto {
     overflow: visible;
-    /*padding-bottom: 385px;*/
+    top: 150% !important;
+    left: 30% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
   }
   .position-absolute {
-    top: 100%;
+    top: 150%;
     left: 30%;
     font-size: 18px;
     text-transform: uppercase;
@@ -275,6 +279,9 @@
   .pt-6 {
     padding-top: 25rem !important;
   }
+  .pb-6 {
+     padding-bottom: 10rem !important;
+   }
 
   .py-6 {
     padding-top: 10rem !important;
