@@ -225,6 +225,119 @@
   }
   /**EINDE HERO**/
   /**START REVIEW**/
+  .floatingimages{
+    margin-bottom: 364px;
+    display: none;
+  }
+  .carousel-inner{
+    padding-bottom: 1px !important;
+  }
+  .locatiefoto {
+    overflow: visible !important;
+    top: 150% !important;
+    left: 30% !important;
+    border-radius: 10%;
+  }
+
+  // Small devices (mobile, 576px and up)
+  @media (min-width: 576px) {
+    .floatingimages{
+      margin-bottom: 364px;
+    }
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 30% !important;
+      border-radius: 10%;
+    }
+
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .floatingimages{
+      display: block;
+      margin-bottom: 500px;
+    }
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 30% !important;
+      border-radius: 10%;
+    }
+    .carousel-control-next {
+      position: absolute;
+      left: 13rem !important;
+      margin-bottom: 650px;
+    }
+    .carousel-control-prev {
+      position: absolute;
+      margin-bottom: 650px;
+    }
+
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 30% !important;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10%;
+    }
+    .persoonfoto{
+      left:5% !important;
+    }
+    .carousel-control-next {
+      position: absolute;
+      left: 13rem !important;
+      margin-bottom: 650px;
+    }
+    .carousel-control-prev {
+      position: absolute;
+      margin-bottom: 650px;
+    }
+
+
+  }
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 30% !important;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10%;
+    }
+
+
+  }
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 35% !important;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10%;
+    }
+  }
+  @media (min-width: 2000px) {
+    .locatiefoto {
+      overflow: visible !important;
+      top: 150% !important;
+      left: 21% !important;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10%;
+    }
+  }
+
+
+
+
   .carousel-control-next {
     position: absolute;
     left: 13rem;
@@ -240,7 +353,6 @@
 
   .persoon {
     /*padding-top: 170px;*/
-
   }
 
   .locatie {
@@ -254,15 +366,8 @@
 
   .locatiefoto {
     overflow: visible;
-    top: 150% !important;
-    left: 30% !important;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 10%;
-  }
-  .position-absolute {
-    top: 150%;
-    left: 30%;
+    /*top: 150% !important;
+    left: 30% !important;*/
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 10%;
