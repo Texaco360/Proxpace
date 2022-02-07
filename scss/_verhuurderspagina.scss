@@ -1,5 +1,20 @@
 .verhuurderspagina {
   /*BEGIN LODE*/
+  .carousel-indicators {
+    [data-bs-target] {
+      margin: 10px;
+      height: 15px;
+      width: 15px;
+      background-color: transparent;
+      border-radius: 3px;
+      border: white 3px solid;
+      transform: rotate(45deg);
+    }
+    .active {
+      background-color: white;
+      color: white;
+    }
+  }
   /*EINDE LODE*/
 
   /*BEGIN VIKTOR*/
