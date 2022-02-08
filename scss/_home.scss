@@ -368,7 +368,7 @@
   @media (min-width: 900px) {
     .locatiefoto {
       overflow: visible !important;
-      top: 100% !important;
+      top: 140% !important;
       left: 45% !important;
       font-size: 18px;
       text-transform: uppercase;
@@ -434,6 +434,45 @@
 
 
   }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .floatingimages{
+      display: block;
+      margin-bottom: 550px;
+      margin-top:110px;
+    }
+    .locatiefoto {
+      overflow: visible !important;
+      top: 140% !important;
+      left: 26% !important;
+      font-size: 18px;
+      text-transform: uppercase;
+      border-radius: 10%;
+      width:320px !important;
+      height:320px !important;
+    }
+    .persoonfoto{
+      left:1% !important;
+      top:20% !important;
+      width: 160px !important;
+      height: 160px !important;
+    }
+    .carousel-control-next {
+      position: absolute;
+      left: 15rem !important;
+      margin-bottom: 650px;
+      top:0rem;
+    }
+    .carousel-control-prev {
+      position: absolute;
+      margin-bottom: 650px;
+      top:0rem;
+    }
+    .titelreviews{
+      padding-left: 5.5rem !important;
+    }
+  }
   // XX-Large devices (larger desktops, 1400px and up)
   @media (min-width: 1400px) {
     .floatingimages{
@@ -443,7 +482,7 @@
     }
     .locatiefoto {
       overflow: visible !important;
-      top: 110% !important;
+      top: 130% !important;
       left: 30% !important;
       font-size: 18px;
       text-transform: uppercase;
