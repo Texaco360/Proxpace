@@ -11,16 +11,18 @@
   /**START Beschrijving**/
   /**EINDE Beschrijving**/
   /**START MAPS**/
-  .vierkantlijn {
-    background-image: url('../assets/images/homepage/Rectangle32.png');
+  .vierkantlijn-slider {
+    background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
     height: 11px;
-  }
-  .utg{
-    padding-bottom: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    z-index: -10;
   }
   /**EINDE MAPS**/
   /**START HOST**/
+
   /**EINDE HOST**/
   /***EINDE MAIN***/
 }
