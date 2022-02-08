@@ -1,10 +1,38 @@
-@import "scss/_home";
+@import "home";
+
 
 /** START SIDEBAR **/
 /** END SIDEBAR **/
 
 
 /** START CARDS **/
+.sbbtn{
+  background-color: $cowodesk;
+  border: none;
+}
+.sblijn{
+  background-image: url(../images/blog/32.png);
+  background-repeat: repeat-x;
+  height: 11px;
+}
+.rounded-4{
+  border-radius: 1rem;
+}
+
+/***Hover cards***/
+
+.sbcard {
+  border-radius: 25px;
+  -webkit-transition:  box-shadow .6s ease-out;
+  border: none;
+
+}
+.sbcard:hover{
+  box-shadow: 1px 10px 20px $cowodesk;
+  -webkit-transition:  box-shadow .2s ease-in;
+  cursor: pointer;
+}
+/***END Hover cards***/
 /** END CARDS **/
 
 /** START DETAIL**/
