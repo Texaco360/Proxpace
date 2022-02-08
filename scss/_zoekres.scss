@@ -1,9 +1,20 @@
 .zoekres{
 /*HERO*/
+    .center{
+        top: 50%;
+        bottom: 50%;
+        left: 10%;
+
+    }
     .hero-img{
     object-fit: cover;
     height: 500px;
         width: 100%;
+    }
+    .hero-triangle{
+        width: 30%;
+        bottom: 0;
+        right: 0;
     }
     .square-line{
 
@@ -11,58 +22,61 @@
         background-repeat: repeat-x;
         height:11px;
     }
+    @media (min-width: 992px) {
+        .hero-image{
+            object-fit: cover;
+            height: 100%;
+        }
+
+    }
 /* END HERO*/
 /*SIDEBAR*/
 
 /* END SIDEBAR*/
 /* CARDS*/
-    .mycard {
-        border-radius: 25px;
-        -webkit-transition:  box-shadow .6s ease-out;
-        height: auto;
-        z-index: 1;
+
+    article {
+        //*nodig wnr foto niet resized is*//
+        .location_image {
+            background-size: 150%;
+            background-position: center;
+            padding-top: 100%;
+            border-radius: 25px;
+            -webkit-transition: box-shadow .6s ease-out;
+            height: auto;
+            z-index: 1;
+        }
+
+        .position {
+            bottom: 25px;
+            right: 25px;
+            font-size: 20px;
+            text-transform: uppercase;
+            border-radius: 10%;
+        }
+        /***Hover cards***/
+        .cards {
+            transition: 0.2s ease-out;
+            cursor: pointer;
+            border-radius: 25px;
+
+        }
+        .cards:hover {
+            box-shadow: 5px 6px 6px 2px #e9ecef;
+            transform: scale(1.1)
+        }
+        .mycard:hover {
+            box-shadow: 1px 10px 20px $cowodesk;
+            -webkit-transition: box-shadow .2s ease-in;
+        }
     }
-    .card {
-        border-radius: 25px;
-    }
-    .mycard:hover{
-        box-shadow: 1px 10px 20px $cowodesk;
-        -webkit-transition:  box-shadow .2s ease-in;
-    }
-    .badge{
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .aantal{
+
+
+    .aantal {
         color: $primary;
     }
-    .position-absolute{
-        top: 60%;
-        right:5%;
-        font-size: 20px;
-        text-transform: uppercase;
-        border-radius: 10%;
-        z-index: 10;
-    }
-    .langetext{
-        top: 60%;
-        left: 55%;
-        font-size: 25px;
-        text-transform: uppercase;
-        border-radius: 10%;
-    }
 
-    /***Hover cards***/
-    .cards {
-        transition:  0.2s ease-out;
-        cursor: pointer;
-        border-radius: 25px;
 
-    }
 
-    .cards:hover {
-        box-shadow: 5px 6px 6px 2px #e9ecef;
-        transform: scale(1.1)
-    }
 /* END CARDS*/
 }
