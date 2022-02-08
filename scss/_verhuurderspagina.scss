@@ -21,8 +21,43 @@
   .captionTekst{
     position:absolute;
     z-index: 2000;
-    Top: 0;
+    Top: 50%;
     Left: 0;
+    transform: translate(50%,-50%);
+  }
+  .triangleHeroLb{
+    position:absolute;
+    z-index:2001;
+    width: 27%;
+    right:6%;
+    bottom:0;
+  }
+  .tekst-primary{
+    color:$primary;
+  }
+  .vierkantlijn {
+    background-image: url('/assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+    flex-grow: 1;
+  }
+  #formulierRegistreer{
+    input{
+      border: none;
+      border-bottom: 1px solid $primary;
+      width: 80%;
+    }
+    input::placeholder {
+      color: $primary;
+      opacity: 1;
+    }
+    .borderLb{
+      border: 2px solid black;
+      border-radius: 0.7rem;
+    }
+  }
+  .border-80{
+    border-radius: 0.8rem;
   }
   /*EINDE LODE*/
 
