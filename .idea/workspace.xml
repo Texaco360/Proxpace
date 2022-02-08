@@ -5,10 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/Path237-small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/Path237.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237kopie(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237kopie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/demo-large.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/detailpagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailpagina.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_detailpagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_detailpagina.scss" afterDir="false" />
     </list>
@@ -53,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644310008763</updated>
-      <workItem from="1644310010184" duration="7728000" />
+      <workItem from="1644310010184" duration="12621000" />
     </task>
     <servers />
   </component>

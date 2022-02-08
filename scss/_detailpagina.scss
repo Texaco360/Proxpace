@@ -7,114 +7,230 @@
 .detailpagina{
   /***START MAIN***/
   /**START SLIDER**/
-  .spinner-small{
-    position: absolute;
-    z-index: 10;
-    bottom: 55%;
-    left: 35%;
+  @media (min-width: 576px) {
+
   }
-  .spinner-large{
-    position: relative;
-    z-index: 12;
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+
+
   }
-  .vierkantlijn-slider {
-    background-image: url('/assets/images/homepage/Rectangle32.png');
-    background-repeat: repeat-x;
-    height: 11px;
-    width: 100%;
-    position: absolute;
-    bottom: 50%;
-    z-index: -10;
-  }
-  .buttons-slider{
-    position: absolute;
-    right: 25%;
-    bottom: 25%;
-  }
-  .w-35{
-    width: 37%;
-  }
-  .img-slider {
-    vertical-align: middle;
-  }
-  .container-slider {
-    position: relative;
-  }
-  .mySlides {
-    display: none;
-  }
-  .cursor {
-    cursor: pointer;
-  }
-  .prev {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.8);
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .spinner-small{
+      position: absolute;
+      z-index: 10;
+      bottom: 55%;
+      left: 35%;
     }
-  }
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.8);
+    .spinner-large{
+      position: relative;
+      z-index: 12;
     }
-  }
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  .row {
-    &:after {
-      content: "";
-      display: table;
-      clear: both;
+    .vierkantlijn-slider {
+      background-image: url('/assets/images/homepage/Rectangle32.png');
+      background-repeat: repeat-x;
+      height: 11px;
+      width: 100%;
+      position: absolute;
+      bottom: 50%;
+      z-index: -10;
     }
-  }
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  .demo {
-    opacity: 0.6;
-    &:hover {
+    .buttons-slider{
+      position: absolute;
+      right: 15%;
+      bottom: 25%;
+    }
+    .w-35{
+      width: 37%;
+    }
+    .img-slider {
+      vertical-align: middle;
+    }
+    .container-slider {
+      position: relative;
+    }
+    .mySlides {
+      display: none;
+    }
+    .cursor {
+      cursor: pointer;
+    }
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    .demo {
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
       opacity: 1;
     }
+    .text-purle-slider{
+      color: #876fae;
+    }
   }
-  .active {
-    opacity: 1;
+
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .spinner-small{
+      position: absolute;
+      z-index: 10;
+      bottom: 55%;
+      left: 35%;
+    }
+    .spinner-large{
+      position: relative;
+      z-index: 12;
+    }
+    .vierkantlijn-slider {
+      background-image: url('/assets/images/homepage/Rectangle32.png');
+      background-repeat: repeat-x;
+      height: 11px;
+      width: 100%;
+      position: absolute;
+      bottom: 50%;
+      z-index: -10;
+    }
+    .buttons-slider{
+      position: absolute;
+      right: 15%;
+      bottom: 25%;
+    }
+    .w-35{
+      width: 37%;
+    }
+    .img-slider {
+      vertical-align: middle;
+    }
+    .container-slider {
+      position: relative;
+    }
+    .mySlides {
+      display: none;
+    }
+    .cursor {
+      cursor: pointer;
+    }
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    .demo {
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
+      opacity: 1;
+    }
+    .text-purle-slider{
+      color: #876fae;
+    }
   }
+
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .spinner-small{
+      position: absolute;
+      z-index: 10;
+      bottom: 55%;
+      left: 35%;
+    }
+    .spinner-large{
+      position: relative;
+      z-index: 12;
+    }
+    .vierkantlijn-slider {
+      background-image: url('/assets/images/homepage/Rectangle32.png');
+      background-repeat: repeat-x;
+      height: 11px;
+      width: 100%;
+      position: absolute;
+      bottom: 50%;
+      z-index: -10;
+    }
+    .buttons-slider{
+      position: absolute;
+      right: 15%;
+      bottom: 25%;
+    }
+    .w-35{
+      width: 37%;
+    }
+    .img-slider {
+      vertical-align: middle;
+    }
+    .container-slider {
+      position: relative;
+    }
+    .mySlides {
+      display: none;
+    }
+    .cursor {
+      cursor: pointer;
+    }
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    .demo {
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
+      opacity: 1;
+    }
+    .text-purle-slider{
+      color: #876fae;
+    }
+  }
+
 
   /**EINDE SLIDER**/
   /**START Beschrijving**/
