@@ -251,6 +251,7 @@
       border-radius: 10%;
     }
 
+
   }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
@@ -315,6 +316,10 @@
   }
   // XX-Large devices (larger desktops, 1400px and up)
   @media (min-width: 1400px) {
+    .floatingimages{
+      display: block;
+      margin-bottom: 600px;
+    }
     .locatiefoto {
       overflow: visible !important;
       top: 150% !important;
@@ -332,6 +337,10 @@
       font-size: 18px;
       text-transform: uppercase;
       border-radius: 10%;
+    }
+    .floatingimages{
+      display: block;
+      margin-bottom: 600px;
     }
   }
 
@@ -392,6 +401,7 @@
     padding-top: 10rem !important;
     padding-bottom: 10rem !important;
   }
+
 
   .vierkantlijn {
     background-image: url('../assets/images/homepage/Rectangle32.png');
