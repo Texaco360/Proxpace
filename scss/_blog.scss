@@ -21,6 +21,8 @@
 }
 .rounded-4{
   border-radius: 1rem;
+
+
 }
 
 /***Hover cards***/
@@ -35,6 +37,10 @@
   box-shadow: 1px 10px 20px $cowodesk;
   -webkit-transition:  box-shadow .2s ease-in;
   cursor: pointer;
+}
+.blogdriehoek{
+  position: absolute;
+
 }
 /***END Hover cards***/
 /** END CARDS **/
