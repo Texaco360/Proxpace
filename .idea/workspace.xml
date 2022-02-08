@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d1ed70-fe29-499a-897d-7a253c05d3ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/hero-triangle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verhuurderspagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/verhuurderspagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <updated>1644244712845</updated>
       <workItem from="1644244715456" duration="1556000" />
       <workItem from="1644252153799" duration="13000" />
-      <workItem from="1644314330928" duration="6892000" />
+      <workItem from="1644314330928" duration="7143000" />
     </task>
     <servers />
   </component>

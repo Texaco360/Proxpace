@@ -46,10 +46,14 @@
       border: none;
       border-bottom: 1px solid $primary;
       width: 80%;
+      color: $primary;
     }
     input::placeholder {
       color: $primary;
       opacity: 1;
+    }
+    input:focus{
+      outline: none;
     }
     .borderLb{
       border: 2px solid black;
