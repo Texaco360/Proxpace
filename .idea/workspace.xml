@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="233ecb6f-c877-4a5c-8198-d49aa1125159" name="Changes" comment="">
+    <list default="true" id="f73e21be-60de-4124-9702-e64c981f81ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/Path237-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/Path237.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/Path237.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detailpagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailpagina.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_detailpagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_detailpagina.scss" afterDir="false" />
     </list>
@@ -16,13 +20,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="24mXBnbKGOqOFyNXFZoI6oIgH9b" />
+  <component name="ProjectId" id="24ovyX8UJM0XnXlKUf7RrLyE4sM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,27 +42,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/homepage" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Eigenaar\Desktop\Proxpace\assets\images\homepage" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Eigenaar\Desktop\Proxpace\assets\images\homepage" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="233ecb6f-c877-4a5c-8198-d49aa1125159" name="Changes" comment="" />
-      <created>1644236605136</created>
+      <changelist id="f73e21be-60de-4124-9702-e64c981f81ec" name="Changes" comment="" />
+      <created>1644310008763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644236605136</updated>
-      <workItem from="1644236607626" duration="16528000" />
+      <updated>1644310008763</updated>
+      <workItem from="1644310010184" duration="7728000" />
     </task>
     <servers />
   </component>
