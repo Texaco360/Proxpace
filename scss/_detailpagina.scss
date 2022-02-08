@@ -230,7 +230,77 @@
       color: #876fae;
     }
   }
-
+  // XXx-Large devices (larger desktops, 2000px and up)
+  @media (min-width: 2000px) {
+    .spinner-small{
+      position: absolute;
+      z-index: 10;
+      bottom: 52%;
+      left: 30%;
+    }
+    .spinner-large{
+      position: relative;
+      z-index: 12;
+    }
+    .vierkantlijn-slider {
+      background-image: url('/assets/images/homepage/Rectangle32.png');
+      background-repeat: repeat-x;
+      height: 11px;
+      width: 100%;
+      position: absolute;
+      bottom: 50%;
+      z-index: -10;
+    }
+    .buttons-slider{
+      position: absolute;
+      right: 15%;
+      bottom: 25%;
+    }
+    .w-35{
+      width: 34%;
+    }
+    .img-slider {
+      vertical-align: middle;
+    }
+    .container-slider {
+      position: relative;
+    }
+    .mySlides {
+      display: none;
+    }
+    .cursor {
+      cursor: pointer;
+    }
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    .caption-container {
+      text-align: center;
+      background-color: #222;
+      padding: 2px 16px;
+      color: white;
+    }
+    .column {
+      float: left;
+      width: 16.66%;
+    }
+    .demo {
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .active {
+      opacity: 1;
+    }
+    .text-purle-slider{
+      color: #876fae;
+    }
+  }
 
   /**EINDE SLIDER**/
   /**START Beschrijving**/
