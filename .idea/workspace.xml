@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="df2c6130-59f3-4629-abfc-ecd7c168526b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detailpagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailpagina.html" afterDir="false" />
+=======
+    <list default="true" id="5609eb46-50e2-4414-bf46-aa51af285793" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailpagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailpagina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_detailpagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_detailpagina.scss" afterDir="false" />
+>>>>>>> origin/hostnmaps
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="24rjJhcQMopcxVwamMVfvcHbnVi" />
+=======
+  <component name="ProjectId" id="24pC3i5dw4pJQctU2wuUMUInmrO" />
+>>>>>>> origin/hostnmaps
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +47,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="df2c6130-59f3-4629-abfc-ecd7c168526b" name="Changes" comment="" />
       <created>1644395530294</created>
       <option name="number" value="Default" />
@@ -43,6 +55,15 @@
       <updated>1644395530294</updated>
       <workItem from="1644395531530" duration="2609000" />
       <workItem from="1644408338488" duration="2299000" />
+=======
+      <changelist id="5609eb46-50e2-4414-bf46-aa51af285793" name="Changes" comment="" />
+      <created>1644317943665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644317943665</updated>
+      <workItem from="1644317944915" duration="4270000" />
+      <workItem from="1644324170463" duration="7246000" />
+>>>>>>> origin/hostnmaps
     </task>
     <servers />
   </component>
