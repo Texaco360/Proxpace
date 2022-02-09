@@ -17,10 +17,11 @@
 @import "../node_modules/bootstrap/scss/root";
 
 // 5. include custom maps
-@import "custom-maps";
+
 
 // 6. Include any optional Bootstrap CSS as needed
 @import "../node_modules/bootstrap/scss/utilities";
+@import "custom-maps";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/images";

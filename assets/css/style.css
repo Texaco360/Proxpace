@@ -13320,22 +13320,6 @@ textarea.form-control-lg {
   border-color: #0f1319 !important;
 }
 
-.border-flexdesk {
-  border-color: #7ccbde !important;
-}
-
-.border-polydesk {
-  border-color: #dea04c !important;
-}
-
-.border-meetdesk {
-  border-color: #42c356 !important;
-}
-
-.border-cowodesk {
-  border-color: #9e7cde !important;
-}
-
 .border-white {
   border-color: #fff !important;
 }
@@ -13496,10 +13480,6 @@ textarea.form-control-lg {
   gap: 3rem !important;
 }
 
-.gap-6 {
-  gap: 5rem !important;
-}
-
 .justify-content-start {
   justify-content: flex-start !important;
 }
@@ -13648,10 +13628,6 @@ textarea.form-control-lg {
   margin: 3rem !important;
 }
 
-.m-6 {
-  margin: 5rem !important;
-}
-
 .m-auto {
   margin: auto !important;
 }
@@ -13684,11 +13660,6 @@ textarea.form-control-lg {
 .mx-5 {
   margin-right: 3rem !important;
   margin-left: 3rem !important;
-}
-
-.mx-6 {
-  margin-right: 5rem !important;
-  margin-left: 5rem !important;
 }
 
 .mx-auto {
@@ -13726,11 +13697,6 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
-.my-6 {
-  margin-top: 5rem !important;
-  margin-bottom: 5rem !important;
-}
-
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -13758,10 +13724,6 @@ textarea.form-control-lg {
 
 .mt-5 {
   margin-top: 3rem !important;
-}
-
-.mt-6 {
-  margin-top: 5rem !important;
 }
 
 .mt-auto {
@@ -13792,10 +13754,6 @@ textarea.form-control-lg {
   margin-right: 3rem !important;
 }
 
-.me-6 {
-  margin-right: 5rem !important;
-}
-
 .me-auto {
   margin-right: auto !important;
 }
@@ -13822,10 +13780,6 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-}
-
-.mb-6 {
-  margin-bottom: 5rem !important;
 }
 
 .mb-auto {
@@ -13856,10 +13810,6 @@ textarea.form-control-lg {
   margin-left: 3rem !important;
 }
 
-.ms-6 {
-  margin-left: 5rem !important;
-}
-
 .ms-auto {
   margin-left: auto !important;
 }
@@ -13886,10 +13836,6 @@ textarea.form-control-lg {
 
 .p-5 {
   padding: 3rem !important;
-}
-
-.p-6 {
-  padding: 5rem !important;
 }
 
 .px-0 {
@@ -13922,11 +13868,6 @@ textarea.form-control-lg {
   padding-left: 3rem !important;
 }
 
-.px-6 {
-  padding-right: 5rem !important;
-  padding-left: 5rem !important;
-}
-
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -13957,11 +13898,6 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
-.py-6 {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-}
-
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -13984,10 +13920,6 @@ textarea.form-control-lg {
 
 .pt-5 {
   padding-top: 3rem !important;
-}
-
-.pt-6 {
-  padding-top: 5rem !important;
 }
 
 .pe-0 {
@@ -14014,10 +13946,6 @@ textarea.form-control-lg {
   padding-right: 3rem !important;
 }
 
-.pe-6 {
-  padding-right: 5rem !important;
-}
-
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -14042,10 +13970,6 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
-.pb-6 {
-  padding-bottom: 5rem !important;
-}
-
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -14068,10 +13992,6 @@ textarea.form-control-lg {
 
 .ps-5 {
   padding-left: 3rem !important;
-}
-
-.ps-6 {
-  padding-left: 5rem !important;
 }
 
 .font-monospace {
@@ -14573,10 +14493,6 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .gap-sm-6 {
-    gap: 5rem !important;
-  }
-
   .justify-content-sm-start {
     justify-content: flex-start !important;
   }
@@ -14725,10 +14641,6 @@ textarea.form-control-lg {
     margin: 3rem !important;
   }
 
-  .m-sm-6 {
-    margin: 5rem !important;
-  }
-
   .m-sm-auto {
     margin: auto !important;
   }
@@ -14761,11 +14673,6 @@ textarea.form-control-lg {
   .mx-sm-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .mx-sm-6 {
-    margin-right: 5rem !important;
-    margin-left: 5rem !important;
   }
 
   .mx-sm-auto {
@@ -14803,11 +14710,6 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
   }
 
-  .my-sm-6 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
-  }
-
   .my-sm-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -14835,10 +14737,6 @@ textarea.form-control-lg {
 
   .mt-sm-5 {
     margin-top: 3rem !important;
-  }
-
-  .mt-sm-6 {
-    margin-top: 5rem !important;
   }
 
   .mt-sm-auto {
@@ -14869,10 +14767,6 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
   }
 
-  .me-sm-6 {
-    margin-right: 5rem !important;
-  }
-
   .me-sm-auto {
     margin-right: auto !important;
   }
@@ -14899,10 +14793,6 @@ textarea.form-control-lg {
 
   .mb-sm-5 {
     margin-bottom: 3rem !important;
-  }
-
-  .mb-sm-6 {
-    margin-bottom: 5rem !important;
   }
 
   .mb-sm-auto {
@@ -14933,10 +14823,6 @@ textarea.form-control-lg {
     margin-left: 3rem !important;
   }
 
-  .ms-sm-6 {
-    margin-left: 5rem !important;
-  }
-
   .ms-sm-auto {
     margin-left: auto !important;
   }
@@ -14963,10 +14849,6 @@ textarea.form-control-lg {
 
   .p-sm-5 {
     padding: 3rem !important;
-  }
-
-  .p-sm-6 {
-    padding: 5rem !important;
   }
 
   .px-sm-0 {
@@ -14999,11 +14881,6 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .px-sm-6 {
-    padding-right: 5rem !important;
-    padding-left: 5rem !important;
-  }
-
   .py-sm-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -15034,11 +14911,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .py-sm-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-  }
-
   .pt-sm-0 {
     padding-top: 0 !important;
   }
@@ -15061,10 +14933,6 @@ textarea.form-control-lg {
 
   .pt-sm-5 {
     padding-top: 3rem !important;
-  }
-
-  .pt-sm-6 {
-    padding-top: 5rem !important;
   }
 
   .pe-sm-0 {
@@ -15091,10 +14959,6 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
   }
 
-  .pe-sm-6 {
-    padding-right: 5rem !important;
-  }
-
   .pb-sm-0 {
     padding-bottom: 0 !important;
   }
@@ -15119,10 +14983,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .pb-sm-6 {
-    padding-bottom: 5rem !important;
-  }
-
   .ps-sm-0 {
     padding-left: 0 !important;
   }
@@ -15145,10 +15005,6 @@ textarea.form-control-lg {
 
   .ps-sm-5 {
     padding-left: 3rem !important;
-  }
-
-  .ps-sm-6 {
-    padding-left: 5rem !important;
   }
 
   .text-sm-start {
@@ -15286,10 +15142,6 @@ textarea.form-control-lg {
 
   .gap-md-5 {
     gap: 3rem !important;
-  }
-
-  .gap-md-6 {
-    gap: 5rem !important;
   }
 
   .justify-content-md-start {
@@ -15440,10 +15292,6 @@ textarea.form-control-lg {
     margin: 3rem !important;
   }
 
-  .m-md-6 {
-    margin: 5rem !important;
-  }
-
   .m-md-auto {
     margin: auto !important;
   }
@@ -15476,11 +15324,6 @@ textarea.form-control-lg {
   .mx-md-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .mx-md-6 {
-    margin-right: 5rem !important;
-    margin-left: 5rem !important;
   }
 
   .mx-md-auto {
@@ -15518,11 +15361,6 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
   }
 
-  .my-md-6 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
-  }
-
   .my-md-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -15550,10 +15388,6 @@ textarea.form-control-lg {
 
   .mt-md-5 {
     margin-top: 3rem !important;
-  }
-
-  .mt-md-6 {
-    margin-top: 5rem !important;
   }
 
   .mt-md-auto {
@@ -15584,10 +15418,6 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
   }
 
-  .me-md-6 {
-    margin-right: 5rem !important;
-  }
-
   .me-md-auto {
     margin-right: auto !important;
   }
@@ -15614,10 +15444,6 @@ textarea.form-control-lg {
 
   .mb-md-5 {
     margin-bottom: 3rem !important;
-  }
-
-  .mb-md-6 {
-    margin-bottom: 5rem !important;
   }
 
   .mb-md-auto {
@@ -15648,10 +15474,6 @@ textarea.form-control-lg {
     margin-left: 3rem !important;
   }
 
-  .ms-md-6 {
-    margin-left: 5rem !important;
-  }
-
   .ms-md-auto {
     margin-left: auto !important;
   }
@@ -15678,10 +15500,6 @@ textarea.form-control-lg {
 
   .p-md-5 {
     padding: 3rem !important;
-  }
-
-  .p-md-6 {
-    padding: 5rem !important;
   }
 
   .px-md-0 {
@@ -15714,11 +15532,6 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .px-md-6 {
-    padding-right: 5rem !important;
-    padding-left: 5rem !important;
-  }
-
   .py-md-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -15749,11 +15562,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .py-md-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-  }
-
   .pt-md-0 {
     padding-top: 0 !important;
   }
@@ -15776,10 +15584,6 @@ textarea.form-control-lg {
 
   .pt-md-5 {
     padding-top: 3rem !important;
-  }
-
-  .pt-md-6 {
-    padding-top: 5rem !important;
   }
 
   .pe-md-0 {
@@ -15806,10 +15610,6 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
   }
 
-  .pe-md-6 {
-    padding-right: 5rem !important;
-  }
-
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
@@ -15834,10 +15634,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .pb-md-6 {
-    padding-bottom: 5rem !important;
-  }
-
   .ps-md-0 {
     padding-left: 0 !important;
   }
@@ -15860,10 +15656,6 @@ textarea.form-control-lg {
 
   .ps-md-5 {
     padding-left: 3rem !important;
-  }
-
-  .ps-md-6 {
-    padding-left: 5rem !important;
   }
 
   .text-md-start {
@@ -16001,10 +15793,6 @@ textarea.form-control-lg {
 
   .gap-lg-5 {
     gap: 3rem !important;
-  }
-
-  .gap-lg-6 {
-    gap: 5rem !important;
   }
 
   .justify-content-lg-start {
@@ -16155,10 +15943,6 @@ textarea.form-control-lg {
     margin: 3rem !important;
   }
 
-  .m-lg-6 {
-    margin: 5rem !important;
-  }
-
   .m-lg-auto {
     margin: auto !important;
   }
@@ -16191,11 +15975,6 @@ textarea.form-control-lg {
   .mx-lg-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .mx-lg-6 {
-    margin-right: 5rem !important;
-    margin-left: 5rem !important;
   }
 
   .mx-lg-auto {
@@ -16233,11 +16012,6 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
   }
 
-  .my-lg-6 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
-  }
-
   .my-lg-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -16265,10 +16039,6 @@ textarea.form-control-lg {
 
   .mt-lg-5 {
     margin-top: 3rem !important;
-  }
-
-  .mt-lg-6 {
-    margin-top: 5rem !important;
   }
 
   .mt-lg-auto {
@@ -16299,10 +16069,6 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
   }
 
-  .me-lg-6 {
-    margin-right: 5rem !important;
-  }
-
   .me-lg-auto {
     margin-right: auto !important;
   }
@@ -16329,10 +16095,6 @@ textarea.form-control-lg {
 
   .mb-lg-5 {
     margin-bottom: 3rem !important;
-  }
-
-  .mb-lg-6 {
-    margin-bottom: 5rem !important;
   }
 
   .mb-lg-auto {
@@ -16363,10 +16125,6 @@ textarea.form-control-lg {
     margin-left: 3rem !important;
   }
 
-  .ms-lg-6 {
-    margin-left: 5rem !important;
-  }
-
   .ms-lg-auto {
     margin-left: auto !important;
   }
@@ -16393,10 +16151,6 @@ textarea.form-control-lg {
 
   .p-lg-5 {
     padding: 3rem !important;
-  }
-
-  .p-lg-6 {
-    padding: 5rem !important;
   }
 
   .px-lg-0 {
@@ -16429,11 +16183,6 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .px-lg-6 {
-    padding-right: 5rem !important;
-    padding-left: 5rem !important;
-  }
-
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -16464,11 +16213,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .py-lg-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-  }
-
   .pt-lg-0 {
     padding-top: 0 !important;
   }
@@ -16491,10 +16235,6 @@ textarea.form-control-lg {
 
   .pt-lg-5 {
     padding-top: 3rem !important;
-  }
-
-  .pt-lg-6 {
-    padding-top: 5rem !important;
   }
 
   .pe-lg-0 {
@@ -16521,10 +16261,6 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
   }
 
-  .pe-lg-6 {
-    padding-right: 5rem !important;
-  }
-
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
@@ -16549,10 +16285,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .pb-lg-6 {
-    padding-bottom: 5rem !important;
-  }
-
   .ps-lg-0 {
     padding-left: 0 !important;
   }
@@ -16575,10 +16307,6 @@ textarea.form-control-lg {
 
   .ps-lg-5 {
     padding-left: 3rem !important;
-  }
-
-  .ps-lg-6 {
-    padding-left: 5rem !important;
   }
 
   .text-lg-start {
@@ -16716,10 +16444,6 @@ textarea.form-control-lg {
 
   .gap-xl-5 {
     gap: 3rem !important;
-  }
-
-  .gap-xl-6 {
-    gap: 5rem !important;
   }
 
   .justify-content-xl-start {
@@ -16870,10 +16594,6 @@ textarea.form-control-lg {
     margin: 3rem !important;
   }
 
-  .m-xl-6 {
-    margin: 5rem !important;
-  }
-
   .m-xl-auto {
     margin: auto !important;
   }
@@ -16906,11 +16626,6 @@ textarea.form-control-lg {
   .mx-xl-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .mx-xl-6 {
-    margin-right: 5rem !important;
-    margin-left: 5rem !important;
   }
 
   .mx-xl-auto {
@@ -16948,11 +16663,6 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
   }
 
-  .my-xl-6 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
-  }
-
   .my-xl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -16980,10 +16690,6 @@ textarea.form-control-lg {
 
   .mt-xl-5 {
     margin-top: 3rem !important;
-  }
-
-  .mt-xl-6 {
-    margin-top: 5rem !important;
   }
 
   .mt-xl-auto {
@@ -17014,10 +16720,6 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
   }
 
-  .me-xl-6 {
-    margin-right: 5rem !important;
-  }
-
   .me-xl-auto {
     margin-right: auto !important;
   }
@@ -17044,10 +16746,6 @@ textarea.form-control-lg {
 
   .mb-xl-5 {
     margin-bottom: 3rem !important;
-  }
-
-  .mb-xl-6 {
-    margin-bottom: 5rem !important;
   }
 
   .mb-xl-auto {
@@ -17078,10 +16776,6 @@ textarea.form-control-lg {
     margin-left: 3rem !important;
   }
 
-  .ms-xl-6 {
-    margin-left: 5rem !important;
-  }
-
   .ms-xl-auto {
     margin-left: auto !important;
   }
@@ -17108,10 +16802,6 @@ textarea.form-control-lg {
 
   .p-xl-5 {
     padding: 3rem !important;
-  }
-
-  .p-xl-6 {
-    padding: 5rem !important;
   }
 
   .px-xl-0 {
@@ -17144,11 +16834,6 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .px-xl-6 {
-    padding-right: 5rem !important;
-    padding-left: 5rem !important;
-  }
-
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -17179,11 +16864,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .py-xl-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-  }
-
   .pt-xl-0 {
     padding-top: 0 !important;
   }
@@ -17206,10 +16886,6 @@ textarea.form-control-lg {
 
   .pt-xl-5 {
     padding-top: 3rem !important;
-  }
-
-  .pt-xl-6 {
-    padding-top: 5rem !important;
   }
 
   .pe-xl-0 {
@@ -17236,10 +16912,6 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
   }
 
-  .pe-xl-6 {
-    padding-right: 5rem !important;
-  }
-
   .pb-xl-0 {
     padding-bottom: 0 !important;
   }
@@ -17264,10 +16936,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .pb-xl-6 {
-    padding-bottom: 5rem !important;
-  }
-
   .ps-xl-0 {
     padding-left: 0 !important;
   }
@@ -17290,10 +16958,6 @@ textarea.form-control-lg {
 
   .ps-xl-5 {
     padding-left: 3rem !important;
-  }
-
-  .ps-xl-6 {
-    padding-left: 5rem !important;
   }
 
   .text-xl-start {
@@ -17431,10 +17095,6 @@ textarea.form-control-lg {
 
   .gap-xxl-5 {
     gap: 3rem !important;
-  }
-
-  .gap-xxl-6 {
-    gap: 5rem !important;
   }
 
   .justify-content-xxl-start {
@@ -17585,10 +17245,6 @@ textarea.form-control-lg {
     margin: 3rem !important;
   }
 
-  .m-xxl-6 {
-    margin: 5rem !important;
-  }
-
   .m-xxl-auto {
     margin: auto !important;
   }
@@ -17621,11 +17277,6 @@ textarea.form-control-lg {
   .mx-xxl-5 {
     margin-right: 3rem !important;
     margin-left: 3rem !important;
-  }
-
-  .mx-xxl-6 {
-    margin-right: 5rem !important;
-    margin-left: 5rem !important;
   }
 
   .mx-xxl-auto {
@@ -17663,11 +17314,6 @@ textarea.form-control-lg {
     margin-bottom: 3rem !important;
   }
 
-  .my-xxl-6 {
-    margin-top: 5rem !important;
-    margin-bottom: 5rem !important;
-  }
-
   .my-xxl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -17695,10 +17341,6 @@ textarea.form-control-lg {
 
   .mt-xxl-5 {
     margin-top: 3rem !important;
-  }
-
-  .mt-xxl-6 {
-    margin-top: 5rem !important;
   }
 
   .mt-xxl-auto {
@@ -17729,10 +17371,6 @@ textarea.form-control-lg {
     margin-right: 3rem !important;
   }
 
-  .me-xxl-6 {
-    margin-right: 5rem !important;
-  }
-
   .me-xxl-auto {
     margin-right: auto !important;
   }
@@ -17759,10 +17397,6 @@ textarea.form-control-lg {
 
   .mb-xxl-5 {
     margin-bottom: 3rem !important;
-  }
-
-  .mb-xxl-6 {
-    margin-bottom: 5rem !important;
   }
 
   .mb-xxl-auto {
@@ -17793,10 +17427,6 @@ textarea.form-control-lg {
     margin-left: 3rem !important;
   }
 
-  .ms-xxl-6 {
-    margin-left: 5rem !important;
-  }
-
   .ms-xxl-auto {
     margin-left: auto !important;
   }
@@ -17823,10 +17453,6 @@ textarea.form-control-lg {
 
   .p-xxl-5 {
     padding: 3rem !important;
-  }
-
-  .p-xxl-6 {
-    padding: 5rem !important;
   }
 
   .px-xxl-0 {
@@ -17859,11 +17485,6 @@ textarea.form-control-lg {
     padding-left: 3rem !important;
   }
 
-  .px-xxl-6 {
-    padding-right: 5rem !important;
-    padding-left: 5rem !important;
-  }
-
   .py-xxl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -17894,11 +17515,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .py-xxl-6 {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-  }
-
   .pt-xxl-0 {
     padding-top: 0 !important;
   }
@@ -17921,10 +17537,6 @@ textarea.form-control-lg {
 
   .pt-xxl-5 {
     padding-top: 3rem !important;
-  }
-
-  .pt-xxl-6 {
-    padding-top: 5rem !important;
   }
 
   .pe-xxl-0 {
@@ -17951,10 +17563,6 @@ textarea.form-control-lg {
     padding-right: 3rem !important;
   }
 
-  .pe-xxl-6 {
-    padding-right: 5rem !important;
-  }
-
   .pb-xxl-0 {
     padding-bottom: 0 !important;
   }
@@ -17979,10 +17587,6 @@ textarea.form-control-lg {
     padding-bottom: 3rem !important;
   }
 
-  .pb-xxl-6 {
-    padding-bottom: 5rem !important;
-  }
-
   .ps-xxl-0 {
     padding-left: 0 !important;
   }
@@ -18005,10 +17609,6 @@ textarea.form-control-lg {
 
   .ps-xxl-5 {
     padding-left: 3rem !important;
-  }
-
-  .ps-xxl-6 {
-    padding-left: 5rem !important;
   }
 
   .text-xxl-start {
@@ -18117,7 +17717,7 @@ textarea.form-control-lg {
 }
 
 footer .nav-link:hover {
-  color: blue !important;
+  color: #381b52 !important;
   text-decoration: underline;
 }
 
@@ -18126,17 +17726,9 @@ footer .nav-link:hover {
   /**START HERO**/
   /**EINDE HERO**/
   /**START REVIEW**/
-  /*.carousel-control-prev-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236f42c1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-  }
-
-  .carousel-control-next-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236f42c1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-  }
-  */
   /**EINDE REVIEW**/
   /**START LOCATIES**/
-  /** 2de styling **/
+  /***Hover cards***/
   /**EINDE LOCATIES**/
   /***EINDE MAIN***/
 }
@@ -18256,8 +17848,17 @@ footer .nav-link:hover {
 .home .hero-border-right:focus {
   border-right: none;
 }
+.home .hero-border-left-radius {
+  border-radius: 5px 0px 0px 5px;
+}
+.home .hero-border-right-radius {
+  border-radius: 0px 5px 5px 0px;
+}
 .home .hero-border-radius {
   border-radius: 0;
+}
+.home .hero-border {
+  border: white 3px solid;
 }
 .home .hero-block {
   position: relative;
@@ -18300,7 +17901,7 @@ footer .nav-link:hover {
   }
   .home .hero-input {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     right: 10%;
   }
 }
@@ -18311,7 +17912,7 @@ footer .nav-link:hover {
   }
   .home .hero-input {
     position: absolute;
-    bottom: 35%;
+    bottom: 25%;
     right: 10%;
   }
 }
@@ -18337,6 +17938,284 @@ footer .nav-link:hover {
     right: 10%;
   }
 }
+.home .floatingimages {
+  margin-bottom: 364px;
+  display: none;
+}
+.home .carousel-inner {
+  padding-bottom: 1px !important;
+}
+.home .locatiefoto {
+  overflow: visible !important;
+  top: 150% !important;
+  left: 30% !important;
+  border-radius: 10%;
+}
+@media (min-width: 320px) {
+  .home .floatingimages {
+    margin-bottom: 200px;
+    display: block !important;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 300% !important;
+    left: 15% !important;
+    border-radius: 10%;
+    width: 10rem;
+    display: none !important;
+  }
+  .home .persoonfoto {
+    display: block !important;
+    width: 11rem;
+    left: 4rem !important;
+  }
+  .home .titelreviews {
+    padding-left: 1rem !important;
+  }
+}
+@media (min-width: 375px) {
+  .home .floatingimages {
+    margin-bottom: 200px;
+    display: block !important;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 300% !important;
+    left: 15% !important;
+    border-radius: 10%;
+    width: 10rem;
+    display: none !important;
+  }
+  .home .persoonfoto {
+    display: block !important;
+    width: 11rem;
+    left: 5.5rem !important;
+  }
+  .home .titelreviews {
+    padding-left: 2rem !important;
+  }
+}
+@media (min-width: 425px) {
+  .home .floatingimages {
+    margin-bottom: 200px;
+    display: block !important;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 300% !important;
+    left: 15% !important;
+    border-radius: 10%;
+    width: 10rem;
+    display: none !important;
+  }
+  .home .persoonfoto {
+    display: block !important;
+    width: 11rem;
+    left: 7rem !important;
+  }
+  .home .titelreviews {
+    padding-left: 3rem !important;
+  }
+}
+@media (min-width: 576px) {
+  .home .floatingimages {
+    margin-bottom: 364px;
+    display: block !important;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 150% !important;
+    left: 30% !important;
+    border-radius: 10%;
+  }
+  .home .persoonfoto {
+    display: block;
+    left: 12rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .home .floatingimages {
+    display: block;
+    margin-bottom: 500px;
+    margin-top: 110px;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 130% !important;
+    left: 40% !important;
+    border-radius: 10%;
+    width: 340px;
+    height: 340px;
+    display: block !important;
+  }
+  .home .carousel-control-next {
+    position: absolute;
+    left: 15rem !important;
+    margin-bottom: 650px;
+  }
+  .home .carousel-control-prev {
+    position: absolute;
+    margin-bottom: 650px;
+    left: 3rem !important;
+  }
+  .home .persoonfoto {
+    width: 170px;
+    height: 170px;
+    left: 6rem !important;
+  }
+  .home .titelreviews {
+    padding-left: 4.5rem !important;
+  }
+}
+@media (min-width: 900px) {
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 140% !important;
+    left: 45% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
+  }
+  .home .persoonfoto {
+    left: 20% !important;
+    width: 200px;
+    height: 200px;
+  }
+  .home .carousel-control-next {
+    position: absolute;
+    left: 13rem !important;
+    margin-bottom: 650px;
+  }
+  .home .carousel-control-prev {
+    position: absolute;
+    margin-bottom: 650px;
+  }
+}
+@media (min-width: 1024px) {
+  .home .floatingimages {
+    display: block;
+    margin-bottom: 550px;
+    margin-top: 110px;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 170% !important;
+    left: 46% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .home .persoonfoto {
+    left: 23% !important;
+    top: 20% !important;
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .home .carousel-control-next {
+    position: absolute;
+    left: 15rem !important;
+    margin-bottom: 650px;
+    top: 0rem;
+  }
+  .home .carousel-control-prev {
+    position: absolute;
+    margin-bottom: 650px;
+    top: 0rem;
+  }
+  .home .titelreviews {
+    padding-left: 5.5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .home .floatingimages {
+    display: block;
+    margin-bottom: 550px;
+    margin-top: 110px;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 140% !important;
+    left: 26% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    width: 320px !important;
+    height: 320px !important;
+  }
+  .home .persoonfoto {
+    left: 1% !important;
+    top: 20% !important;
+    width: 160px !important;
+    height: 160px !important;
+  }
+  .home .carousel-control-next {
+    position: absolute;
+    left: 15rem !important;
+    margin-bottom: 650px;
+    top: 0rem;
+  }
+  .home .carousel-control-prev {
+    position: absolute;
+    margin-bottom: 650px;
+    top: 0rem;
+  }
+  .home .titelreviews {
+    padding-left: 5.5rem !important;
+  }
+}
+@media (min-width: 1400px) {
+  .home .floatingimages {
+    display: block;
+    margin-bottom: 600px;
+    margin-top: 1px;
+  }
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 130% !important;
+    left: 30% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    width: 380px;
+    height: 380px;
+  }
+  .home .persoonfoto {
+    width: 190px;
+    height: 190px;
+    left: 1% !important;
+  }
+  .home .titelreviews {
+    padding-left: 8rem !important;
+  }
+}
+@media (min-width: 2000px) {
+  .home .locatiefoto {
+    overflow: visible !important;
+    top: 180% !important;
+    left: 30% !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10%;
+    width: 680px !important;
+    height: 680px !important;
+  }
+  .home .persoonfoto {
+    width: 340px !important;
+    height: 340px !important;
+    top: 1rem !important;
+  }
+  .home .floatingimages {
+    display: block;
+    margin-bottom: 900px;
+  }
+  .home .titelreviews {
+    padding-left: 14rem !important;
+  }
+}
 .home .carousel-control-next {
   position: absolute;
   left: 13rem;
@@ -18344,27 +18223,66 @@ footer .nav-link:hover {
 .home .carousel-control-prev {
   position: absolute;
 }
+.home .floatingimages {
+  max-width: 100%;
+}
+.home .persoon {
+  /*padding-top: 170px;*/
+}
+.home .locatie {
+  padding-top: 70px;
+}
+.home .persoonfoto {
+  overflow: visible;
+  margin-top: 40px;
+}
+.home .locatiefoto {
+  overflow: visible;
+  /*top: 150% !important;
+  left: 30% !important;*/
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 10%;
+}
+.home .carousel-inner {
+  padding-bottom: 140px;
+}
+.home .ps-6 {
+  padding-left: 8rem !important;
+}
 .home .pt-6 {
   padding-top: 25rem !important;
+}
+.home .pb-6 {
+  padding-bottom: 10rem !important;
+}
+.home .py-6 {
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
 }
 .home .vierkantlijn {
   background-image: url("../assets/images/homepage/Rectangle32.png");
   background-repeat: repeat-x;
   height: 11px;
 }
+.home .vierkantlijn2 {
+  background-image: url("../assets/images/homepage/Rectangle32.png") !important;
+  background-repeat: repeat-x !important;
+  height: 11px !important;
+}
 .home .rotated {
   transform: rotate(45deg);
 }
+.home .rotated2 {
+  transform: rotate(-45deg);
+}
 .home .carousel .carousel-control-prev-icon {
-  /* change fill="currentColor" to %23fff to make it white  */
   background-image: url('data:image/svg+xml,<svg class="bi bi-bootstrap-fill" viewBox="0 0 20 20" fill="%236f42c1" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 2a4 4 0 00-4 4v8a4 4 0 004 4h8a4 4 0 004-4V6a4 4 0 00-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.543-2.11H7.063V14zm1.313-4.875V6.658h1.78c.974 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H8.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H8.375v2.725z" clip-rule="evenodd"/></svg>');
 }
 .home .carousel .carousel-control-next-icon {
-  /* change fill="currentColor" to %23fff to make it white  */
   background-image: url('data:image/svg+xml,<svg class="bi bi-bootstrap-fill" viewBox="0 0 20 20" fill="%236f42c1" xmlns="http://www.w3.org/2000/svg"><path d="M6.002 2a4 4 0 00-4 4v8a4 4 0 004 4h8a4 4 0 004-4V6a4 4 0 00-4-4h-8zm1.06 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.543-2.11H7.063V14zm1.313-4.875V6.658h1.78c.974 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H8.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H8.375v2.725z" clip-rule="evenodd"/></svg>');
 }
 .home .carousel-control-next-icon, .home .carousel-control-prev-icon {
-  /* Use to adjust size of icons */
   width: 3rem;
   height: 3rem;
 }
@@ -18375,9 +18293,6 @@ footer .nav-link:hover {
   background-image: url("../images/homepage/Rectangle32.png");
   background-repeat: repeat-x;
   height: 11px;
-}
-.home .utg {
-  padding-bottom: 142px;
 }
 .home .mycard {
   border-radius: 25px;
@@ -18391,10 +18306,17 @@ footer .nav-link:hover {
   box-shadow: 1px 10px 20px #9e7cde;
   -webkit-transition: box-shadow 0.2s ease-in;
 }
-.home .position-absolute {
-  top: 60%;
-  left: 50%;
-  font-size: 18px;
+.home .badge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home .aantal {
+  color: #381b52;
+}
+.home .position {
+  bottom: 25px;
+  right: 25px;
+  font-size: 20px;
   text-transform: uppercase;
   border-radius: 10%;
 }
@@ -18413,6 +18335,11 @@ footer .nav-link:hover {
 .home .cards:hover {
   box-shadow: 5px 6px 6px 2px #e9ecef;
   transform: scale(1.1);
+}
+.home .mycard {
+  background-size: 150%;
+  background-position: center;
+  padding-top: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

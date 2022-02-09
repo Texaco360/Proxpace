@@ -633,7 +633,7 @@
     height:11px;
   }
   .utg{
-    padding-bottom: 100px;
+
   }
   .mycard {
     border-radius: 25px;
@@ -656,9 +656,9 @@
   .aantal{
     color: $primary;
   }
-  .position-absolute{
-    top: 60%;
-    right:5%;
+  .position{
+    bottom: 25px;
+    right:25px;
     font-size: 20px;
     text-transform: uppercase;
     border-radius: 10%;
@@ -682,6 +682,11 @@
   .cards:hover {
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.1)
+  }
+  .mycard{
+    background-size: 150%;
+    background-position: center;
+    padding-top: 100%;
   }
   /**EINDE LOCATIES**/
     /***EINDE MAIN***/

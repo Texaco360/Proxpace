@@ -7,6 +7,12 @@ $custom-colors: (
 
 );
 
+@each $name , $color in $custom-colors {
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}
+
 // Merge the color maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $colors : map-merge($colors, $custom-colors);
@@ -15,6 +21,7 @@ $colors : map-merge($colors, $custom-colors);
 // Create your own spacer map
 $custom-spacers: (
         6: $spacer * 5,
+        7: $spacer * 6.25,
 
 );
 
