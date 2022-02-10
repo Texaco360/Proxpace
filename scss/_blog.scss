@@ -2,6 +2,27 @@
 
 
 /** START SIDEBAR **/
+.search{
+ background-image: url(../images/logo-icons/searchblack.svg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-right: 10px;
+  background-origin: content-box;
+
+    text-indent:20px;
+
+}
+.tag{
+  color: white;
+  border: none;
+
+}
+.tag:hover{
+  background: white;
+  color: $cowodesk;
+  border:  white;
+}
+
 /** END SIDEBAR **/
 
 
