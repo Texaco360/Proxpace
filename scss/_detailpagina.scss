@@ -306,18 +306,20 @@
   /**START Beschrijving**/
   /**EINDE Beschrijving**/
   /**START MAPS**/
-  .vierkantlijn-slider {
+  .vierkantlijn-slider-maps{
     background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
     height: 11px;
     width: 100%;
-    position: absolute;
-    bottom: 50%;
-    z-index: -10;
   }
   /**EINDE MAPS**/
   /**START HOST**/
-
+  .vierkantlijn-slider-host{
+    background-image: url('/assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+    width: 100%;
+  }
   /**EINDE HOST**/
   /***EINDE MAIN***/
 }
