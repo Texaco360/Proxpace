@@ -17,6 +17,10 @@
   <meta property="og:description" content="Your office, outside the office" />
   <title>Proxpace Your office, outside the office </title>
   <link href="assets/css/style.min.css" rel="stylesheet">
+<!--  css voor datepicker-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs5.min.css">
+
 
 </head>
 <body>
@@ -116,20 +120,19 @@
       </div>
 
       <div class="col-10 mx-auto">
-        <div class="row">
+        <div class="row ">
         <!-- START SIDEBAR -->
 
-<!--          test offcanvas-->
-          <section class="col-lg-3">
-            <div class="d-grid gap-2 fixed-bottom">
+          <section class="col-lg-3 mt-4">
+<!--            offcanvas voor mobile-->
+            <div class="d-grid gap-2 fixed-bottom d-lg-none">
               <button class="btn btn-primary d-flex align-baseline justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                 <img class="mx-2" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
                 Filters
               </button>
             </div>
-
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="offcanvas-header">
+              <div class="offcanvas-header mt-3">
                 <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
@@ -183,8 +186,14 @@
                       <div class="input-group  px-2 lijnInput mb-3 ">
                         <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
                       </div>
+
                       <div class="input-group  px-2 lijnInput mb-3">
-                        <input type="date" placeholder="Datum" name="" class=" zoekresFiltersInput text-primary border-0">
+                        <div class="form-floating mb-4 d-flex">
+                          <input type="text" name="datepickerEen" class="datepicker_input form-control  datepicker-input" id="datepickerMob"
+                                 required="" placeholder="DD/MM/YYYY">
+                          <label for="datepickerMob">Datum</label>
+                        </div>
+
                       </div>
                       <div class="input-group  px-2 lijnInput mb-3">
                         <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
@@ -203,7 +212,7 @@
                   <!--                  titel soort ruimte-->
                   <div class="row mt-3">
                     <div class="col">
-                      <h3 class="fs-5">Soort ruimte</h3>
+                      <h3 class="fs-5 mb-3">Soort ruimte</h3>
                     </div>
                   </div>
                   <!--           rij met soorten ruimtes-->
@@ -225,9 +234,9 @@
 
                   </div>
                   <!--                  titel soort ruimte-->
-                  <div class="row mt-3">
+                  <div class="row mt-5">
                     <div class="col">
-                      <h3 class="fs-5">Voorzieningen</h3>
+                      <h3 class="fs-5 mb-3">Voorzieningen</h3>
                     </div>
                   </div>
                   <!--           rij met soorten ruimtes-->
@@ -247,6 +256,144 @@
 
               </div>
             </div>
+<!--            gewoon voor desktop-->
+            <div class="d-none d-lg-block">
+              <div class="row ">
+                <div class="col">
+                  <h3 class="fs-5">Actieve filters</h3>
+                </div>
+              </div>
+              <div>
+                <!--                  rij met actieve filters-->
+                <div class="row">
+                  <div class="col gy-3 gx-1 d-flex flex-wrap  ">
+                    <div class="col ">
+                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                        <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                        Internet
+                      </button>
+                    </div>
+                    <div class="col ">
+                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                        <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                        Computers
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 ">
+                        <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                        Parkeergelegenheid
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 ">
+                        <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                        Fietsenstalling
+                      </button>
+                    </div>
+                    <div class="col">
+                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                        <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                        Flexdesk
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+                <!--                  rij met inputvelden-->
+                <div class="row mt-5">
+                  <div class="col">
+                    <div class="input-group  px-2 lijnInput mb-3 ">
+                      <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
+                    </div>
+                    <div class="input-group  px-2 lijnInput mb-3">
+                      <div class="myDatepicker form-floating mb-4 d-flex">
+                        <input type="text" name="datepickerTwee" class=" datepicker_input form-control  datepicker-input" id="datepickerDesk"
+                               required="" placeholder="DD/MM/YYYY">
+                        <label for="datepickerDesk">Datum</label>
+                      </div>
+                    </div>
+                    <div class="input-group  px-2 lijnInput mb-3">
+                      <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
+                    </div>
+                    <div class="input-group input-group p-2">
+
+                        <span class="input-group-text text-primary">
+                          Max. afstand: 50 km
+                        </span>
+                      <input type="range" class="form-range hero-border-left hero-border-right-radius p-4"
+                             id="" aria-describedby="basic-addon3">
+
+                    </div>
+                  </div>
+                </div>
+                <!--                  titel soort ruimte-->
+                <div class="row mt-3">
+                  <div class="col">
+                    <h3 class="fs-5 mb-3">Soort ruimte</h3>
+                  </div>
+                </div>
+                <!--           rij met soorten ruimtes-->
+                <div class="row">
+                  <div class="col d-grid gap-2">
+                    <button class=" btn btn-outline-primary px-auto">
+                      Kantoorruimte
+                    </button>
+                    <button class=" btn btn-outline-primary px-auto">
+                      Vergaderruimte
+                    </button>
+                    <button class=" btn btn-outline-primary px-auto">
+                      Polyvalente ruimte
+                    </button>
+                    <button class=" btn btn-outline-primary px-auto">
+                      Flexdesk
+                    </button>
+                  </div>
+
+                </div>
+                <!--                  titel soort ruimte-->
+                <div class="row mt-5">
+                  <div class="col">
+                    <h3 class="fs-5 mb-3">Voorzieningen</h3>
+                  </div>
+                </div>
+                <!--           rij met soorten ruimtes-->
+                <div class="row">
+                  <div class="col">
+                    <ul class="list-unstyled">
+                      <li class="d-flex flex-row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check1" checked>
+                          <label class="form-check-label" for="check1">
+                            Internet
+                          </label>
+                        </div>
+                        <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;" class="mx-2">
+                      </li>
+                      <li class="d-flex flex-row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check2" checked>
+                          <label class="form-check-label" for="check2">
+                            Computers
+                          </label>
+                        </div>
+                        <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;" class="mx-2">
+                      </li>
+                      <li class="d-flex flex-row">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="check3" checked>
+                          <label class="form-check-label" for="check3">
+                            Parkeergelegenheid
+                          </label>
+                        </div>
+                        <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;" class="mx-2">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </section>
 
 
@@ -722,7 +869,7 @@
           <div class="d-flex nav pb-3">
             <div class="nav-item">
               <a href="#" class="nav-link"><i class="fs-3 bi bi-facebook"></i></a>
-            </div>
+            </div>f
             <div class="nav-item">
               <a href="#" class="nav-link"><i class="fs-3 bi bi-instagram"></i></a>
             </div>
@@ -738,5 +885,26 @@
 
 <!--EINDE FOOTER-->
 <script src="./assets/js/bundle.min.js"></script>
+<!--script voor datepicker-->
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+<!--<script>
+  const elem = document.querySelector('input[name="datepickerEen"]');
+  const datepicker = new Datepicker(elem, {
+    language: 'en',
+  });
+</script>-->
+
+<script>
+  const elem1 = document.querySelector('input[name="datepickerEen"]');
+  const datepicker1 = new Datepicker(elem1, {
+    language: 'en',
+  });
+  const elem2 = document.querySelector('input[name="datepickerTwee"]');
+  const datepicker2 = new Datepicker(elem2, {
+    language: 'en',
+  });
+
+</script>
+
 </body>
 </html>

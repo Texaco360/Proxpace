@@ -31,15 +31,27 @@
     }
 /* END HERO*/
 /*SIDEBAR*/
+.btn-close-primary{
+    color: $primary;
+}
+    //change default color of placeholder
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $primary;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color:  $primary;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color:  $primary;
+    }
 
 .lijnInput{
 border-bottom: 2px solid $primary;
 }
-.zoekresFiltersInput{
-    :active{
-        border: none;
-    }
-}
+
 
 /* END SIDEBAR*/
 /* CARDS*/
