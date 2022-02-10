@@ -28,8 +28,8 @@
   .triangleHeroLb{
     position:absolute;
     z-index:2001;
-    width: 27%;
-    right:6%;
+    width: 21%;
+    right:3%;
     bottom:0;
   }
   .tekst-primary{
@@ -62,6 +62,15 @@
   }
   .border-80{
     border-radius: 0.8rem;
+  }
+  .sliderimg{
+    height: 320px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .card-border{
+    border: 7px solid $secondary;
+    border-radius: 1rem;
   }
   /*EINDE LODE*/
 
