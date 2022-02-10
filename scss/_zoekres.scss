@@ -32,7 +32,7 @@
 /* END HERO*/
 /*SIDEBAR*/
 
-    //change default color of placeholder
+//change default color of placeholder
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $primary;
         opacity: 1; /* Firefox */
@@ -46,7 +46,7 @@
         color:  $primary;
     }
 
-    /** styling checkboxes aanpassen **/
+/** styling checkboxes aanpassen **/
     .form-check-input{
         position: absolute;
         opacity: 0;
@@ -65,13 +65,46 @@
         width: 14px;
         height: 14px;
         background: white;
-        border: 1px solid $primary;
+        border: 2px solid $primary;
         border-radius: 25%;
         transform: rotate(45deg);
     }
     .form-check-input:checked + label:before{
         background: $primary;
     }
+/** einde checkboxes aanpassen **/
+.kruisje{
+    transform: rotate(45deg);
+    z-index: 10;
+    transform-origin: 142% 28% ;
+
+}
+
+/** start verwijderen outline rond inputvelden **/
+    .form-floating>.form-control {
+        padding: 0;
+        height: 1.5rem;
+        line-height: 0;
+        border: none;
+
+    }
+    .datepickerDesk{
+            transform: translate(-15%,-50%);
+    }
+    .datepickerDesk:active{
+        display: none;
+    }
+/** start verwijderen outline rond inputvelden **/
+
+/** start verwijderen outline rond inputvelden **/
+    input:focus{
+        outline: none;
+    }
+/** einde verwijderen outline rond inputvelden **/
+
+/** start afstand slider **/
+
+/** einde afstand slider **/
 
 
 .lijnInput{

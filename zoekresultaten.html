@@ -300,6 +300,22 @@
                 <!--                  rij met actieve filters-->
                 <div class="row">
                   <div class="col gy-3 gx-1 d-flex flex-wrap  ">
+
+                    <div class="col ">
+                      <div class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                        <p class="fs-1 kruisje m-0 position-absolute">+</p>
+                        <p class=" m-0 ps-4">Internet</p>
+                      </div>
+                    </div>
+
+                    <!--<div class="col ">
+                      <div class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row">
+                        <p class="fs-1 kruisje m-0 position-absolute">+</p>
+                        <p class="position-relative m-0 ps-4">Internet</p>
+
+                      </div>
+                    </div>-->
+
                     <div class="col ">
                       <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
                         <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
@@ -339,11 +355,11 @@
                     <div class="input-group  px-2 lijnInput mb-3 ">
                       <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
                     </div>
-                    <div class="input-group  px-2 lijnInput mb-3">
-                      <div class="myDatepicker form-floating mb-4 d-flex">
-                        <input type="text" name="datepickerTwee" class=" datepicker_input form-control  datepicker-input" id="datepickerDesk"
+                    <div class="input-group px-2 lijnInput mb-3">
+                      <div class="myDatepicker form-floating d-flex">
+                        <input type="text" name="datepickerTwee" class=" form-control position-relative " id="datepickerDesk"
                                required="" placeholder="DD/MM/YYYY">
-                        <label for="datepickerDesk">Datum</label>
+                        <label for="datepickerDesk" class="datepickerDesk position-absolute">Datum</label>
                       </div>
                     </div>
                     <div class="input-group  px-2 lijnInput mb-3">
@@ -351,12 +367,11 @@
                     </div>
                     <div class="input-group input-group p-2">
 
-                        <span class="input-group-text text-primary">
+                        <label for="maxAfstand">
                           Max. afstand: 50 km
-                        </span>
-                      <input type="range" class="form-range hero-border-left hero-border-right-radius p-4"
-                             id="" aria-describedby="basic-addon3">
-
+                        </label>
+                      <input type="range" class="maxAfstand form-range p-4"
+                             id="maxAfstand" aria-describedby="maxAfstand">
                     </div>
                   </div>
                 </div>
@@ -929,15 +944,8 @@
 
 <!--EINDE FOOTER-->
 <script src="./assets/js/bundle.min.js"></script>
-<!--script voor datepicker-->
+<!--scripts voor datepicker-->
 <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
-<!--<script>
-  const elem = document.querySelector('input[name="datepickerEen"]');
-  const datepicker = new Datepicker(elem, {
-    language: 'en',
-  });
-</script>-->
-
 <script>
   const elem1 = document.querySelector('input[name="datepickerEen"]');
   const datepicker1 = new Datepicker(elem1, {
