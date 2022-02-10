@@ -22,7 +22,27 @@
   color: $cowodesk;
   border:  white;
 }
+.pijltje{
+  transform: rotate(180deg);
+  height: 50px;
+  width: 50px;
 
+}
+
+.list{
+  padding: 0;
+
+  list-style-type: none;
+}
+.star{
+  background: url('../images/blog/pijltje.svg') no-repeat left top;
+  height: 34px;
+  padding-top: 7px;
+  padding-left: 60px;
+  margin-bottom: 80px;
+
+
+}
 /** END SIDEBAR **/
 
 
