@@ -7,6 +7,22 @@
   background-image: url(../images/homepage/Rectangle32.png);
   background-repeat: repeat-x;
   height: 11px;};
+  .leftArrow{
+    height:100%;
+  }
+  .rightArrow{
+    transform:rotate(180deg);
+  }
+
+  //QUERIES FOR ROTATION
+  @media only screen and (max-width:  767px) {
+    .leftArrow, .rightArrow {
+      transform: rotate(90deg);
+      padding-left:25px;
+    }
+    .arrowContainer{
+    }
+  }
   /*EINDE VIKTOR*/
 
   /*BEGIN MICHIEL*/
