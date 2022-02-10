@@ -31,9 +31,7 @@
     }
 /* END HERO*/
 /*SIDEBAR*/
-.btn-close-primary{
-    color: $primary;
-}
+
     //change default color of placeholder
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $primary;
@@ -47,6 +45,34 @@
     ::-ms-input-placeholder { /* Microsoft Edge */
         color:  $primary;
     }
+
+    /** styling checkboxes aanpassen **/
+    .form-check-input{
+        position: absolute;
+        opacity: 0;
+    }
+    .form-check-input + label{
+        position: relative;
+        cursor:pointer;
+        padding: 0;
+    }
+    .form-check-input + label:before {
+        content: "";
+        margin-right: 10px;
+        margin-top:3px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 14px;
+        height: 14px;
+        background: white;
+        border: 1px solid $primary;
+        border-radius: 25%;
+        transform: rotate(45deg);
+    }
+    .form-check-input:checked + label:before{
+        background: $primary;
+    }
+
 
 .lijnInput{
 border-bottom: 2px solid $primary;
