@@ -182,11 +182,11 @@
                   <!--                  rij met inputvelden-->
                   <div class="row mt-5">
                     <div class="col">
-                      <div class="input-group  px-2 lijnInput mb-3 ">
+                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
                         <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
                       </div>
 
-                      <div class="input-group  px-2 lijnInput mb-3">
+                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
                         <div class="form-floating  d-flex">
                           <input type="text" name="datepickerEen" class="shadow-none datepicker_input form-control datepicker-input " id="datepickerMob"
                                  required="" placeholder="DD/MM/YYYY">
@@ -194,17 +194,16 @@
                         </div>
 
                       </div>
-                      <div class="input-group  px-2 lijnInput mb-3">
+                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
                         <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
                       </div>
-                      <div class="input-group input-group p-2">
 
-                        <span class="input-group-text text-primary">
+                      <div class="input-group input-group mt-4  ">
+                        <label for="maxAfstandMob" class="ps-2">
                           Max. afstand: 50 km
-                        </span>
-                        <input type="range" class="form-range hero-border-left hero-border-right-radius p-4"
-                               id="customRange1" aria-describedby="basic-addon3">
-
+                        </label>
+                        <input type="range" class="maxAfstand form-range  "
+                               id="maxAfstandMob" aria-describedby="maxAfstandMob">
                       </div>
                     </div>
                   </div>
@@ -335,25 +334,24 @@
                 <!--                  rij met inputvelden-->
                 <div class="row mt-5">
                   <div class="col">
-                    <div class="input-group  px-2 lijnInput mb-3 ">
+                    <div class="input-group  px-2 lijnInput mb-3 mt-4 ">
                       <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
                     </div>
-                    <div class="input-group px-2 lijnInput mb-3">
+                    <div class="input-group px-2 lijnInput mb-3 mt-4">
                       <div class="myDatepicker form-floating d-flex">
                         <input type="text" name="datepickerTwee" class="shadow-none form-control position-relative " id="datepickerDesk"
                                required="" placeholder="DD/MM/YYYY">
                         <label for="datepickerDesk" class="datepickerDesk position-absolute">Datum</label>
                       </div>
                     </div>
-                    <div class="input-group  px-2 lijnInput mb-3">
-                      <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
+                    <div class="input-group  px-2 lijnInput mb-3 mt-4">
+                      <input type="number" min="0" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
                     </div>
-                    <div class="input-group input-group p-2">
-
-                        <label for="maxAfstand">
+                    <div class="input-group input-group mt-4  ">
+                        <label for="maxAfstand" class="ps-2">
                           Max. afstand: 50 km
                         </label>
-                      <input type="range" class="maxAfstand form-range p-4"
+                      <input type="range" class="maxAfstand form-range  "
                              id="maxAfstand" aria-describedby="maxAfstand">
                     </div>
                   </div>
