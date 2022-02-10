@@ -32,6 +32,15 @@
 /* END HERO*/
 /*SIDEBAR*/
 
+.lijnInput{
+border-bottom: 2px solid $primary;
+}
+.zoekresFiltersInput{
+    :active{
+        border: none;
+    }
+}
+
 /* END SIDEBAR*/
 /* CARDS*/
 

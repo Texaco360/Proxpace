@@ -118,10 +118,140 @@
       <div class="col-10 mx-auto">
         <div class="row">
         <!-- START SIDEBAR -->
-        <div class="col-md-3" >
+
+<!--          test offcanvas-->
+          <section class="col-lg-3">
+            <div class="d-grid gap-2 fixed-bottom">
+              <button class="btn btn-primary d-flex align-baseline justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <img class="mx-2" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                Filters
+              </button>
+            </div>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body px-5">
+                <div class="row ">
+                  <div class="col">
+                    <h3 class="fs-5">Actieve filters</h3>
+                  </div>
+                </div>
+                <div>
+                  <!--                  rij met actieve filters-->
+                  <div class="row">
+                    <div class="col gy-3 gx-1 d-flex flex-wrap justify-content-start ">
+                      <div class="col">
+                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                          <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                          Internet
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                          <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                          Computers
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 ">
+                          <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                          Parkeergelegenheid
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 ">
+                          <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                          Fietsenstalling
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2">
+                          <span class="btn-close btn-close-primary ps-1 pe-4" aria-label="Close"></span>
+                          Flexdesk
+                        </button>
+                      </div>
 
 
-        </div>
+                    </div>
+                  </div>
+                  <!--                  rij met inputvelden-->
+                  <div class="row mt-5">
+                    <div class="col">
+                      <div class="input-group  px-2 lijnInput mb-3 ">
+                        <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
+                      </div>
+                      <div class="input-group  px-2 lijnInput mb-3">
+                        <input type="date" placeholder="Datum" name="" class=" zoekresFiltersInput text-primary border-0">
+                      </div>
+                      <div class="input-group  px-2 lijnInput mb-3">
+                        <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
+                      </div>
+                      <div class="input-group input-group p-2">
+
+                        <span class="input-group-text text-primary">
+                          Max. afstand: 50 km
+                        </span>
+                        <input type="range" class="form-range hero-border-left hero-border-right-radius p-4"
+                               id="customRange1" aria-describedby="basic-addon3">
+
+                      </div>
+                    </div>
+                  </div>
+                  <!--                  titel soort ruimte-->
+                  <div class="row mt-3">
+                    <div class="col">
+                      <h3 class="fs-5">Soort ruimte</h3>
+                    </div>
+                  </div>
+                  <!--           rij met soorten ruimtes-->
+                  <div class="row">
+                    <div class="col d-grid gap-2">
+                      <button class=" btn btn-outline-primary px-auto">
+                        Kantoorruimte
+                      </button>
+                      <button class=" btn btn-outline-primary px-auto">
+                        Vergaderruimte
+                      </button>
+                      <button class=" btn btn-outline-primary px-auto">
+                        Polyvalente ruimte
+                      </button>
+                      <button class=" btn btn-outline-primary px-auto">
+                        Flexdesk
+                      </button>
+                    </div>
+
+                  </div>
+                  <!--                  titel soort ruimte-->
+                  <div class="row mt-3">
+                    <div class="col">
+                      <h3 class="fs-5">Voorzieningen</h3>
+                    </div>
+                  </div>
+                  <!--           rij met soorten ruimtes-->
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li class="align-baseline">
+
+                          <span>Internet</span>
+                          <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </section>
+
+
+
+
         <!-- EINDE SIDEBAR -->
         <!-- START CARDWEERGAVE -->
         <section class="col-md-9" id="gevonden_locaties">
