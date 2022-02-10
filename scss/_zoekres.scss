@@ -32,7 +32,7 @@
 /* END HERO*/
 /*SIDEBAR*/
 
-//change default color of placeholder
+//change default color from placeholder
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $primary;
         opacity: 1; /* Firefox */
@@ -73,28 +73,63 @@
         background: $primary;
     }
 /** einde checkboxes aanpassen **/
+
+/** start close-kruisje actieve filters **/
 .kruisje{
     transform: rotate(45deg);
     z-index: 10;
-    transform-origin: 142% 28% ;
+    transform-origin: 125% 43% ;
 
 }
+  // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        .kruisje{
+            transform: rotate(45deg);
+            z-index: 10;
+            transform-origin: 142% 28% ;
+        }
+    }
 
-/** start verwijderen outline rond inputvelden **/
+/** einde close-kruisje actieve filters **/
+
+/** start verwijderen outline date-veld **/
     .form-floating>.form-control {
         padding: 0;
         height: 1.5rem;
         line-height: 0;
         border: none;
+        position: relative;
 
     }
-    .datepickerDesk{
+    .datepickerMob{
+        transform: translate(-15%,-49%);
+        position: absolute;
+    }
+
+    .form-floating>.form-control:focus~label,.form-control:valid~label{
+        opacity: 0;
+        transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+    }
+
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        .form-floating>.form-control {
+            padding: 0;
+            height: 1.5rem;
+            line-height: 0;
+            border: none;
+        }
+        .datepickerDesk{
             transform: translate(-15%,-50%);
+        }
+
     }
-    .datepickerDesk:active{
-        display: none;
-    }
-/** start verwijderen outline rond inputvelden **/
+
+
+
+
+/** einde verwijderen outline date-veld **/
 
 /** start verwijderen outline rond inputvelden **/
     input:focus{
@@ -155,6 +190,8 @@ border-bottom: 2px solid $primary;
     .aantal {
         color: $primary;
     }
+
+
 
 
 
