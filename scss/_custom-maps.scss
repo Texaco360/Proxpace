@@ -7,6 +7,12 @@ $custom-colors: (
 
 );
 
+@each $name , $color in $custom-colors {
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}
+
 // Merge the color maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $colors : map-merge($colors, $custom-colors);
