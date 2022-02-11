@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Proxpace.iml" filepath="$PROJECT_DIR$/.idea/Proxpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proxpace.iml" filepath="$PROJECT_DIR$/.idea/proxpace.iml" />
     </modules>
   </component>
 </project>
