@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fa3085e-2c05-4168-914b-9a202d5bf6a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoekresultaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/zoekresultaten.html" afterDir="false" />
-    </list>
+    <list default="true" id="36f27ac7-7395-4aa4-97e0-811a2c2b1a36" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,85 +10,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpServers">
-    <servers>
-      <server host="localhost" id="330adea1-01e0-4ce7-bbcb-9748ffa7311f" name="localhost" />
-    </servers>
-  </component>
-  <component name="ProjectId" id="240hmAQK2rkO8gCbqjcuVEGSewd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\Proxpace\assets\images\homepage" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="0fa3085e-2c05-4168-914b-9a202d5bf6a3" name="Changes" comment="" />
-      <created>1642773568121</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1642773568121</updated>
-      <workItem from="1642773569647" duration="3997000" />
-      <workItem from="1642838564626" duration="1501000" />
-      <workItem from="1643008741142" duration="978000" />
-      <workItem from="1643025795188" duration="11965000" />
-      <workItem from="1643040569351" duration="7954000" />
-      <workItem from="1643053044680" duration="13499000" />
-      <workItem from="1643282432820" duration="5837000" />
-      <workItem from="1643293473765" duration="423000" />
-      <workItem from="1643293936956" duration="4534000" />
-      <workItem from="1643622472627" duration="1009000" />
-      <workItem from="1643796648671" duration="6839000" />
-      <workItem from="1643810972909" duration="9494000" />
-      <workItem from="1643895422882" duration="165000" />
-      <workItem from="1643971247489" duration="5226000" />
-      <workItem from="1644314267475" duration="4089000" />
-      <workItem from="1644401132783" duration="5074000" />
-      <workItem from="1644423967086" duration="210000" />
-      <workItem from="1644498874161" duration="5643000" />
-      <workItem from="1644564793920" duration="1598000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
