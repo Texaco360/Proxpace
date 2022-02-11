@@ -101,18 +101,48 @@
   <!--EINDE HERO -->
 
   <!--START LOCATIES-->
-  <div class="container-fluid mt-5 mb-5">
+  <div class="container-fluid mt-5 mb-5 p-0">
       <div class="row">
-        <div class="col-8 pb-5 pt-4">
+        <div class="d-none d-md-block col-md-8 pb-5 pt-4">
           <div class="square-line"></div>
         </div>
-        <div class="col-4 justify-content-sm-center  ">
-          <h2><b>Gevonden locaties</b></h2>
-          <div>
-            <i></i>
-            <i></i>
-          </div>
+        <div class="col-9 col-md-3 justify-content-sm-center   ">
+          <h2 class="ms-2"><b>Gevonden locaties</b></h2>
         </div>
+      <!--  <aside class="col-3 d-flex p-0">
+          <div class="nav nav-tabs " id="nav-tab" role="tablist">
+            <button aria-controls="nav-home" aria-selected="true" class="nav-link active" data-bs-target="#nav-home"
+                    data-bs-toggle="tab" id="nav-home-tab" role="tab" type="button">
+              <svg style="width:1.3rem;" viewBox="0 0 486.49 500" xmlns="http://www.w3.org/2000/svg">
+                <g id="Kolommen">
+                  <g data-name="Kolommen" id="Kolommen-2">
+                    <path d="M270.27,223H486.48V94.59A94.59,94.59,0,0,0,391.89,0H270.27Z" fill="#341a4d"/>
+                    <path d="M216.22,223V0H94.59A94.59,94.59,0,0,0,0,94.59V223Z" fill="#341a4d"/>
+                    <path d="M270.27,277V500H391.89a94.59,94.59,0,0,0,94.59-94.59V277Z" fill="#341a4d"/>
+                    <path d="M216.22,277H0V405.41A94.59,94.59,0,0,0,94.59,500H216.22Z" fill="#341a4d"/>
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <button aria-controls="nav-profile" aria-selected="false" class="nav-link" data-bs-target="#nav-profile"
+                    data-bs-toggle="tab" id="nav-profile-tab" role="tab" type="button">
+              <svg style="width:1.3rem;" viewBox="0 0 486.49 500" xmlns="http://www.w3.org/2000/svg">
+                <g id="Lijsten">
+                  <g data-name="Lijsten" id="Lijsten-2">
+                    <path d="M486.48,139.64v-45A94.59,94.59,0,0,0,391.89,0H94.59A94.59,94.59,0,0,0,0,94.59v45Z"
+                          fill="#341a4d"/>
+                    <rect fill="#341a4d" height="112.61" width="486.48" y="193.69"/>
+                    <path d="M0,360.36v45.05A94.59,94.59,0,0,0,94.59,500h297.3a94.59,94.59,0,0,0,94.59-94.59V360.36Z"
+                          fill="#341a4d"/>
+                  </g>
+                </g>
+              </svg>
+            </button>
+
+
+          </div>
+        </aside>-->
+
       </div>
 
       <div class="col-10 mx-auto">
@@ -124,6 +154,7 @@
         </div>
         <!-- EINDE SIDEBAR -->
         <!-- START CARDWEERGAVE -->
+          <!-- TO DO: personen in paars, h3 font size aanpassen, loop in scss schrijven voor kleuren  -->
         <section class="col-md-9" id="gevonden_locaties">
           <div class="row row-cols-lg-3 g-4 mt-4">
             <article class="card border-0 ">
@@ -136,7 +167,7 @@
                 </div>
               </a>
               <div class="card-body p-2" >
-                <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                <h3 class="card-title pt-2 pb-3 ">id punt | Groenbel 10, 8930</h3>
                 <p class="card-text inherit">Some quick example text to build on the card title
                   and make up the bulk of the card's content. Lorem ipsum dolor sit amet
                 </p>
@@ -147,12 +178,12 @@
                   <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
                   <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
                   <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
 
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -174,17 +205,16 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img class="col" alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -206,16 +236,16 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
 
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -238,16 +268,16 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
 
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -269,16 +299,16 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
 
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -301,16 +331,16 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
 
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
+                       style="width:1.3rem;">
                   <span style="height:1.3rem;" class="aantal"> x 50</span>
                 </div>
               </div>
@@ -331,14 +361,17 @@
               </div>
               <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                 <div class="row-cols-3">
-                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                  <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
+                  <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+
                 </div>
                 <div class=" align-content-end">
                   <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                       style="width:1.8rem;">
-                  <span style="height:1.3rem;" class="aantal"> x 50</span>
+                       style="width:1.3rem;">
+                  <span style="height:1.3rem;" class=""> x 50</span>
                 </div>
               </div>
             </article>
