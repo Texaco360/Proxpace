@@ -1,11 +1,65 @@
-@import "scss/_home";
-
 /** START SIDEBAR **/
 /** END SIDEBAR **/
-
 
 /** START CARDS **/
 /** END CARDS **/
 
 /** START DETAIL**/
+h1 {
+
+}
+
+h2 {
+
+}
+
+.artikel {
+  columns: 2;
+  column-gap: 6%;
+
+  .foto {
+	position: relative;
+
+	.img-foto {
+	  border: 1px solid $gray-600;
+	  border-radius: 60px;
+	}
+
+	.img-driehoek {
+	  position: absolute;
+	  bottom: 0;
+	  left: 50px;
+	  width: 50%;
+	}
+  }
+}
+
+.auteur {
+  .auteur-foto {
+	margin-right: 40px;
+	img {
+	  border-radius: 20px;
+	}
+
+  }
+}
+.carousel-item {
+  img {
+	border-radius: 30px;
+  }
+}
+
+.carousel-caption {
+  position: initial;
+  bottom: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: inherit;
+
+  h5 {
+	font-weight: 600;
+	line-height: 1.5;
+  }
+}
+
 /** END DETAIL**/

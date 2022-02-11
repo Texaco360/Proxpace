@@ -18,5 +18,3 @@ $fdir:'../fonts';
     @include opensans.fontFace($weight:#{$fweight},$style:#{$fstyle},$fontDir:#{$fdir},$unicodeMap:latin)
   }
 }
-
-
