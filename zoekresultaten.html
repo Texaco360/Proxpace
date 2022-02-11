@@ -1,1005 +1,1197 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <meta name="author" content="Syntra West">
-  <meta name="desription" content="Proxpace Site">
-  <meta name="keywords" content="Office,kantoor huren,werkplek">
-  <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="Proxpace" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.syntrawestcloud.be/fullstack/koenraad/proxspace/" />
-  <meta property="og:image" content="https://www.syntrawestcloud.be/fullstack/koenraad/assets/images/homepage/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.png" />
-  <meta property="og:description" content="Your office, outside the office" />
-  <title>Proxpace Your office, outside the office </title>
-  <link href="assets/css/style.min.css" rel="stylesheet">
-<!--  css voor datepicker-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs5.min.css">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Syntra West" name="author">
+    <meta content="Proxpace Site" name="desription">
+    <meta content="Office,kantoor huren,werkplek" name="keywords">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Proxpace" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://www.syntrawestcloud.be/fullstack/koenraad/proxspace/" property="og:url"/>
+    <meta content="https://www.syntrawestcloud.be/fullstack/koenraad/assets/images/homepage/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.png"
+          property="og:image"/>
+    <meta content="Your office, outside the office" property="og:description"/>
+    <title>Proxpace Your office, outside the office </title>
+    <link href="assets/css/style.min.css" rel="stylesheet">
+    <!--  css voor datepicker-->
+    <link href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker-bs5.min.css"
+          rel="stylesheet">
 
+    <!--  links mapbox-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'/>
 
 </head>
 <body>
 <!--START HEADER EN NAVBAR  -->
 <header>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-xl-10 mx-auto">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid mt-2 mb-3 mt-lg-4 mb-lg-5">
-            <a class="navbar-brand d-none d-lg-block pe-4 w-50 pt-0" href="#">
-              <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="Proxpace" width="375" class="img-fluid ">
-            </a>
-            <a class="navbar-brand d-lg-none w-50" href="#">
-              <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="Proxpace" class=" img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end text-primary mt-0" id="navbarSupportedContent">
-              <ul id="nav-content-desktop" class="navbar-nav" >
-                <div class="d-flex justify-content-end pt-1 pb-3  d-lg-none">
-                  <a href="#" class="nav-link p-0 active"><span class="text-primary">NL</span>/</a>
-                  <a href="#" class="nav-link p-0">EN/</a>
-                  <a href="#" class="nav-link py-0 ps-0">FR</a>
-                </div>
-                <li class="nav-item order-lg-2 d-grid gap-2 d-lg-block">
-                  <a class="btn btn-secondary btn-lg text-light me-4 mt-3 mt-lg-5" href="#">
-                    <div class="px-3 fs-5 ">
-                      HUREN
-                    </div>
-                  </a>
-                </li>
-                <li class="nav-item order-lg-3 ">
-                  <div class="pe-4 d-grid gap-2 d-lg-block">
-                    <a class="btn btn-outline-secondary btn-lg fs-5 mt-3 mt-lg-5" href="#">VERHUREN</a>
-                  </div>
-                </li>
-                <li class="nav-item order-lg-1">
-                  <div class="pe-4 pt-3 pt-lg-5">
-                    <a class="nav-link fs-5" aria-current="page" href="#">BLOG</a>
-                  </div>
-                </li>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xl-10 mx-auto">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid mt-2 mb-3 mt-lg-4 mb-lg-5">
+                        <a class="navbar-brand d-none d-lg-block pe-4 w-50 pt-0" href="#">
+                            <img alt="Proxpace" class="img-fluid " src="./assets/images/logo-icons/logo_proxpace.svg"
+                                 width="375">
+                        </a>
+                        <a class="navbar-brand d-lg-none w-50" href="#">
+                            <img alt="Proxpace" class=" img-fluid" src="./assets/images/logo-icons/logo_proxpace.svg">
+                        </a>
+                        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                                class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                                data-bs-toggle="collapse" type="button">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end text-primary mt-0"
+                             id="navbarSupportedContent">
+                            <ul class="navbar-nav" id="nav-content-desktop">
+                                <div class="d-flex justify-content-end pt-1 pb-3  d-lg-none">
+                                    <a class="nav-link p-0 active" href="#"><span class="text-primary">NL</span>/</a>
+                                    <a class="nav-link p-0" href="#">EN/</a>
+                                    <a class="nav-link py-0 ps-0" href="#">FR</a>
+                                </div>
+                                <li class="nav-item order-lg-2 d-grid gap-2 d-lg-block">
+                                    <a class="btn btn-secondary btn-lg text-light me-4 mt-3 mt-lg-5" href="#">
+                                        <div class="px-3 fs-5 ">
+                                            HUREN
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item order-lg-3 ">
+                                    <div class="pe-4 d-grid gap-2 d-lg-block">
+                                        <a class="btn btn-outline-secondary btn-lg fs-5 mt-3 mt-lg-5"
+                                           href="#">VERHUREN</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item order-lg-1">
+                                    <div class="pe-4 pt-3 pt-lg-5">
+                                        <a aria-current="page" class="nav-link fs-5" href="#">BLOG</a>
+                                    </div>
+                                </li>
 
-                <li class="order-lg-4 pt-lg-4">
-                  <div class="nav-item d-none justify-content-end pt-1 d-lg-flex">
-                    <a href="#" class="nav-link p-0 "><span class="text-primary">NL</span>/</a>
-                    <a href="#" class="nav-link p-0 ">EN/</a>
-                    <a href="#" class="nav-link py-0 ps-0">FR</a>
-                  </div>
-                  <div class="text-start text-lg-end pt-1 pt-lg-0">
-                    <div class="d-lg-flex nav-item ">
-                      <a class="nav-link fs-5" aria-current="page" href="#">LOGIN</a>
-                      <span class="nav-link fs-5 px-0 d-none d-lg-inline">/</span>
-                      <a class="nav-link fs-5" aria-current="page" href="#">REGISTREER</a>
+                                <li class="order-lg-4 pt-lg-4">
+                                    <div class="nav-item d-none justify-content-end pt-1 d-lg-flex">
+                                        <a class="nav-link p-0 " href="#"><span class="text-primary">NL</span>/</a>
+                                        <a class="nav-link p-0 " href="#">EN/</a>
+                                        <a class="nav-link py-0 ps-0" href="#">FR</a>
+                                    </div>
+                                    <div class="text-start text-lg-end pt-1 pt-lg-0">
+                                        <div class="d-lg-flex nav-item ">
+                                            <a aria-current="page" class="nav-link fs-5" href="#">LOGIN</a>
+                                            <span class="nav-link fs-5 px-0 d-none d-lg-inline">/</span>
+                                            <a aria-current="page" class="nav-link fs-5" href="#">REGISTREER</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
-                </li>
-              </ul>
+                </nav>
             </div>
-          </div>
-        </nav>
-      </div>
+        </div>
     </div>
-  </div>
 </header>
 
 <!--EINDE HEADER EN NAVBAR-->
 <!--START MAIN -->
 <main class="zoekres">
-  <!--START HERO -->
-  <section class="container-fluid p-0 position-relative">
-    <h1 class="text-white fw-bold  mb-4 position-absolute center">Vind je werkruimte </h1>
-    <div class="row ">
-      <div id="header" class="col-12 ">
-        <img src="assets/images/zoekres/headerdesk.png" alt="hero-img" class="hero-img img-fluid d-md-block">
-      </div>
-      <img src="assets/images/zoekres/hero-triangle.png" alt="hero-triangle" class="position-absolute hero-triangle d-none d-md-block p-0 end">
-    </div>
-
-  </section>
-  <!--EINDE HERO -->
-
-  <!--START LOCATIES-->
-
-
-
-
-  <div class="container-fluid mt-5 mb-5">
-      <div class="row">
-        <div class="col-8 pb-5 pt-4">
-          <div class="square-line"></div>
-        </div>
-        <div class="col-4 justify-content-sm-center  ">
-          <h2><b>Gevonden locaties</b></h2>
-          <div>
-            <i></i>
-            <i></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-10 mx-auto">
+    <!--START HERO -->
+    <section class="container-fluid p-0 position-relative">
+        <h1 class="text-white fw-bold  mb-4 position-absolute center">Vind je werkruimte </h1>
         <div class="row ">
-        <!-- START SIDEBAR -->
-
-          <section class="col-lg-3 mt-4">
-<!--            offcanvas voor mobile-->
-            <div class="d-grid gap-2 fixed-bottom d-lg-none">
-              <button class="btn btn-primary d-flex align-baseline justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                <img class="mx-2" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
-                Filters
-              </button>
+            <div class="col-12 " id="header">
+                <img alt="hero-img" class="hero-img img-fluid d-md-block" src="assets/images/zoekres/headerdesk.png">
             </div>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-              <div class="offcanvas-header mt-3">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-              </div>
-              <div class="offcanvas-body px-5">
-                <div class="row ">
-                  <div class="col">
-                    <h3 class="fs-5">Actieve filters</h3>
-                  </div>
-                </div>
+            <img alt="hero-triangle" class="position-absolute hero-triangle d-none d-md-block p-0 end"
+                 src="assets/images/zoekres/hero-triangle.png">
+        </div>
+
+    </section>
+    <!--EINDE HERO -->
+
+    <!--START LOCATIES-->
+
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row">
+            <div class="col-8 pb-5 pt-4">
+                <div class="square-line"></div>
+            </div>
+            <div class="col-4 justify-content-sm-center  ">
+                <h2><b>Gevonden locaties</b></h2>
                 <div>
-                  <!--                  rij met actieve filters-->
-                  <div class="row">
-                    <div class="col d-flex flex-wrap  ">
-
-                      <button  class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Internet</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Computers</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Parkeergelegenheid</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Fietsenstalling</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Flexdesk</p>
-                      </button>
-
-
-                    </div>
-                  </div>
-                  <!--                  rij met inputvelden-->
-                  <div class="row mt-5">
-                    <div class="col">
-                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
-                        <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
-                      </div>
-
-                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
-                        <div class="form-floating  d-flex">
-                          <input type="text" name="datepickerEen" class="shadow-none datepicker_input form-control datepicker-input " id="datepickerMob"
-                                 required="" placeholder="DD/MM/YYYY">
-                          <label for="datepickerMob" class="datepickerMob ">Datum</label>
-                        </div>
-
-                      </div>
-                      <div class="input-group  px-2 lijnInput mb-3 mt-4">
-                        <input type="number" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
-                      </div>
-
-                      <div class="input-group input-group mt-4  ">
-                        <label for="maxAfstandMob" class="ps-2">
-                          Max. afstand: 50 km
-                        </label>
-                        <input type="range" class="maxAfstand form-range  "
-                               id="maxAfstandMob" aria-describedby="maxAfstandMob">
-                      </div>
-                    </div>
-                  </div>
-                  <!--                  titel soort ruimte-->
-                  <div class="row mt-3">
-                    <div class="col">
-                      <h3 class="fs-5 mb-3">Soort ruimte</h3>
-                    </div>
-                  </div>
-                  <!--           rij met soorten ruimtes-->
-                  <div class="row">
-                    <div class="col d-grid gap-2">
-                      <button class=" btn btn-outline-cowodesk px-auto">
-                        <span class="text-primary">Kantoorruimte</span>
-                      </button>
-                      <button class=" btn btn-outline-meetdesk px-auto">
-                        <span class="text-primary">Vergaderruimte</span>
-                      </button>
-                      <button class=" btn btn-outline-polydesk px-auto">
-                        <span class="text-primary">Polyvalente ruimte</span>
-                      </button>
-                      <button class=" btn btn-outline-flexdesk px-auto">
-                        <span class="text-primary">Flexdesk</span>
-                      </button>
-                    </div>
-
-                  </div>
-                  <!--                  titel voorzieningen-->
-                  <div class="row mt-5">
-                    <div class="col">
-                      <h3 class="fs-5 mb-3">Voorzieningen</h3>
-                    </div>
-                  </div>
-                  <!--           rij met voorzieningen-->
-                  <div class="row">
-                    <div class="col">
-                      <ul class="list-unstyled">
-                        <li>
-                          <div class="form-check px-0">
-                            <input class="form-check-input" type="checkbox" value="" id="checkbox4">
-                            <label class="form-check-label" for="checkbox4">
-                              <span class="">Internet</span>
-                              <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;" class="mx-2">
-                            </label>
-                          </div>
-                        </li>
-                        <li class="d-flex flex-row">
-                          <div class="form-check px-0">
-                            <input class="form-check-input" type="checkbox" value="" id="checkbox5">
-                            <label class="form-check-label" for="checkbox5">
-                              <span class="">Computers</span>
-                              <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;" class="mx-2">
-                            </label>
-                          </div>
-                        </li>
-                        <li class="d-flex flex-row">
-                          <div class="form-check px-0">
-                            <input class="form-check-input" type="checkbox" value="" id="checkbox6">
-                            <label class="form-check-label" for="checkbox6">
-                              <span class="">Parkeergelegenheid</span>
-                              <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;" class="mx-2">
-                            </label>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col someEmptySpace"><br><br><br></div>
-                  </div>
-<!--                  knop filters toepassen-->
-                  <div class="row ">
-                    <div class="col d-grid gap-2 fixed-bottom ">
-                      <button class=" btn btn-outline-primary px-auto bg-white ms-4 ">
-                        <span class="text-primary ">Filters toepassen </span>
-                      </button>
-                    </div>
-                  </div>
+                    <i></i>
+                    <i></i>
                 </div>
-
-
-              </div>
             </div>
-<!--            gewoon voor desktop-->
-            <div class="d-none d-lg-block">
-              <div class="row mt-4 px-3">
-                <div class="col">
-                  <h3 class="fs-5 fw-bold">Actieve filters</h3>
-                </div>
-              </div>
-              <div class="px-3">
-                <!--                  rij met actieve filters-->
-                <div class="row">
-                  <div class="col d-flex flex-wrap px-0 ">
+        </div>
 
-                      <button  class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Internet</p>
-                      </button>
+        <div class="col-10 mx-auto">
+            <div class="row ">
+                <!-- START SIDEBAR -->
 
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Computers</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Parkeergelegenheid</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Fietsenstalling</p>
-                      </button>
-
-
-                      <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
-                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
-                        <p class=" m-0 ps-4">Flexdesk</p>
-                      </button>
-
-
-                  </div>
-                </div>
-                <!--                  rij met inputvelden-->
-                <div class="row mt-5">
-                  <div class="col">
-                    <div class="input-group  px-2 lijnInput mb-3 mt-4 ">
-                      <input type="text" placeholder="Locatie" name="" class="zoekresFiltersInput text-primary border-0">
+                <section class="col-lg-3 mt-4">
+                    <!--            offcanvas voor mobile-->
+                    <div class="d-grid gap-2 fixed-bottom d-lg-none">
+                        <button aria-controls="offcanvasExample" class="btn btn-primary d-flex align-baseline justify-content-center"
+                                data-bs-target="#offcanvasExample" data-bs-toggle="offcanvas"
+                                type="button">
+                            <img alt="icon" class="mx-2" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                            Filters
+                        </button>
                     </div>
-                    <div class="input-group px-2 lijnInput mb-3 mt-4">
-                      <div class="myDatepicker form-floating d-flex">
-                        <input type="text" name="datepickerTwee" class="shadow-none form-control position-relative " id="datepickerDesk"
-                               required="" placeholder="DD/MM/YYYY">
-                        <label for="datepickerDesk" class="datepickerDesk position-absolute">Datum</label>
-                      </div>
-                    </div>
-                    <div class="input-group  px-2 lijnInput mb-3 mt-4">
-                      <input type="number" min="0" placeholder="Aantal personen" name="" class="zoekresFiltersInput text-primary border-0">
-                    </div>
-                    <div class="input-group input-group mt-4  ">
-                        <label for="maxAfstand" class="ps-2">
-                          Max. afstand: 50 km
-                        </label>
-                      <input type="range" class="maxAfstand form-range  "
-                             id="maxAfstand" aria-describedby="maxAfstand">
-                    </div>
-                  </div>
-                </div>
-                <!--                  titel soort ruimte-->
-                <div class="row mt-3">
-                  <div class="col">
-                    <h3 class="fs-5 mb-3 fw-bold">Soort ruimte</h3>
-                  </div>
-                </div>
-                <!--           rij met soorten ruimtes-->
-                <div class="row">
-                  <div class="col d-grid gap-2">
-                    <button class=" btn btn-outline-cowodesk  px-auto">
-                      <span class="text-primary">Kantoorruimte</span>
-                    </button>
-                    <button class=" btn btn-outline-meetdesk px-auto">
-                      <span class="text-primary">Vergaderruimte</span>
-                    </button>
-                    <button class=" btn btn-outline-polydesk px-auto">
-                      <span class="text-primary">Polyvalente ruimte</span>
-                    </button>
-                    <button class=" btn btn-outline-flexdesk px-auto">
-                      <span class="text-primary">Flexdesk</span>
-                    </button>
-                  </div>
-
-                </div>
-                <!--                  titel voorzieningen-->
-                <div class="row mt-5">
-                  <div class="col">
-                    <h3 class="fs-5 mb-3 fw-bold">Voorzieningen</h3>
-                  </div>
-                </div>
-                <!--           rij met voorzieningen-->
-                <div class="row">
-                  <div class="col">
-                    <ul class="list-unstyled">
-                      <li>
-                        <div class="form-check px-0">
-                          <input class="form-check-input" type="checkbox" value="" id="checkbox1">
-                          <label class="form-check-label" for="checkbox1">
-                            <span class="">Internet</span>
-                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;" class="mx-2">
-                          </label>
+                    <div aria-labelledby="offcanvasExampleLabel" class="offcanvas offcanvas-start" id="offcanvasExample"
+                         tabindex="-1">
+                        <div class="offcanvas-header mt-3">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                            <button aria-label="Close" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    type="button"></button>
                         </div>
-                      </li>
-                      <li class="d-flex flex-row">
-                        <div class="form-check px-0">
-                          <input class="form-check-input" type="checkbox" value="" id="checkbox2">
-                          <label class="form-check-label" for="checkbox2">
-                            <span class="">Computers</span>
-                            <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;" class="mx-2">
-                          </label>
+                        <div class="offcanvas-body px-5">
+                            <div class="row ">
+                                <div class="col">
+                                    <h3 class="fs-5">Actieve filters</h3>
+                                </div>
+                            </div>
+                            <div>
+                                <!--                  rij met actieve filters-->
+                                <div class="row">
+                                    <div class="col d-flex flex-wrap  ">
+
+                                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                            <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                            <p class=" m-0 ps-4">Internet</p>
+                                        </button>
+
+
+                                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                            <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                            <p class=" m-0 ps-4">Computers</p>
+                                        </button>
+
+
+                                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                            <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                            <p class=" m-0 ps-4">Parkeergelegenheid</p>
+                                        </button>
+
+
+                                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                            <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                            <p class=" m-0 ps-4">Fietsenstalling</p>
+                                        </button>
+
+
+                                        <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                            <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                            <p class=" m-0 ps-4">Flexdesk</p>
+                                        </button>
+
+
+                                    </div>
+                                </div>
+                                <!--                  rij met inputvelden-->
+                                <div class="row mt-5">
+                                    <div class="col">
+                                        <div class="input-group  px-2 lijnInput mb-3 mt-4">
+                                            <input class="zoekresFiltersInput text-primary border-0" name="" placeholder="Locatie"
+                                                   type="text">
+                                        </div>
+
+                                        <div class="input-group  px-2 lijnInput mb-3 mt-4">
+                                            <div class="form-floating  d-flex">
+                                                <input class="shadow-none datepicker_input form-control datepicker-input " id="datepickerMob"
+                                                       name="datepickerEen"
+                                                       placeholder="DD/MM/YYYY"
+                                                       required="" type="text">
+                                                <label class="datepickerMob " for="datepickerMob">Datum</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="input-group  px-2 lijnInput mb-3 mt-4">
+                                            <input class="zoekresFiltersInput text-primary border-0" name="" placeholder="Aantal personen"
+                                                   type="number">
+                                        </div>
+
+                                        <div class="input-group input-group mt-4  ">
+                                            <label class="ps-2" for="maxAfstandMob">
+                                                Max. afstand: 50 km
+                                            </label>
+                                            <input aria-describedby="maxAfstandMob" class="maxAfstand form-range  "
+                                                   id="maxAfstandMob" type="range">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                  titel soort ruimte-->
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <h3 class="fs-5 mb-3">Soort ruimte</h3>
+                                    </div>
+                                </div>
+                                <!--           rij met soorten ruimtes-->
+                                <div class="row">
+                                    <div class="col d-grid gap-2">
+                                        <button class=" btn btn-outline-cowodesk px-auto">
+                                            <span class="text-primary">Kantoorruimte</span>
+                                        </button>
+                                        <button class=" btn btn-outline-meetdesk px-auto">
+                                            <span class="text-primary">Vergaderruimte</span>
+                                        </button>
+                                        <button class=" btn btn-outline-polydesk px-auto">
+                                            <span class="text-primary">Polyvalente ruimte</span>
+                                        </button>
+                                        <button class=" btn btn-outline-flexdesk px-auto">
+                                            <span class="text-primary">Flexdesk</span>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <!--                  titel voorzieningen-->
+                                <div class="row mt-5">
+                                    <div class="col">
+                                        <h3 class="fs-5 mb-3">Voorzieningen</h3>
+                                    </div>
+                                </div>
+                                <!--           rij met voorzieningen-->
+                                <div class="row">
+                                    <div class="col">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <div class="form-check px-0">
+                                                    <input class="form-check-input" id="checkbox4" type="checkbox"
+                                                           value="">
+                                                    <label class="form-check-label" for="checkbox4">
+                                                        <span class="">Internet</span>
+                                                        <img alt="icon" class="mx-2"
+                                                             src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex flex-row">
+                                                <div class="form-check px-0">
+                                                    <input class="form-check-input" id="checkbox5" type="checkbox"
+                                                           value="">
+                                                    <label class="form-check-label" for="checkbox5">
+                                                        <span class="">Computers</span>
+                                                        <img alt="icon" class="mx-2"
+                                                             src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex flex-row">
+                                                <div class="form-check px-0">
+                                                    <input class="form-check-input" id="checkbox6" type="checkbox"
+                                                           value="">
+                                                    <label class="form-check-label" for="checkbox6">
+                                                        <span class="">Parkeergelegenheid</span>
+                                                        <img alt="icon" class="mx-2"
+                                                             src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                                                    </label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col someEmptySpace"><br><br><br></div>
+                                </div>
+                                <!--                  knop filters toepassen-->
+                                <div class="row ">
+                                    <div class="col d-grid gap-2 fixed-bottom ">
+                                        <button class=" btn btn-outline-primary px-auto bg-white ms-4 ">
+                                            <span class="text-primary ">Filters toepassen </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
-                      </li>
-                      <li class="d-flex flex-row">
-                        <div class="form-check px-0">
-                          <input class="form-check-input" type="checkbox" value="" id="checkbox3">
-                          <label class="form-check-label" for="checkbox3">
-                            <span class="">Parkeergelegenheid</span>
-                            <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;" class="mx-2">
-                          </label>
+                    </div>
+                    <!--            gewoon voor desktop-->
+                    <div class="d-none d-lg-block">
+                        <div class="row mt-4 px-3">
+                            <div class="col">
+                                <h3 class="fs-5 fw-bold">Actieve filters</h3>
+                            </div>
                         </div>
-                      </li>
+                        <div class="px-3">
+                            <!--                  rij met actieve filters-->
+                            <div class="row">
+                                <div class="col d-flex flex-wrap px-0 ">
+
+                                    <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                        <p class=" m-0 ps-4">Internet</p>
+                                    </button>
+
+
+                                    <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                        <p class=" m-0 ps-4">Computers</p>
+                                    </button>
+
+
+                                    <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                        <p class=" m-0 ps-4">Parkeergelegenheid</p>
+                                    </button>
+
+
+                                    <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                        <p class=" m-0 ps-4">Fietsenstalling</p>
+                                    </button>
+
+
+                                    <button class="btn btn-outline-primary btn-sm py-1 my-1 mx-2 d-flex flex-row position-relative">
+                                        <p class="fs-1 fw-light kruisje m-0 position-absolute">+</p>
+                                        <p class=" m-0 ps-4">Flexdesk</p>
+                                    </button>
+
+
+                                </div>
+                            </div>
+                            <!--                  rij met inputvelden-->
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <div class="input-group  px-2 lijnInput mb-3 mt-4 ">
+                                        <input class="zoekresFiltersInput text-primary border-0" name="" placeholder="Locatie"
+                                               type="text">
+                                    </div>
+                                    <div class="input-group px-2 lijnInput mb-3 mt-4">
+                                        <div class="myDatepicker form-floating d-flex">
+                                            <input class="shadow-none form-control position-relative " id="datepickerDesk"
+                                                   name="datepickerTwee"
+                                                   placeholder="DD/MM/YYYY"
+                                                   required="" type="text">
+                                            <label class="datepickerDesk position-absolute"
+                                                   for="datepickerDesk">Datum</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-group  px-2 lijnInput mb-3 mt-4">
+                                        <input class="zoekresFiltersInput text-primary border-0" min="0" name="" placeholder="Aantal personen"
+                                               type="number">
+                                    </div>
+                                    <div class="input-group input-group mt-4  ">
+                                        <label class="ps-2" for="maxAfstand">
+                                            Max. afstand: 50 km
+                                        </label>
+                                        <input aria-describedby="maxAfstand" class="maxAfstand form-range  "
+                                               id="maxAfstand" type="range">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--                  titel soort ruimte-->
+                            <div class="row mt-3">
+                                <div class="col">
+                                    <h3 class="fs-5 mb-3 fw-bold">Soort ruimte</h3>
+                                </div>
+                            </div>
+                            <!--           rij met soorten ruimtes-->
+                            <div class="row">
+                                <div class="col d-grid gap-2">
+                                    <button class=" btn btn-outline-cowodesk  px-auto">
+                                        <span class="text-primary">Kantoorruimte</span>
+                                    </button>
+                                    <button class=" btn btn-outline-meetdesk px-auto">
+                                        <span class="text-primary">Vergaderruimte</span>
+                                    </button>
+                                    <button class=" btn btn-outline-polydesk px-auto">
+                                        <span class="text-primary">Polyvalente ruimte</span>
+                                    </button>
+                                    <button class=" btn btn-outline-flexdesk px-auto">
+                                        <span class="text-primary">Flexdesk</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <!--                  titel voorzieningen-->
+                            <div class="row mt-5">
+                                <div class="col">
+                                    <h3 class="fs-5 mb-3 fw-bold">Voorzieningen</h3>
+                                </div>
+                            </div>
+                            <!--           rij met voorzieningen-->
+                            <div class="row">
+                                <div class="col">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="form-check px-0">
+                                                <input class="form-check-input" id="checkbox1" type="checkbox" value="">
+                                                <label class="form-check-label" for="checkbox1">
+                                                    <span class="">Internet</span>
+                                                    <img alt="icon" class="mx-2"
+                                                         src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex flex-row">
+                                            <div class="form-check px-0">
+                                                <input class="form-check-input" id="checkbox2" type="checkbox" value="">
+                                                <label class="form-check-label" for="checkbox2">
+                                                    <span class="">Computers</span>
+                                                    <img alt="icon" class="mx-2"
+                                                         src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="d-flex flex-row">
+                                            <div class="form-check px-0">
+                                                <input class="form-check-input" id="checkbox3" type="checkbox" value="">
+                                                <label class="form-check-label" for="checkbox3">
+                                                    <span class="">Parkeergelegenheid</span>
+                                                    <img alt="icon" class="mx-2"
+                                                         src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--                  knop filters toepassen-->
+                            <div class="row mt-5">
+                                <div class="col d-grid gap-2">
+                                    <button class=" btn btn-outline-primary px-auto bg-white ">
+                                        <span class="text-primary">Filters toepassen </span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- EINDE SIDEBAR -->
+                <!-- START CARDWEERGAVE -->
+                <section class="col-md-9" id="gevonden_locaties">
+                    <!--START TABS-->
+                    <ul class="nav nav-tabs border-0 justify-content-end" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="home" aria-selected="true" class="nav-link active" data-bs-target="#home"
+                                    data-bs-toggle="tab" id="home-tab" role="tab" type="button"><i
+                                    class="bi bi-grid-3x2-gap-fill fs-3"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="profile" aria-selected="false" class="nav-link" data-bs-target="#profile"
+                                    data-bs-toggle="tab" id="profile-tab" role="tab" type="button"><i
+                                    class="bi bi-list fs-3"></i></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button aria-controls="contact" aria-selected="false" class="nav-link" data-bs-target="#contact"
+                                    data-bs-toggle="tab" id="contact-tab" role="tab" type="button"><i
+                                    class="bi bi-geo-alt-fill fs-3"></i></button>
+                        </li>
                     </ul>
-                  </div>
-                </div>
+                    <!--EINDE TABS-->
+                    <!--START TAB-INHOUD-->
+                    <div class="tab-content" id="myTabContent">
+                        <!--START INHOUD MET CARDS-->
+                        <div aria-labelledby="home-tab" class="tab-pane fade show active" id="home" role="tabpanel">
+                            <div class="row row-cols-lg-3 g-4 mt-4">
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                 style="width:1.3rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:1.3rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:1.3rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:1.6rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
 
-                <!--                  knop filters toepassen-->
-                <div class="row mt-5">
-                  <div class="col d-grid gap-2">
-                    <button class=" btn btn-outline-primary px-auto bg-white ">
-                      <span class="text-primary">Filters toepassen </span>
-                    </button>
-                  </div>
-                </div>
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. amet cumque ipsam molestiae nam
+                                            pariatur perferendis.
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/wifi.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/wifi.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" class="col" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3">Polyvalente ruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
 
-              </div>
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3">Coworking Desk</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
 
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
+                                            consectetur adipisicing elit.
+                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="card border-0 ">
+                                    <a class="text-decoration-none" href="">
+                                        <div ;
+                                             class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                            <div class="position-absolute position">
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="card-body p-2">
+                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
+                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                            Adipisci, error.</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                        <div class="row-cols-3">
+                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                 style="width:2.2rem;">
+                                        </div>
+                                        <div class=" align-content-end">
+                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                 style="width:1.8rem;">
+                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        </div>
+                                    </div>
+                                </article>
+                                <!-- <article class="card border-0 pb-5">
+                                     <a class="text-decoration-none" href="">
+                                       &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
+                                       <div class="position-relative overflow-hidden mycard">
+                                         <img class="card-img-top img-fluid "
+                                              src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                              style=" height: 445px; object-fit: cover; object-position: 100% ;">
+                                       </div>
+
+                                       <div class="position-absolute ps-5 ">
+                                         <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                                       </div>
+
+                                       <div class="card-body p-2" >
+                                         <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                         <p class="card-text inherit">Some quick example text to build on the card title
+                                           and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                           Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
+                                           Adipisci, error.</p>
+                                       </div>
+                                       <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                         <div class="col-9">
+                                           <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                           <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                           <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                           <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                         </div>
+                                         <div class="col-3 align-content-end">
+                                           <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                style="width:1.8rem;">
+                                           <span style="height:1.3rem;"> x 50</span>
+                                         </div>
+                                       </div>
+                                     </a>
+                                   </article>
+                                 <article class="card border-0 pb-5">
+                                   <a class="text-decoration-none" href="">
+                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
+                                     <div class="position-relative overflow-hidden mycard">
+                                       <img class="card-img-top img-fluid " src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
+                                     </div>
+
+                                     <div class="position-absolute ps-5 ">
+                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                                     </div>
+
+                                     <div class="card-body p-2" >
+                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                       <p class="card-text inherit">Some quick example text to build on the card title
+                                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+                                         Beatae dolores dolorum magnam quaerat quasi rem tenetur voluptatum? Eaque, laudantium odit.
+                                         Adipisci, error.</p>
+                                     </div>
+                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                       <div class="col-9">
+                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                       </div>
+                                       <div class="col-3 align-content-end">
+                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                              style="width:1.8rem;">
+                                         <span style="height:1.3rem;"> x 50</span>
+                                       </div>
+                                     </div>
+                                   </a>
+                                 </article>
+                                 <article class="card border-0 pb-5">
+                                   <a class="text-decoration-none" href="">
+                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
+                                     <div class="position-relative overflow-hidden mycard">
+                                       <img class="card-img-top img-fluid "
+                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
+                                     </div>
+
+                                     <div class="position-absolute ps-5 ">
+                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                                     </div>
+
+                                     <div class="card-body p-2" >
+                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                       <p class="card-text inherit">Some quick example text to build on the card title
+                                         Adipisci, error. </p>
+                                     </div>
+                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                       <div class="col-9">
+                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                       </div>
+                                       <div class="col-3 align-content-end">
+                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                              style="width:1.8rem;">
+                                         <span style="height:1.3rem;"> x 50</span>
+                                       </div>
+                                     </div>
+                                   </a>
+                                 </article>
+                                 <article class="card border-0 pb-5">
+                                   <a class="text-decoration-none" href="">
+                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
+                                     <div class="position-relative overflow-hidden mycard">
+                                       <img class="card-img-top img-fluid "
+                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
+                                     </div>
+
+                                     <div class="position-absolute ps-5 pb-2">
+                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                                     </div>
+
+                                     <div class="card-body p-2" >
+                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                       <p class="card-text inherit">Some quick example text to build on the card title
+                                         Aliquid amet cumque ipsam  nam pariatur perferendis.
+                                         Adipisci, error.</p>
+                                     </div>
+                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                       <div class="col-9">
+                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                       </div>
+                                       <div class="col-3 align-content-end">
+                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                              style="width:1.8rem;">
+                                         <span style="height:1.3rem;"> x 50</span>
+                                       </div>
+                                     </div>
+                                   </a>
+                                 </article>
+                                 <article class="card border-0 pb-5">
+                                   <a class="text-decoration-none" href="">
+                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
+                                     <div class="position-relative overflow-hidden mycard">
+                                       <img class="card-img-top img-fluid "
+                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
+                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
+                                     </div>
+
+                                     <div class="position-absolute ps-5 pb-2">
+                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
+                                     </div>
+
+                                     <div class="card-body p-2" >
+                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
+                                       <p class="card-text inherit">Some quick example text to build on the card title
+                                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                         Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
+                                         Adipisci, error.</p>
+                                     </div>
+                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
+                                       <div class="col-9">
+                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
+                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
+                                       </div>
+                                       <div class="col-3 align-content-end">
+                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                              style="width:1.8rem;">
+                                         <span style="height:1.3rem;"> x 50</span>
+                                       </div>
+                                     </div>
+                                   </a>
+                                 </article>-->
+                            </div>
+                        </div>
+                        <!--EINDE INHOUD MET CARDS-->
+                        <!-- LIJSTWEERGAVE START -->
+                        <div aria-labelledby="profile-tab" class="tab-pane fade" id="profile" role="tabpanel">...
+
+
+                        </div>
+                        <!-- LIJSTWEERGAVE EINDE -->
+                        <!-- KAARTWEERGAVE START -->
+                        <div aria-labelledby="contact-tab" class="tab-pane fade" id="contact" role="tabpanel">
+                            <div class="row justify-content-between">
+                                <div class="col-6">
+                                    <article class="card-sm border-0 py-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-4">
+                                                <a class="text-decoration-none" href="">
+                                                    <div ;
+                                                         class=" location_image mycard"
+                                                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="card-body pb-5">
+                                                    <h3 class="card-title">Card title</h3>
+                                                </div>
+                                                <div>
+                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                </div>
+                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                    <div class="row-cols-3">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                             style="width:1.6rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:2rem;">
+                                                    </div>
+                                                    <div class=" align-content-end">
+                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                             style="width:1.8rem;">
+                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="card-sm border-0 py-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-4">
+                                                <a class="text-decoration-none" href="">
+                                                    <div ;
+                                                         class=" location_image mycard"
+                                                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="card-body pb-5">
+                                                    <h3 class="card-title">Card title</h3>
+                                                </div>
+                                                <div>
+                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                </div>
+                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                    <div class="row-cols-3">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                             style="width:1.6rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:2rem;">
+                                                    </div>
+                                                    <div class=" align-content-end">
+                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                             style="width:1.8rem;">
+                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="card-sm border-0 py-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-4">
+                                                <a class="text-decoration-none" href="">
+                                                    <div ;
+                                                         class=" location_image mycard"
+                                                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="card-body pb-5">
+                                                    <h3 class="card-title">Card title</h3>
+                                                </div>
+                                                <div>
+                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                </div>
+                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                    <div class="row-cols-3">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                             style="width:1.6rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:2rem;">
+                                                    </div>
+                                                    <div class=" align-content-end">
+                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                             style="width:1.8rem;">
+                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="card-sm border-0 py-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-4">
+                                                <a class="text-decoration-none" href="">
+                                                    <div ;
+                                                         class=" location_image mycard"
+                                                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="card-body pb-5">
+                                                    <h3 class="card-title">Card title</h3>
+                                                </div>
+                                                <div>
+                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                </div>
+                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                    <div class="row-cols-3">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
+                                                             style="width:1.3rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
+                                                             style="width:1.6rem;">
+                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
+                                                             style="width:2rem;">
+                                                    </div>
+                                                    <div class=" align-content-end">
+                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
+                                                             style="width:1.8rem;">
+                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-6" id="map">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- KAARTWEERGAVE EINDE -->
+                </section>
             </div>
-
-          </section>
-
-
-
-
-        <!-- EINDE SIDEBAR -->
-        <!-- START CARDWEERGAVE -->
-        <section class="col-md-9" id="gevonden_locaties">
-          <!--START TABS-->
-          <ul class="nav nav-tabs border-0 justify-content-end" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x2-gap-fill fs-3"></i></button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-list fs-3"></i></button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="bi bi-geo-alt-fill fs-3"></i></button>
-            </li>
-          </ul>
-          <!--EINDE TABS-->
-          <!--START TAB-INHOUD-->
-          <div class="tab-content" id="myTabContent">
-            <!--START INHOUD MET CARDS-->
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-              <div class="row row-cols-lg-3 g-4 mt-4">
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      and make up the bulk of the card's content. Lorem ipsum dolor sit amet
-                    </p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
-                      <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      and make up the bulk of the card's content.  amet cumque ipsam molestiae nam pariatur perferendis.
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img class="col" alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3">Polyvalente ruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3">Coworking Desk</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <article class="card border-0 ">
-                  <a class="text-decoration-none" href="">
-                    <div class="position-relative overflow-hidden location_image mycard"
-                         style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                      <div class="position-absolute position">
-                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="card-body p-2" >
-                    <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                    <p class="card-text inherit">Some quick example text to build on the card title
-                      Adipisci, error.</p>
-                  </div>
-                  <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                    <div class="row-cols-3">
-                      <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                      <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                    </div>
-                    <div class=" align-content-end">
-                      <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                           style="width:1.8rem;">
-                      <span style="height:1.3rem;" class="aantal"> x 50</span>
-                    </div>
-                  </div>
-                </article>
-                <!-- <article class="card border-0 pb-5">
-                     <a class="text-decoration-none" href="">
-                       &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                       <div class="position-relative overflow-hidden mycard">
-                         <img class="card-img-top img-fluid "
-                              src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                              style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                       </div>
-
-                       <div class="position-absolute ps-5 ">
-                         <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                       </div>
-
-                       <div class="card-body p-2" >
-                         <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                         <p class="card-text inherit">Some quick example text to build on the card title
-                           and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                           Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                           Adipisci, error.</p>
-                       </div>
-                       <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                         <div class="col-9">
-                           <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                           <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                           <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                           <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                         </div>
-                         <div class="col-3 align-content-end">
-                           <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                style="width:1.8rem;">
-                           <span style="height:1.3rem;"> x 50</span>
-                         </div>
-                       </div>
-                     </a>
-                   </article>
-                 <article class="card border-0 pb-5">
-                   <a class="text-decoration-none" href="">
-                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                     <div class="position-relative overflow-hidden mycard">
-                       <img class="card-img-top img-fluid " src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                     </div>
-
-                     <div class="position-absolute ps-5 ">
-                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                     </div>
-
-                     <div class="card-body p-2" >
-                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                       <p class="card-text inherit">Some quick example text to build on the card title
-                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-                         Beatae dolores dolorum magnam quaerat quasi rem tenetur voluptatum? Eaque, laudantium odit.
-                         Adipisci, error.</p>
-                     </div>
-                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                       <div class="col-9">
-                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                       </div>
-                       <div class="col-3 align-content-end">
-                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                              style="width:1.8rem;">
-                         <span style="height:1.3rem;"> x 50</span>
-                       </div>
-                     </div>
-                   </a>
-                 </article>
-                 <article class="card border-0 pb-5">
-                   <a class="text-decoration-none" href="">
-                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                     <div class="position-relative overflow-hidden mycard">
-                       <img class="card-img-top img-fluid "
-                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                     </div>
-
-                     <div class="position-absolute ps-5 ">
-                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                     </div>
-
-                     <div class="card-body p-2" >
-                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                       <p class="card-text inherit">Some quick example text to build on the card title
-                         Adipisci, error. </p>
-                     </div>
-                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                       <div class="col-9">
-                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                       </div>
-                       <div class="col-3 align-content-end">
-                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                              style="width:1.8rem;">
-                         <span style="height:1.3rem;"> x 50</span>
-                       </div>
-                     </div>
-                   </a>
-                 </article>
-                 <article class="card border-0 pb-5">
-                   <a class="text-decoration-none" href="">
-                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                     <div class="position-relative overflow-hidden mycard">
-                       <img class="card-img-top img-fluid "
-                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                     </div>
-
-                     <div class="position-absolute ps-5 pb-2">
-                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                     </div>
-
-                     <div class="card-body p-2" >
-                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                       <p class="card-text inherit">Some quick example text to build on the card title
-                         Aliquid amet cumque ipsam  nam pariatur perferendis.
-                         Adipisci, error.</p>
-                     </div>
-                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                       <div class="col-9">
-                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                       </div>
-                       <div class="col-3 align-content-end">
-                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                              style="width:1.8rem;">
-                         <span style="height:1.3rem;"> x 50</span>
-                       </div>
-                     </div>
-                   </a>
-                 </article>
-                 <article class="card border-0 pb-5">
-                   <a class="text-decoration-none" href="">
-                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                     <div class="position-relative overflow-hidden mycard">
-                       <img class="card-img-top img-fluid "
-                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                     </div>
-
-                     <div class="position-absolute ps-5 pb-2">
-                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                     </div>
-
-                     <div class="card-body p-2" >
-                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                       <p class="card-text inherit">Some quick example text to build on the card title
-                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                         Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                         Adipisci, error.</p>
-                     </div>
-                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                       <div class="col-9">
-                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                       </div>
-                       <div class="col-3 align-content-end">
-                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                              style="width:1.8rem;">
-                         <span style="height:1.3rem;"> x 50</span>
-                       </div>
-                     </div>
-                   </a>
-                 </article>-->
-              </div>
-            </div>
-            <!--EINDE INHOUD MET CARDS-->
-            <!-- LIJSTWEERGAVE START -->
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
-
-
-            </div>
-            <!-- LIJSTWEERGAVE EINDE -->
-            <!-- KAARTWEERGAVE START -->
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-             <div class="row justify-content-between">
-               <div class="col-6">
-                 <article class="card border-0 ">
-                   <div class="row">
-                     <div class="col-4">
-                       <a class="text-decoration-none" href="">
-                         <div class="position-relative overflow-hidden location_image mycard"
-                              style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
-                           <div class="position-absolute position">
-                             <span class="badge round-pill bg-meetdesk text-white py-2 px-3 d-none ">Vergaderruimte</span>
-                           </div>
-                         </div>
-                       </a>
-                     </div>
-                     <div class="col-8">
-                       <div class="card-body pt-0" >
-                         <h3 class="card-title pb-3 ">Card title</h3>
-                         <p class="card-text inherit">Some quick example text to build on the card title
-                           and make up the bulk of the card's content. Lorem ipsum dolor sit amet
-                         </p>
-                       </div>
-                       <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                         <div class="row-cols-3">
-                           <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:1.3rem;">
-                           <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:1.3rem;">
-                           <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:1.3rem;">
-                           <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:1.6rem;">
-                           <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                         </div>
-                         <div class=" align-content-end">
-                           <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                style="width:1.8rem;">
-                           <span style="height:1.3rem;" class="aantal"> x 50</span>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-
-
-                 </article>
-                </div>
-                <div class="col-6" id="map"></div>
-                </div>
-            </div>
-            <!-- KAARTWEERGAVE EINDE -->
-
-          </div>
-          <!--EINDE TAB-INHOUD-->
-        </section>
+            <!--EINDE TAB-INHOUD-->
         </div>
         <!-- EIDE CARDWEERGAVE -->
 
-    <!--EINDE LOCATIES-->
-    <!--EINDE MAIN -->
+        <!--EINDE LOCATIES-->
+        <!--EINDE MAIN -->
 
     </div>
-  </div>
+    </div>
 </main>
 <!--START FOOTER-->
 <footer class="container-fluid bg-light">
-  <div class="row">
-    <div class="col-10 col-lg-10 mx-auto">
-      <div class="row justify-content-between">
-        <div class="col-12 col-sm-7">
-          <div class="row justify-content-between">
-            <div class="col-12 col-lg-4 pt-5">
-              <h3 class="fs-4 fw-bold pt-sm-5">Onze diensten</h3>
-              <ul class="nav d-flex flex-column">
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 mt-3 nav-link text-dark fs-5">Host worden</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">Mijn account</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">Aanbod</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-3 nav-link text-dark fs-5">Reserveer nu</a>
-                </li>
-              </ul>
+    <div class="row">
+        <div class="col-10 col-lg-10 mx-auto">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-7">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Onze diensten</h3>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Host worden</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Mijn account</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Aanbod</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">Reserveer nu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Juridisch</h3>
+                            <ul class="nav d-flex flex-column ">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Algemene</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Voorwaarden</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Cookie Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Ons bedrijf</h3>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Over ons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Contacteer ons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">BE0771526914</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-4 col-md-4 col-lg-3 mt-5 my-5">
+                    <img alt="" class="img-fluid mt-2" src="./assets/images/logo-icons/logo_proxpace.svg" width="375">
+                    <p class="fs-5 pt-3"><span class="fw-bold text-dark">stuur ons gerust een mailtje!</span><br>
+                        <a class="nav-link ps-0" href="mailto:info@proxpace.com">info@proxpace.com</a></p>
+                    <div class="d-flex nav pb-3">
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-facebook"></i></a>
+                        </div>
+                        f
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-instagram"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-lg-4 pt-5">
-              <h3 class="fs-4 fw-bold pt-sm-5">Juridisch</h3>
-              <ul class="nav d-flex flex-column ">
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 mt-3 nav-link text-dark fs-5">Algemene</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">Voorwaarden</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">Cookie Policy</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-3 nav-link text-dark fs-5">Privacy Policy</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 col-lg-4 pt-5">
-              <h3 class="fs-4 fw-bold pt-sm-5">Ons bedrijf</h3>
-              <ul class="nav d-flex flex-column">
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 mt-3 nav-link text-dark fs-5">Over ons</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">Contacteer ons</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-0 nav-link text-dark fs-5">FAQ</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="ps-0 pb-3 nav-link text-dark fs-5">BE0771526914</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <div class="col-8 col-sm-4 col-md-4 col-lg-3 mt-5 my-5">
-          <img src="./assets/images/logo-icons/logo_proxpace.svg" alt="" width="375" class="img-fluid mt-2">
-          <p class="fs-5 pt-3"><span class="fw-bold text-dark">stuur ons gerust een mailtje!</span><br>
-            <a href="mailto:info@proxpace.com" class="nav-link ps-0">info@proxpace.com</a></p>
-          <div class="d-flex nav pb-3">
-            <div class="nav-item">
-              <a href="#" class="nav-link"><i class="fs-3 bi bi-facebook"></i></a>
-            </div>f
-            <div class="nav-item">
-              <a href="#" class="nav-link"><i class="fs-3 bi bi-instagram"></i></a>
-            </div>
-            <div class="nav-item">
-              <a href="#" class="nav-link"><i class="fs-3 bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </footer>
 
 <!--EINDE FOOTER-->
@@ -1007,15 +1199,131 @@
 <!--scripts voor datepicker-->
 <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
 <script>
-  const elem1 = document.querySelector('input[name="datepickerEen"]');
-  const datepicker1 = new Datepicker(elem1, {
-    language: 'en',
-  });
-  const elem2 = document.querySelector('input[name="datepickerTwee"]');
-  const datepicker2 = new Datepicker(elem2, {
-    language: 'en',
-  });
+    const elem1 = document.querySelector('input[name="datepickerEen"]');
+    const datepicker1 = new Datepicker(elem1, {
+        language: 'en',
+    });
+    const elem2 = document.querySelector('input[name="datepickerTwee"]');
+    const datepicker2 = new Datepicker(elem2, {
+        language: 'en',
+    });
 
+</script>
+<script>
+    function getZoomLevelFromRadius(latitude, containerWith, radius) {
+        let latRatios = [
+            [78271484, 73551136, 59959436, 39135742, 13591701],
+            [39135742, 36775568, 29979718, 19567871, 6795850],
+            [19567871, 18387784, 14989859, 9783936, 3397925],
+            [9783936, 9193892, 7494929, 4891968, 1698963],
+            [4891968, 4596946, 3747465, 2445984, 849481],
+            [2445984, 2298473, 1873732, 1222992, 424741],
+            [1222992, 1149237, 936866, 611496, 212370],
+            [611496, 574618, 468433, 305748, 106185],
+            [305748, 287309, 234217, 152874, 53093],
+            [152874, 143655, 117108, 76437, 26546],
+            [76437, 71827, 58554, 38218, 13273],
+            [38218, 35914, 29277, 19109, 6637],
+            [19109, 17957, 14639, 9555, 3318],
+            [9555, 8978, 7319, 4777, 1659],
+            [4777, 4489, 3660, 2389, 830],
+            [2389, 2245, 1830, 1194, 415],
+            [1194, 1122, 915, 597, 207],
+            [597, 561, 457, 299, 104],
+            [299, 281, 229, 149, 52],
+            [149, 140, 114, 75, 26],
+            [75, 70, 57, 37, 13],
+            [37, 35, 29, 19, 6],
+            [19, 18, 14, 9, 3]
+        ] //ratio meters/pixels voor resp 0°,20°,40°,60°,80° breedte
+        let latitudes = [0, 20, 40, 60, 80];
+        let lowerIndex = latitudes.findIndex(el => Math.abs(latitude) <= el) - 1;
+        let interpolatedRatios = latRatios.map(zoomRatio => zoomRatio[lowerIndex] - (zoomRatio[lowerIndex] - zoomRatio[lowerIndex + 1])
+            * (latitude - latitudes[lowerIndex]) / 20);
+        //console.log(interpolatedRatios);
+        let zoomLevel = interpolatedRatios.findIndex((el) => 2 * radius / containerWith * 1000 > el);
+        return zoomLevel;
+    }
+
+    let calcZoomLevel = getZoomLevelFromRadius(50.94, 400, 200);
+    console.log(calcZoomLevel);
+
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia29lbnJhYWRkZWNyb29zIiwiYSI6ImNrd3V2ODFtMDBtcmoybnFuZ2cyanpycWoifQ.T1XgjHAIT92__bhS8GtUOQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/light-v10',//mapbox://styles/mapbox/streets-v11',
+        center: [3.09949, 50.94618],//29.977540509458233, 31.13217090674319 //3.09949,50.94618
+        zoom: calcZoomLevel,
+    });
+    let locations = [
+        [3.103591575112688, 50.95144615799327],
+        [3.1244691250083845, 50.9453856706939],
+        [3.09949, 50.94618],
+        [3.112412287872935, 50.94690875665132],
+        [3.119497136232929, 50.97870134021972],
+        [3.2703700374064946, 50.82660166612885]]
+    locations.forEach((location) => {
+        let marker = new mapboxgl.Marker({color: 'red', rotation: 0})
+            .setLngLat(location)
+            .addTo(map)
+    })
+    // Create a default Marker, colored black, rotated 45 degrees.
+    /*const marker2 = new mapboxgl.Marker({ color: 'red', rotation: 0 })
+        .setLngLat([3.09949,50.94618])
+        .addTo(map);*/
+
+    const scale = new mapboxgl.ScaleControl({
+        maxWidth: 80,
+        unit: 'imperial'
+    });
+    map.addControl(scale);
+    scale.setUnit('metric');
+
+    /*function updateRadius(){
+        let newRadius = parseFloat(document.getElementById('inputRadius').value);
+        calcZoomLevel = getZoomLevelFromRadius(50.94,400,newRadius*1000);
+        console.log(calcZoomLevel);
+        map.zoom = calcZoomLevel;
+        map.setZoom(calcZoomLevel);
+
+    }*/
+    function updateRadius() {
+        let radia = [0.2, 0.5, 1, 2, 5, 10];
+        let index = parseFloat(document.getElementById('radiusSlider').value);
+        let newRadius = radia[index];
+        console.log('radius', newRadius);
+        calcZoomLevel = getZoomLevelFromRadius(50.94, 400, newRadius * 1000);
+        console.log(calcZoomLevel);
+        map.zoom = calcZoomLevel;
+        map.setZoom(calcZoomLevel);
+
+    }
+
+    //document.getElementById('inputRadius').addEventListener('change',updateRadius);
+    document.getElementById('radiusSlider').addEventListener('change', updateRadius)
+</script>
+<script>
+    document.getElementById('inputLocation').addEventListener('change', searchLocation);
+
+    function searchLocation() {
+        let searchLocation = document.getElementById('inputLocation').value.split(" ").join("%20");
+        let searchUrl = `https://api.mapbox.com/geocoding/v5/mapbox.places/${searchLocation}.json?access_token=pk.eyJ1Ijoia29lbnJhYWRkZWNyb29zIiwiYSI6ImNrd3V2ODFtMDBtcmoybnFuZ2cyanpycWoifQ.T1XgjHAIT92__bhS8GtUOQ`;
+        let xhr = new XMLHttpRequest();
+        xhr.addEventListener("load", getLatLong);
+        xhr.open("get", searchUrl, true);
+        xhr.send();
+        xhr.responseType = 'text';
+
+        function getLatLong() {
+            let response = xhr.responseText;
+            //console.log(response);
+            let places = JSON.parse(response);
+            console.log(places.features);
+            //map.setCenter(places[0].features.center[0],places[0].features.center[1]);
+            console.log(places.features[0].center[0] + " " + places.features[0].center[1]);
+            map.setCenter(places.features[0].center);
+        }
+    }
 </script>
 
 </body>

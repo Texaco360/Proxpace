@@ -237,6 +237,11 @@ border-bottom: 2px solid $primary;
             border-radius: 25px;
 
         }
+        .cards-sm {
+            cursor: pointer;
+            border-radius: 2%;
+
+        }
         .cards:hover {
             box-shadow: 5px 6px 6px 2px #e9ecef;
             transform: scale(1.1)
