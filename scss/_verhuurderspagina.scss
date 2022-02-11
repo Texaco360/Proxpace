@@ -6,5 +6,45 @@
   /*EINDE VIKTOR*/
 
   /*BEGIN MICHIEL*/
+  .vierkantlijn{
+
+    background-image:url('../images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height:11px;
+  }
+  .card-img-top{
+    border-radius: 5%;
+  }
+  .card-text{
+    text-decoration: none !important;
+  }
+  .containerruimtes{
+    position: relative;
+    text-align: center;
+  }
+  .centerflexdesk {
+    position: absolute;
+    align-content: center;
+    top: 85%!important;
+    left: 37%!important;
+  }
+  .centerpolyvalent {
+    position: absolute;
+    align-content: center;
+    top: 85%!important;
+    left: 22%!important;
+  }
+  .centervergader {
+    position: absolute;
+    align-content: center;
+    top: 85%!important;
+    left: 28%!important;
+  }
+  .centerkantoor {
+    position: absolute;
+    align-content: center;
+    top: 85%!important;
+    left: 28%!important;
+  }
   /*EINDE MICHIEL*/
 }
