@@ -6,58 +6,69 @@
   /*EINDE VIKTOR*/
 
   /*BEGIN MICHIEL*/
+
   a {
     text-decoration: none !important;
   }
-  .vierkantlijn{
 
-    background-image:url('../images/homepage/Rectangle32.png');
+  .vierkantlijn {
+
+    background-image: url('../images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
-    height:11px;
+    height: 11px;
   }
-  .card-img-top{
+
+  .card-img {
     border-radius: 5%;
   }
-  .card-text{
+
+  .card-text {
     text-decoration: none !important;
   }
-  .containerruimtes{
+
+  .containerruimtes {
     position: relative;
     text-align: center;
   }
+
   .centerflexdesk {
     position: absolute;
     align-content: center;
-    top: 85%!important;
-    left: 37%!important;
+    top: 85% !important;
+    left: 37% !important;
   }
+
   .centerpolyvalent {
     position: absolute;
     align-content: center;
-    top: 85%!important;
-    left: 22%!important;
+    top: 85% !important;
+    left: 22% !important;
   }
+
   .centervergader {
     position: absolute;
     align-content: center;
-    top: 85%!important;
-    left: 28%!important;
+    top: 85% !important;
+    left: 28% !important;
   }
+
   .centerkantoor {
     position: absolute;
     align-content: center;
-    top: 85%!important;
-    left: 28%!important;
+    top: 85% !important;
+    left: 28% !important;
   }
 
   /**START REVIEW**/
-  .floatingimages{
+  .floatingimages {
     margin-bottom: 364px;
     display: none;
   }
-  .carousel-inner{
+
+  .carousel-inner {
     padding-bottom: 1px !important;
   }
+
   .locatiefoto {
     overflow: visible !important;
     top: 150% !important;
@@ -67,7 +78,7 @@
 
   // Extra-small devices (Mobile S, 320px and up)
   @media (min-width: 320px) {
-    .floatingimages{
+    .floatingimages {
       margin-bottom: 200px;
       display: block !important;
     }
@@ -79,43 +90,22 @@
       width: 10rem;
       display: none !important;
     }
-    .persoonfoto{
+    .persoonfoto {
       display: block !important;
       width: 11rem;
       left: 4rem !important;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 1rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 31%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 5%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 9%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 11%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 5rem !important;
     }
   }
   // Extra-small devices (Mobile M, 375px and up)
   @media (min-width: 375px) {
-    .floatingimages{
+    .floatingimages {
       margin-bottom: 200px;
       display: block !important;
     }
@@ -127,43 +117,22 @@
       width: 10rem;
       display: none !important;
     }
-    .persoonfoto{
+    .persoonfoto {
       display: block !important;
       width: 11rem;
       left: 5.5rem !important;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 2rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 33%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 8%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 16%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 17%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 10rem !important;
     }
   }
   // Extra-small devices (Mobile lg, 425 and up)
   @media (min-width: 425px) {
-    .floatingimages{
+    .floatingimages {
       margin-bottom: 200px;
       display: block !important;
     }
@@ -175,46 +144,24 @@
       width: 10rem;
       display: none !important;
     }
-    .persoonfoto{
+    .persoonfoto {
       display: block !important;
       width: 11rem;
       left: 7rem !important;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 3rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 35%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 14%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 21%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 22%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 10rem !important;
     }
   }
 
 
-
   // Small devices (Tablet, 576px and up)
   @media (min-width: 576px) {
-    .floatingimages{
+    .floatingimages {
       margin-bottom: 364px;
       display: block !important;
     }
@@ -224,50 +171,29 @@
       left: 30% !important;
       border-radius: 10%;
     }
-    .persoonfoto{
+    .persoonfoto {
       display: block;
-      left: 12rem !important;
+      left: 16rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 38%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 23%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 28%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 29%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 12rem !important;
     }
   }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
-    .floatingimages{
+    .floatingimages {
       display: block;
       margin-bottom: 500px;
-      margin-top:110px;
+      margin-top: 110px;
     }
     .locatiefoto {
       overflow: visible !important;
       top: 130% !important;
       left: 40% !important;
       border-radius: 10%;
-      width:340px;
-      height:340px;
+      width: 340px;
+      height: 340px;
       display: block !important;
     }
     .carousel-control-next {
@@ -280,38 +206,17 @@
       margin-bottom: 650px;
       left: 3rem !important;
     }
-    .persoonfoto{
+    .persoonfoto {
       width: 170px;
       height: 170px;
       left: 6rem !important;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 4.5rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 40%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 30%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 33%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 34%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 14rem !important;
     }
 
   }
@@ -324,11 +229,11 @@
       font-size: 18px;
       text-transform: uppercase;
       border-radius: 10%;
-      width:400px;
-      height:400px;
+      width: 400px;
+      height: 400px;
     }
-    .persoonfoto{
-      left:20% !important;
+    .persoonfoto {
+      left: 20% !important;
       width: 200px;
       height: 200px;
     }
@@ -341,13 +246,17 @@
       position: absolute;
       margin-bottom: 650px;
     }
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 15rem !important;
+    }
   }
   // X-Large devices (large desktops, 1024px and up)
   @media (min-width: 1024px) {
-    .floatingimages{
+    .floatingimages {
       display: block;
       margin-bottom: 550px;
-      margin-top:110px;
+      margin-top: 110px;
     }
     .locatiefoto {
       overflow: visible !important;
@@ -356,12 +265,12 @@
       font-size: 18px;
       text-transform: uppercase;
       border-radius: 10%;
-      width:400px !important;
-      height:400px !important;
+      width: 400px !important;
+      height: 400px !important;
     }
-    .persoonfoto{
-      left:23% !important;
-      top:20% !important;
+    .persoonfoto {
+      left: 23% !important;
+      top: 20% !important;
       width: 200px !important;
       height: 200px !important;
     }
@@ -376,42 +285,21 @@
       margin-bottom: 650px;
       //top:0rem;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 5.5rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 36%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 16%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 22%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 23%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 15rem !important;
     }
   }
 
   // X-Large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
-    .floatingimages{
+    .floatingimages {
       display: block;
       margin-bottom: 550px;
-      margin-top:110px;
+      margin-top: 110px;
     }
     .locatiefoto {
       overflow: visible !important;
@@ -420,12 +308,12 @@
       font-size: 18px;
       text-transform: uppercase;
       border-radius: 10%;
-      width:320px !important;
-      height:320px !important;
+      width: 320px !important;
+      height: 320px !important;
     }
-    .persoonfoto{
-      left:1% !important;
-      top:20% !important;
+    .persoonfoto {
+      left: 1% !important;
+      top: 20% !important;
       width: 160px !important;
       height: 160px !important;
     }
@@ -440,38 +328,17 @@
       margin-bottom: 650px;
       //top:0rem;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 5.5rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 37%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 20%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 25%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 25%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 15rem !important;
     }
   }
   // XX-Large devices (larger desktops, 1400px and up)
   @media (min-width: 1400px) {
-    .floatingimages{
+    .floatingimages {
       display: block;
       margin-bottom: 600px;
       margin-top: 1px;
@@ -483,41 +350,20 @@
       font-size: 18px;
       text-transform: uppercase;
       border-radius: 10%;
-      width:380px;
-      height:380px;
+      width: 380px;
+      height: 380px;
     }
-    .persoonfoto{
+    .persoonfoto {
       width: 190px;
       height: 190px;
-      left:1% !important;
+      left: 1% !important;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 8rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 34%!important;
-    }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 11%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 18%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 20%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 16rem !important;
     }
   }
   @media (min-width: 2000px) {
@@ -531,48 +377,23 @@
       width: 680px !important;
       height: 680px !important;
     }
-    .persoonfoto{
+    .persoonfoto {
       width: 340px !important;
       height: 340px !important;
-      top:1rem !important;
+      top: 1rem !important;
     }
-    .floatingimages{
+    .floatingimages {
       display: block;
       margin-bottom: 900px;
     }
-    .titelreviews{
+    .titelreviews {
       padding-left: 14rem !important;
     }
-    /*SOORTEN RUIMTES*/
-    .centerflexdesk {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 38%!important;
+    /*soorten ruimtes*/
+    .pmichielverhuurder {
+      padding-top: 16rem !important;
     }
-    .centerpolyvalent {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 24%!important;
-    }
-    .centervergader {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 28%!important;
-    }
-    .centerkantoor {
-      position: absolute;
-      align-content: center;
-      top: 85%!important;
-      left: 28%!important;
-    }
-
   }
-
-
-
 
 
   .carousel-control-next {
@@ -615,15 +436,18 @@
 
   }
 
-  .carousel-inner{
+  .carousel-inner {
     padding-bottom: 140px;
   }
-  .ps-6{
+
+  .ps-6 {
     padding-left: 8rem !important;
   }
+
   .pt-6 {
     padding-top: 25rem !important;
   }
+
   .pb-6 {
     padding-bottom: 10rem !important;
   }
@@ -632,8 +456,6 @@
     padding-top: 10rem !important;
     padding-bottom: 10rem !important;
   }
-
-
 
 
   .rotated {
@@ -658,7 +480,7 @@
     width: 3rem;
     height: 3rem;
   }
+}
 
 
   /*EINDE MICHIEL*/
-}
