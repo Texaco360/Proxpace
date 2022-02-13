@@ -49,8 +49,9 @@
       color: $primary;
     }
     input::placeholder {
-      color: $primary;
+      color: $secondary;
       opacity: 1;
+      font-weight: 500;
     }
     input:focus{
       outline: none;
