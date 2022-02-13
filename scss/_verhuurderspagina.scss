@@ -6,6 +6,9 @@
   /*EINDE VIKTOR*/
 
   /*BEGIN MICHIEL*/
+  a {
+    text-decoration: none !important;
+  }
   .vierkantlijn{
 
     background-image:url('../images/homepage/Rectangle32.png');
@@ -84,6 +87,31 @@
     .titelreviews{
       padding-left: 1rem !important;
     }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 31%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 5%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 9%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 11%!important;
+    }
   }
   // Extra-small devices (Mobile M, 375px and up)
   @media (min-width: 375px) {
@@ -106,6 +134,31 @@
     }
     .titelreviews{
       padding-left: 2rem !important;
+    }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 33%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 8%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 16%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 17%!important;
     }
   }
   // Extra-small devices (Mobile lg, 425 and up)
@@ -130,6 +183,31 @@
     .titelreviews{
       padding-left: 3rem !important;
     }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 35%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 14%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 21%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 22%!important;
+    }
   }
 
 
@@ -149,6 +227,31 @@
     .persoonfoto{
       display: block;
       left: 12rem !important;
+    }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 38%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 23%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 28%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 29%!important;
     }
   }
   // Medium devices (tablets, 768px and up)
@@ -185,6 +288,31 @@
     .titelreviews{
       padding-left: 4.5rem !important;
     }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 40%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 30%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 33%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 34%!important;
+    }
 
   }
   // Large devices (desktops, 900px and up)
@@ -213,8 +341,6 @@
       position: absolute;
       margin-bottom: 650px;
     }
-
-
   }
   // X-Large devices (large desktops, 1024px and up)
   @media (min-width: 1024px) {
@@ -243,19 +369,41 @@
       position: absolute;
       left: 15rem !important;
       margin-bottom: 650px;
-      top:0rem;
+      //top:0rem;
     }
     .carousel-control-prev {
       position: absolute;
       margin-bottom: 650px;
-      top:0rem;
+      //top:0rem;
     }
     .titelreviews{
       padding-left: 5.5rem !important;
     }
-
-
-
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 36%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 16%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 22%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 23%!important;
+    }
   }
 
   // X-Large devices (large desktops, 1200px and up)
@@ -285,15 +433,40 @@
       position: absolute;
       left: 15rem !important;
       margin-bottom: 650px;
-      top:0rem;
+      //top:0rem;
     }
     .carousel-control-prev {
       position: absolute;
       margin-bottom: 650px;
-      top:0rem;
+      //top:0rem;
     }
     .titelreviews{
       padding-left: 5.5rem !important;
+    }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 37%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 20%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 25%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 25%!important;
     }
   }
   // XX-Large devices (larger desktops, 1400px and up)
@@ -321,6 +494,31 @@
     .titelreviews{
       padding-left: 8rem !important;
     }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 34%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 11%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 18%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 20%!important;
+    }
   }
   @media (min-width: 2000px) {
     .locatiefoto {
@@ -345,7 +543,34 @@
     .titelreviews{
       padding-left: 14rem !important;
     }
+    /*SOORTEN RUIMTES*/
+    .centerflexdesk {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 38%!important;
+    }
+    .centerpolyvalent {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 24%!important;
+    }
+    .centervergader {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 28%!important;
+    }
+    .centerkantoor {
+      position: absolute;
+      align-content: center;
+      top: 85%!important;
+      left: 28%!important;
+    }
+
   }
+
 
 
 
