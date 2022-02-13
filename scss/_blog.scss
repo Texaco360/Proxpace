@@ -5,61 +5,126 @@
 /** END CARDS **/
 
 /** START DETAIL**/
-h1 {
 
-}
+.blogdetail {
+  margin: 60px 0;
 
-h2 {
+  .head2 {
+	background: url("../images/dot.png") repeat-x center;
+	margin: 90px 0 60px 0;
+	justify-content: space-between;
+  }
 
-}
+  .artikel {
+	//columns: 2;
+	//column-gap: 6%;
 
-.artikel {
-  columns: 2;
-  column-gap: 6%;
+	.foto {
+	  position: relative;
 
-  .foto {
+	  .img-foto {
+		border: 1px solid $gray-600;
+		border-radius: 60px;
+	  }
+
+	  .img-caret {
+		position: absolute;
+		bottom: -2px;
+		left: 50px;
+		width: 50%;
+	  }
+	}
+  }
+
+  .artikel-info {
+	margin-top: 60px;
+  }
+
+  .auteur {
+	.auteur-foto {
+	  margin-right: 40px;
+
+	  img {
+		border-radius: 20px;
+	  }
+
+	}
+  }
+
+  .carousel-item {
+	img {
+	  border-radius: 30px;
+	}
+  }
+
+  .carousel-img {
 	position: relative;
 
-	.img-foto {
-	  border: 1px solid $gray-600;
-	  border-radius: 60px;
-	}
-
-	.img-driehoek {
+	span {
 	  position: absolute;
-	  bottom: 0;
-	  left: 50px;
-	  width: 50%;
+	  border-radius: 8px;
+	  bottom: 30px;
+	  right: 30px;
+	}
+  }
+
+  .carousel-caption {
+	position: initial;
+	bottom: 1.25rem;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+	color: inherit;
+
+	h5 {
+	  font-weight: 600;
+	  line-height: 1.5;
+	}
+  }
+
+  .carousel-control-prev {
+	position: absolute;
+	justify-content: start;
+	top: -120px;
+	left: -90px;
+	opacity: 1;
+
+	.carousel-control-prev-icon {
+	  display: inline-block;
+	  height: 60px;
+	  width: 60px;
+	}
+  }
+
+  .carousel-control-next {
+	position: absolute;
+	justify-content: end;
+	top: -120px;
+	right: -90px;
+	opacity: 1;
+
+	.carousel-control-next-icon {
+	  display: inline-block;
+	  height: 60px;
+	  width: 60px;
 	}
   }
 }
 
-.auteur {
-  .auteur-foto {
-	margin-right: 40px;
-	img {
-	  border-radius: 20px;
-	}
-
-  }
-}
-.carousel-item {
-  img {
-	border-radius: 30px;
-  }
+.bg-cowodesk {
+  background-color: #9e7cde;
 }
 
-.carousel-caption {
-  position: initial;
-  bottom: 1.25rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: inherit;
-
-  h5 {
-	font-weight: 600;
-	line-height: 1.5;
-  }
+.bg-flexdesk {
+  background-color: #7ccbde;
 }
+
+.bg-meetdesk {
+  background-color: #42c356;
+}
+
+.bg-polydesk {
+  background-color: #dea04c;
+}
+
 
 /** END DETAIL**/

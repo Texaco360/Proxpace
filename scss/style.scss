@@ -1,9 +1,9 @@
 // main.scss
 // Option B: Include parts of Bootstrap
 // 1.Importeer de fonts
-
 @import "fonts";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
 // 2. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
@@ -16,7 +16,6 @@
 @import "../node_modules/bootstrap/scss/root";
 
 // 5. include custom maps
-
 @import "custom-maps";
 
 // 6. Include any optional Bootstrap CSS as needed
@@ -59,5 +58,4 @@
 // 8. Add additional custom code here
 
 @import "global";
-@import "home";
 @import "blog";
