@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d1ed70-fe29-499a-897d-7a253c05d3ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/fotosoortenruimtes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/mobiel.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verhuurderspagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/verhuurderspagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +56,7 @@
       <workItem from="1644509752970" duration="654000" />
       <workItem from="1644520149209" duration="3654000" />
       <workItem from="1644765502699" duration="2828000" />
+      <workItem from="1644848878596" duration="167000" />
     </task>
     <servers />
   </component>
@@ -83,6 +73,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
