@@ -224,7 +224,7 @@
                                                 Max. afstand: 50 km
                                             </label>
                                             <input aria-describedby="maxAfstandMob" class="maxAfstand form-range  "
-                                                   id="maxAfstandMob" type="range">
+                                                   id="maxAfstandMob" max="5" step="1" value="0" type="range">
                                         </div>
                                     </div>
                                 </div>
@@ -384,7 +384,7 @@
                                             Max. afstand: 50 km
                                         </label>
                                         <input aria-describedby="maxAfstand" class="maxAfstand form-range  "
-                                               id="maxAfstand" type="range">
+                                               id="maxAfstand" max="5" step="1" value="0" type="range">
                                     </div>
                                 </div>
                             </div>
@@ -1210,6 +1210,8 @@
 
 </script>
 <script>
+
+
     function getZoomLevelFromRadius(latitude, containerWith, radius) {
         let latRatios = [
             [78271484, 73551136, 59959436, 39135742, 13591701],
@@ -1289,7 +1291,7 @@
     }*/
     function updateRadius() {
         let radia = [0.2, 0.5, 1, 2, 5, 10];
-        let index = parseFloat(document.getElementById('radiusSlider').value);
+        let index = parseFloat(document.getElementById('maxAfstand').value);
         let newRadius = radia[index];
         console.log('radius', newRadius);
         calcZoomLevel = getZoomLevelFromRadius(50.94, 400, newRadius * 1000);
@@ -1298,12 +1300,19 @@
         map.setZoom(calcZoomLevel);
 
     }
+    function drawMap(){
+        let mapwidth = document.getElementById('map').clientWidth;
+        console.log('mapwidth ='+ mapwidth);
+        let calcZoomLevel = getZoomLevelFromRadius(50.94, mapwidth, 200);
+
+    }
 
     //document.getElementById('inputRadius').addEventListener('change',updateRadius);
-    document.getElementById('radiusSlider').addEventListener('change', updateRadius)
+    document.getElementById('maxAfstand').addEventListener('change', updateRadius)
+    document.getElementById('contact').addEventListener('hover',drawMap)
 </script>
 <script>
-    document.getElementById('inputLocation').addEventListener('change', searchLocation);
+    //document.getElementById('inputLocation').addEventListener('load', searchLocation);
 
     function searchLocation() {
         let searchLocation = document.getElementById('inputLocation').value.split(" ").join("%20");
