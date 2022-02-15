@@ -1,4 +1,4 @@
-# Proxpace
+# ProXpace
 ## Blogpagina
 
-De blog en blogdetailpagina van PROXPACE.
+De blog en blogdetailpagina van ProXpace.
