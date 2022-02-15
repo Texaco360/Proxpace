@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70d1ed70-fe29-499a-897d-7a253c05d3ff" name="Changes" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Laag_1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Stap_1_bg_paars.png" afterDir="false" />
@@ -10,6 +11,9 @@
 >>>>>>> lodesprint2
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> michielsprint2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +74,13 @@
       <workItem from="1644509752970" duration="654000" />
       <workItem from="1644520149209" duration="3654000" />
       <workItem from="1644765502699" duration="2828000" />
+<<<<<<< HEAD
       <workItem from="1644916360030" duration="1814000" />
       <workItem from="1644920290587" duration="7347000" />
       <workItem from="1644931975446" duration="750000" />
+=======
+      <workItem from="1644912098062" duration="7597000" />
+>>>>>>> michielsprint2
     </task>
     <servers />
   </component>
