@@ -1,84 +1,72 @@
-/** START SIDEBAR **/
-.search{
- background-image: url(../images/logo-icons/searchblack.svg);
-  background-repeat: no-repeat;
-  background-position: center left;
-  padding-right: 10px;
-  background-origin: content-box;
+/** START BLOG **/
+.blog {
+  margin: 60px 0;
 
-    text-indent:20px;
+  .blog-filters {
+	border-radius: 30px;
+  }
 
+  .sbcard {
+	position: relative;
+
+	.img-foto {
+	  border-radius: 20px;
+	}
+
+	.img-caret-left {
+	  position: absolute;
+	  top: 0;
+	  right: -1px;
+	  height: 50%;
+	}
+  }
+
+  .profiel-foto {
+	border-radius: 15px;
+	height: auto;
+	width: 90px;
+  }
+
+  .search {
+	background: white url("../images/logo-icons/searchblack.svg") no-repeat center left;
+	padding-right: 10px;
+	background-origin: content-box;
+	text-indent: 20px;
+  }
+
+  .star {
+	background: url('../images/blog/knop-right.svg') no-repeat left 3px;
+	background-size: 25px;
+	padding-left: 40px;
+	margin-bottom: 30px;
+  }
+
+  .sbbtn {
+	background-color: $cowodesk;
+	border: none;
+  }
+
+  .sblijn {
+	background-image: url("../images/dot.png");
+	background-repeat: repeat-x;
+	height: 11px;
+  }
+
+  .tag {
+	background: $cowodesk;
+	border: none;
+	color: white;
+
+	&:hover {
+	  background: white;
+	  color: $cowodesk;
+	}
+  }
 }
-.tag{
-  color: white;
-  border: none;
 
-}
-.tag:hover{
-  background: white;
-  color: $cowodesk;
-  border:  white;
-}
-.pijltje{
+/** END BLOG **/
 
-  height: 50px;
-  width: 50px;
-
-}
-
-.list{
-  padding: 0;
-
-  list-style-type: none;
-}
-.star{
-  background: url('../images/blog/pijltje.svg') no-repeat left top;
-  height: 34px;
-  padding-top: 7px;
-  padding-left: 60px;
-  margin-bottom: 80px;
-
-
-}
-/** END SIDEBAR **/
-
-/** START CARDS **/
-.sbfont{
-  font-family: $font-family-base,sans-serif;
-
-}
-.sbbtn{
-  background-color: $cowodesk;
-  border: none;
-}
-.sblijn{
-  background-image: url(../images/blog/32.png);
-  background-repeat: repeat-x;
-  height: 11px;
-}
-.rounded-4{
-  border-radius: 1rem;
-
-
-}
-
-/***Hover cards***/
-
-.sbcard {
-  border-radius: 25px;
-  -webkit-transition:  box-shadow .6s ease-out;
-  border: none;
-
-}
-.blogdriehoek{
-  position: absolute;
-
-}
-/***END Hover cards***/
-/** END CARDS **/
-
-/** START DETAIL**/
-
+/** START BLOGDETAIL **/
 .blogdetail {
   margin: 60px 0;
 
@@ -96,13 +84,13 @@
 	  position: relative;
 
 	  .img-foto {
-		border: 1px solid $gray-600;
+		//border: 1px solid $gray-600;
 		border-radius: 60px;
 	  }
 
-	  .img-caret {
+	  .img-caret-up {
 		position: absolute;
-		bottom: -2px;
+		bottom: -1px;
 		left: 50px;
 		width: 50%;
 	  }
@@ -201,4 +189,4 @@
   background-color: #dea04c;
 }
 
-/** END DETAIL**/
+/** END BLOGDETAIL **/
