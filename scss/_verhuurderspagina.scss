@@ -73,6 +73,12 @@
     border: 7px solid $secondary;
     border-radius: 1rem;
   }
+  .rotate-45{
+    transform:rotate(45deg);
+  }
+  .rotate-m-45{
+    transform:rotate(-45deg);
+  }
 
   /*EINDE LODE*/
 
