@@ -1,23 +1,18 @@
-
 //aanmaak van css variabelen niet toegelaten . deze worden in _eigen-variabelen gezet
 //classes die ook op andere pagina kunnen gebruikt worden voorzien in _global.scss (o.a. classes voor header en footer)
 
 //alle scss te voorzien in de home klasse . Ze wordt voorzien op de main tag van de pagina
 
-.home{
-/***START MAIN***/
+.home {
+  /***START MAIN***/
   /**START HERO**/
-
 
   /**EINDE HERO**/
   /**START REVIEW**/
 
-
   /**EINDE REVIEW**/
   /**START LOCATIES**/
 
-
   /**EINDE LOCATIES**/
-/***EINDE MAIN***/
-
+  /***EINDE MAIN***/
 }
