@@ -723,7 +723,7 @@
                                 </article>
                                 <article class="card border-0 ">
                                     <a class="text-decoration-none" href="">
-                                        <div ;
+                                        <div
                                              class="position-relative overflow-hidden location_image mycard"
                                              style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
                                             <div class="position-absolute position">
@@ -1210,6 +1210,13 @@
 
 </script>
 <script>
+    let locations = [
+        [3.103591575112688, 50.95144615799327],
+        [3.1244691250083845, 50.9453856706939],
+        [3.09949, 50.94618],
+        [3.112412287872935, 50.94690875665132],
+        [3.119497136232929, 50.97870134021972],
+        [3.2703700374064946, 50.82660166612885]]
 
 
     function getZoomLevelFromRadius(latitude, containerWith, radius) {
@@ -1250,36 +1257,26 @@
     let calcZoomLevel = getZoomLevelFromRadius(50.94, 400, 200);
     console.log(calcZoomLevel);
 
-    mapboxgl.accessToken = 'pk.eyJ1Ijoia29lbnJhYWRkZWNyb29zIiwiYSI6ImNrd3V2ODFtMDBtcmoybnFuZ2cyanpycWoifQ.T1XgjHAIT92__bhS8GtUOQ';
+    /*mapboxgl.accessToken = 'pk.eyJ1Ijoia29lbnJhYWRkZWNyb29zIiwiYSI6ImNrd3V2ODFtMDBtcmoybnFuZ2cyanpycWoifQ.T1XgjHAIT92__bhS8GtUOQ';
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',//mapbox://styles/mapbox/streets-v11',
         center: [3.09949, 50.94618],//29.977540509458233, 31.13217090674319 //3.09949,50.94618
         zoom: calcZoomLevel,
     });
-    let locations = [
-        [3.103591575112688, 50.95144615799327],
-        [3.1244691250083845, 50.9453856706939],
-        [3.09949, 50.94618],
-        [3.112412287872935, 50.94690875665132],
-        [3.119497136232929, 50.97870134021972],
-        [3.2703700374064946, 50.82660166612885]]
-    locations.forEach((location) => {
-        let marker = new mapboxgl.Marker({color: 'red', rotation: 0})
-            .setLngLat(location)
-            .addTo(map)
-    })
+
+
     // Create a default Marker, colored black, rotated 45 degrees.
     /*const marker2 = new mapboxgl.Marker({ color: 'red', rotation: 0 })
         .setLngLat([3.09949,50.94618])
         .addTo(map);*/
 
-    const scale = new mapboxgl.ScaleControl({
+   /* const scale = new mapboxgl.ScaleControl({
         maxWidth: 80,
         unit: 'imperial'
     });
     map.addControl(scale);
-    scale.setUnit('metric');
+    scale.setUnit('metric');*/
 
     /*function updateRadius(){
         let newRadius = parseFloat(document.getElementById('inputRadius').value);
@@ -1289,27 +1286,46 @@
         map.setZoom(calcZoomLevel);
 
     }*/
-    function updateRadius() {
-        let radia = [0.2, 0.5, 1, 2, 5, 10];
-        let index = parseFloat(document.getElementById('maxAfstand').value);
-        let newRadius = radia[index];
-        console.log('radius', newRadius);
-        calcZoomLevel = getZoomLevelFromRadius(50.94, 400, newRadius * 1000);
-        console.log(calcZoomLevel);
-        map.zoom = calcZoomLevel;
-        map.setZoom(calcZoomLevel);
 
-    }
-    function drawMap(){
+    function drawMap(event){
+        //alert('tab is open')
+        let target = event.target;
+        let tab = document.getElementById('contact');
         let mapwidth = document.getElementById('map').clientWidth;
         console.log('mapwidth ='+ mapwidth);
         let calcZoomLevel = getZoomLevelFromRadius(50.94, mapwidth, 200);
+        mapboxgl.accessToken = 'pk.eyJ1Ijoia29lbnJhYWRkZWNyb29zIiwiYSI6ImNrd3V2ODFtMDBtcmoybnFuZ2cyanpycWoifQ.T1XgjHAIT92__bhS8GtUOQ';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/light-v10',//mapbox://styles/mapbox/streets-v11',
+            center: [3.09949, 50.94618],//29.977540509458233, 31.13217090674319 //3.09949,50.94618
+            zoom: calcZoomLevel,
+        });
+        locations.forEach((location) => {
+            let marker = new mapboxgl.Marker({color: 'red', rotation: 0})
+                .setLngLat(location)
+                .addTo(map)
+        })
+
+        function updateRadius() {
+            let radia = [0.2, 0.5, 1, 2, 5, 10];
+            let index = parseFloat(document.getElementById('maxAfstand').value);
+            let newRadius = radia[index];
+            console.log('radius', newRadius);
+            calcZoomLevel = getZoomLevelFromRadius(50.94, mapwidth, newRadius * 1000);
+            console.log(calcZoomLevel);
+            map.zoom = calcZoomLevel;
+            map.setZoom(calcZoomLevel);
+
+        }
+
+        document.getElementById('maxAfstand').addEventListener('change', updateRadius);
 
     }
 
     //document.getElementById('inputRadius').addEventListener('change',updateRadius);
-    document.getElementById('maxAfstand').addEventListener('change', updateRadius)
-    document.getElementById('contact').addEventListener('hover',drawMap)
+
+    document.getElementById('contact-tab').addEventListener('shown.bs.tab',drawMap);
 </script>
 <script>
     //document.getElementById('inputLocation').addEventListener('load', searchLocation);
