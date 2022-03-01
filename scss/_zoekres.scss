@@ -210,12 +210,6 @@ border-bottom: 2px solid $primary;
 
 /* END SIDEBAR*/
 /* CARDS*/
-
-    .nav-link{
-        //height: 20px;
-       //width: 60px;
-    }
-
     article {
         //*nodig wnr foto niet resized is*//
         .location_image {
@@ -234,6 +228,10 @@ border-bottom: 2px solid $primary;
             font-size: 20px;
             text-transform: uppercase;
             border-radius: 10%;
+        }
+        .icon-size{
+            width: 2rem;
+            height: auto;
         }
         /***Hover cards***/
         .cards {
