@@ -94,8 +94,8 @@
   <!--START HERO -->
   <section class="container-fluid p-0 position-relative">
     <h1 class="text-white fw-bold  mb-4 position-absolute center">Vind je werkruimte </h1>
-    <div class="row ">
-      <div id="header" class="col-12 ">
+    <div class="row m-0">
+      <div id="header" class="col-12 p-0">
         <img src="assets/images/zoekres/headerdesk.png" alt="hero-img" class="hero-img img-fluid d-md-block">
       </div>
       <img src="assets/images/zoekres/hero-triangle.png" alt="hero-triangle" class="position-absolute hero-triangle d-none d-md-block p-0 end">
@@ -105,21 +105,23 @@
   <!--EINDE HERO -->
 
   <!--START LOCATIES-->
-
-
-
-
   <div class="container-fluid mt-5 mb-5">
       <div class="row">
-        <div class="col-8 pb-5 pt-4">
+        <div class="col-lg-7 col-xl-8 pb-5 pt-4">
           <div class="square-line"></div>
         </div>
-        <div class="col-4 justify-content-sm-center  ">
-          <h2><b>Gevonden locaties</b></h2>
-          <div>
-            <i></i>
-            <i></i>
+        <div class="col-lg-5 col-xl-4 justify-content-sm-center d-flex justify-content-md-between">
+          <h2 class="col-5 col-md-7 col-lg-6 col-xl-7 "><b>Gevonden locaties</b></h2>
+
+          <div class="col-7 col-md-4 col-lg-6 col-xl-5 ">
+            <div class="nav nav-tabs border-0 justify-content-evenly p-0  mb-5 pe-lg-3" id="nav-tab" role="tablist">
+              <button class="nav-link active col-2   p-0 fs-3" id="nav-cards-tab" data-bs-toggle="tab" data-bs-target="#nav-cards" type="button" role="tab" aria-controls="nav-cards" aria-selected="true"><img src="assets/images/zoekres/icons/kaartweergave.svg" class="  " alt="cards"></button>
+              <button class="nav-link col-2 fs-4 p-0" id="nav-list-tab" data-bs-toggle="tab" data-bs-target="#nav-list" type="button" role="tab" aria-controls="nav-list" aria-selected="false"> <img src="assets/images/zoekres/icons/lijstweergave.svg" class="img-fluid" alt="cards"></button>
+              <button class="nav-link col-2 fs-4 p-0" id="nav-card-tab" data-bs-toggle="tab" data-bs-target="#nav-card" type="button" role="tab" aria-controls="nav-card" aria-selected="false"><img src="assets/images/zoekres/icons/kaartenlijstweergave.svg" class="img-fluid" alt="cards"></button>
+            </div>
+
           </div>
+
         </div>
       </div>
 
@@ -447,22 +449,12 @@
         <!-- START CARDWEERGAVE -->
         <section class="col-md-9" id="gevonden_locaties">
           <!--START TABS-->
-          <ul class="nav nav-tabs border-0 justify-content-end" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x2-gap-fill fs-3"></i></button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-list fs-3"></i></button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="bi bi-geo-alt-fill fs-3"></i></button>
-            </li>
-          </ul>
+
           <!--EINDE TABS-->
           <!--START TAB-INHOUD-->
-          <div class="tab-content" id="myTabContent">
+          <div class="tab-content" id="nav-tabContent">
             <!--START INHOUD MET CARDS-->
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane fade show active" id="nav-cards" role="tabpanel" aria-labelledby="nav-cards-tab">
               <div class="row row-cols-lg-3 g-4 mt-4">
                 <article class="card border-0 ">
                   <a class="text-decoration-none" href="">
@@ -856,13 +848,13 @@
             </div>
             <!--EINDE INHOUD MET CARDS-->
             <!-- LIJSTWEERGAVE START -->
-            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
+            <div class="tab-pane fade" id="nav-list" role="tabpanel" aria-labelledby="nav-list-tab">...
 
 
             </div>
             <!-- LIJSTWEERGAVE EINDE -->
             <!-- KAARTWEERGAVE START -->
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="tab-pane fade" id="nav-card" role="tabpanel" aria-labelledby="nav-card-tab">
              <div class="row justify-content-between">
                <div class="col-6">
                  <article class="card border-0 ">
