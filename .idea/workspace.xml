@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d260a681-f3c5-4ae9-bc75-a758cb6a35aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_zoekres.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_zoekres.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoekresultaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/zoekresultaten.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +56,7 @@
       <workItem from="1644567242923" duration="848000" />
       <workItem from="1646075307535" duration="12194000" />
       <workItem from="1646145406105" duration="5023000" />
-      <workItem from="1646217789467" duration="4490000" />
+      <workItem from="1646217789467" duration="4769000" />
     </task>
     <servers />
   </component>
