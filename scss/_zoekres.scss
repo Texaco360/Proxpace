@@ -221,13 +221,43 @@ border-bottom: 2px solid $primary;
             height: auto;
             z-index: 1;
         }
-
+///
         .position {
             bottom: 25px;
-            right: 25px;
+            right: 24px;
             font-size: 20px;
             text-transform: uppercase;
             border-radius: 10%;
+        }
+        @media (min-width: 1020px) and (max-width: 1430px) {
+            .position{
+                bottom: 20px;
+                right: 16px;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                border-radius: 15%;
+
+            }
+
+        }
+        .position_list{
+            bottom: 25px;
+            right: 10px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            border-radius: 10%;
+
+        }
+        @media (max-width: 420px) {
+            .position_list{
+                bottom: 20px;
+                right: -1px;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                border-radius: 15%;
+
+            }
+
         }
         .icon-size{
             width: 2rem;
@@ -250,7 +280,13 @@ border-bottom: 2px solid $primary;
         }
     }
 
+    .page-item{
+        transform: rotate(45deg);
+        span{
 
+            text-transform: rotate(-45deg);
+        }
+    }
     .aantal {
         color: $primary;
     }
