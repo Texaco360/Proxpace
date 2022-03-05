@@ -1,3 +1,20 @@
+.blog,
+.blogdetail {
+  a {
+	text-decoration: none;
+
+	&:hover {
+	  text-decoration: underline;
+	}
+  }
+
+  .head2 {
+	background: url("../images/dot.png") repeat-x center;
+	margin: 90px 0 120px 0;
+	justify-content: space-between;
+  }
+}
+
 /** START BLOG **/
 .blog {
   margin: 60px 0;
@@ -20,6 +37,15 @@
 	  right: -1px;
 	  height: 50%;
 	}
+  }
+
+  .keywords {
+	color: $gray-500;
+
+	a {
+	  color: $gray-600;
+	}
+
   }
 
   .profiel-foto {
@@ -70,12 +96,6 @@
 /** START BLOGDETAIL **/
 .blogdetail {
   margin: 60px 0;
-
-  .head2 {
-	background: url("../images/dot.png") repeat-x center;
-	margin: 90px 0 60px 0;
-	justify-content: space-between;
-  }
 
   .artikel {
 	//columns: 2;
