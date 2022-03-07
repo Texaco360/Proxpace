@@ -134,6 +134,7 @@
 /** einde verwijderen outline rond inputvelden **/
 
 /** start afstand slider **/
+/** start afstand slider **/
   [type='range']{
       height: 36px;
       -webkit-appearance: none;
@@ -209,8 +210,27 @@ border-bottom: 2px solid $primary;
 
 
 /* END SIDEBAR*/
-/* CARDS*/
+    #myTab {
+        svg {
+            fill: $secondary;
+        }
 
+        .nav-link {
+            background-color: transparent;
+            padding: 0;
+        }
+
+        .active >svg{
+            fill: $primary;
+        }
+
+        .nav-link:hover >svg{
+            fill: $primary;
+        }
+
+    }
+
+/* CARDS*/
     article {
         //*nodig wnr foto niet resized is*//
         .location_image {
@@ -223,12 +243,55 @@ border-bottom: 2px solid $primary;
             z-index: 1;
         }
 
+        .fs-description{
+            font-size: 0.9rem;
+        }
+///
         .position {
             bottom: 25px;
-            right: 25px;
+            right: 24px;
             font-size: 20px;
             text-transform: uppercase;
             border-radius: 10%;
+        }
+        @media (min-width: 1020px) and (max-width: 1430px) {
+            .position{
+                bottom: 20px;
+                right: 16px;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                border-radius: 15%;
+
+            }
+
+        }
+        .position_list{
+            bottom: 25px;
+            right: 10px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            border-radius: 10%;
+
+        }
+        @media (max-width: 420px) {
+            .position_list{
+                bottom: 20px;
+                right: -1px;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                border-radius: 15%;
+
+            }
+
+        }
+        .icon-size{
+            width: 45px;
+            height: auto;
+        }
+
+        .icon-size-small{
+            width: 30px;
+            height: auto;
         }
         /***Hover cards***/
         .cards {
@@ -252,7 +315,13 @@ border-bottom: 2px solid $primary;
         }
     }
 
+    .page-item{
+        transform: rotate(45deg);
+        span{
 
+            text-transform: rotate(-45deg);
+        }
+    }
     .aantal {
         color: $primary;
     }

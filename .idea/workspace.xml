@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55940aa6-8956-4018-85f0-e63b8fa12352" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea_oud/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/ZoekresultatenBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/beamer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/brief.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/bus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/carr_links.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/eten.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/fiets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/gsm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/kaartenlijstweergave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/kaartweergave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/koffie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/lijstweergave.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/parking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/percentage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/personen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zoekres/icons/wifi.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_zoekres.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_zoekres.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoekresultaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/zoekresultaten.html" afterDir="false" />
->>>>>>> map_radius
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +56,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/zoekres" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\proxpace\assets\images\zoekres" />
       <recent name="C:\wamp64\www\proxpace\js" />
     </key>
   </component>
@@ -62,11 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1646223739589</updated>
       <workItem from="1646223740987" duration="2820000" />
-<<<<<<< HEAD
-      <workItem from="1646294842890" duration="13252000" />
-=======
-      <workItem from="1646294842890" duration="12805000" />
->>>>>>> map_radius
+      <workItem from="1646294842890" duration="14752000" />
+      <workItem from="1646677028062" duration="10655000" />
     </task>
     <servers />
   </component>
@@ -83,5 +93,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

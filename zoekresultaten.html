@@ -101,41 +101,75 @@
 <!--EINDE HEADER EN NAVBAR-->
 <!--START MAIN -->
 <main class="zoekres">
-    <!--START HERO -->
-    <section class="container-fluid p-0 position-relative">
-        <h1 class="text-white fw-bold  mb-4 position-absolute center">Vind je werkruimte </h1>
-        <div class="row ">
-            <div class="col-12 " id="header">
-                <img alt="hero-img" class="hero-img img-fluid d-md-block" src="assets/images/zoekres/headerdesk.png">
-            </div>
-            <img alt="hero-triangle" class="position-absolute hero-triangle d-none d-md-block p-0 end"
-                 src="assets/images/zoekres/hero-triangle.png">
-        </div>
+  <!--START HERO -->
+  <section class="container-fluid p-0 position-relative">
+    <h1 class="text-white fw-bold  display-4 mb-4 position-absolute center">Vind je werkruimte </h1>
+    <div class="row m-0">
+      <div id="header" class="col-12 p-0">
+        <img src="assets/images/zoekres/ZoekresultatenBG.png" alt="Zoek hier de werkruimte van je dromen" class="hero-img img-fluid d-md-block">
+      </div>
+      <img src="assets/images/zoekres/hero-triangle.png" alt="hero-triangle" class="position-absolute hero-triangle d-none d-md-block p-0 end">
+    </div>
+  </section>
+  <!--EINDE HERO -->
+  <!--START LOCATIES-->
+  <div class="container-fluid mt-5 mb-5">
+      <div class="row justify-content-start align-items-center">
+          <div class="col-md-11">
+            <!--START TABS-->
+            <ul class="nav nav-pills border-0 d-flex justify-content-end align-items-center" id="myTab" role="tablist">
+                <div class="square-line col"></div>
+                <h2 class="px-3 fs-1"><b>Gevonden locaties</b></h2>
+                <li class="nav-item border-0" role="presentation">
+                    <button aria-controls="home" aria-selected="true" class="nav-link active" data-bs-target="#nav-cards"
+                            data-bs-toggle="tab" id="home-tab" role="tab" type="button" class="">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.2 425.2" width="50" height="50">
+                            <g id="Kolommen">
+                                <g id="Kolommen-2">
+                                    <path d="M225.63,199.58H329.84V137.69a45.6,45.6,0,0,0-45.59-45.6H225.63Z"/>
+                                    <path d="M199.57,199.58V92.09H141a45.61,45.61,0,0,0-45.6,45.6v61.89Z" />
+                                    <path d="M225.63,225.61V333.1h58.62a45.59,45.59,0,0,0,45.59-45.59v-61.9Z" />
+                                    <path d="M199.57,225.61H95.35v61.9A45.6,45.6,0,0,0,141,333.1h58.62Z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button aria-controls="profile" aria-selected="false" class="nav-link" data-bs-target="#nav-list"
+                            data-bs-toggle="tab" id="profile-tab" role="tab" type="button">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.2 425.2" width="50" height="50">
+                            <g id="Lijsten">
+                                <g id="Lijsten-2">
+                                    <path d="M329.84,159.4V137.71a45.6,45.6,0,0,0-45.57-45.62H141a45.61,45.61,0,0,0-45.6,45.6v21.69Z"/>
+                                    <rect x="95.35" y="185.46" width="234.49" height="54.28" />
+                                    <path d="M95.35,265.79v21.72A45.6,45.6,0,0,0,141,333.1h143.3a45.59,45.59,0,0,0,45.59-45.59V265.79Z" />
+                                </g>
+                            </g>
+                        </svg>
 
-    </section>
-    <!--EINDE HERO -->
-
-    <!--START LOCATIES-->
-
-
-    <div class="container-fluid mt-5 mb-5">
-        <div class="row">
-            <div class="col-8 pb-5 pt-4">
-                <div class="square-line"></div>
-            </div>
-            <div class="col-4 justify-content-sm-center  ">
-                <h2><b>Gevonden locaties</b></h2>
-                <div>
-                    <i></i>
-                    <i></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-10 mx-auto">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button aria-controls="contact" aria-selected="false" class="nav-link" data-bs-target="#contact"
+                            data-bs-toggle="tab" id="contact-tab" role="tab" type="button">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.2 425.2" width="50" height="50">
+                            <g id="Path_250" data-name="Path 250">
+                                <path d="M212.59,330.79a15.29,15.29,0,0,1-13.25-7.66l-60.65-105.3a83.29,83.29,0,0,1-11.11-32.51v0a79.61,79.61,0,0,1,25.33-68l.05,0a89.31,89.31,0,0,1,116-2.88l0,0a80.36,80.36,0,0,1,28,75.05v.06a82.55,82.55,0,0,1-10.47,28.22L225.87,323.13A15.32,15.32,0,0,1,212.59,330.79ZM141.35,183.64a69.38,69.38,0,0,0,9.29,27.13l.05.08,60.67,105.34a1.43,1.43,0,0,0,2,.52,1.37,1.37,0,0,0,.52-.52l60.78-105.45,0,0a68.78,68.78,0,0,0,8.74-23.5,66.49,66.49,0,0,0-23.19-62,75.45,75.45,0,0,0-98,2.41A65.85,65.85,0,0,0,141.35,183.64Z"/>
+                            </g>
+                            <g id="Path_251" data-name="Path 251">
+                                <path d="M212.59,230.18a49.7,49.7,0,1,1,49.71-49.71A49.75,49.75,0,0,1,212.59,230.18Zm0-85.51a35.81,35.81,0,1,0,35.82,35.8,35.86,35.86,0,0,0-35.82-35.8Z"/>
+                            </g>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+          </div>
+            <!--EINDE TABS-->
+      </div>
+      <div class="col-md-10 mx-auto mt-3">
             <div class="row ">
                 <!-- START SIDEBAR -->
-
                 <section class="col-lg-3 mt-4">
                     <!--            offcanvas voor mobile-->
                     <div class="d-grid gap-2 fixed-bottom d-lg-none">
@@ -312,6 +346,7 @@
                             </div>
 
 
+<<<<<<< HEAD
                         </div>
                     </div>
                     <!--            gewoon voor desktop-->
@@ -470,471 +505,493 @@
                     </div>
 
                 </section>
-
-
                 <!-- EINDE SIDEBAR -->
-                <!-- START CARDWEERGAVE -->
+                <!-- START RESULTATEN -->
                 <section class="col-md-9" id="gevonden_locaties">
-                    <!--START TABS-->
-                    <ul class="nav nav-tabs border-0 justify-content-end" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button aria-controls="home" aria-selected="true" class="nav-link active" data-bs-target="#home"
-                                    data-bs-toggle="tab" id="home-tab" role="tab" type="button"><i
-                                    class="bi bi-grid-3x2-gap-fill fs-3"></i></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button aria-controls="profile" aria-selected="false" class="nav-link" data-bs-target="#profile"
-                                    data-bs-toggle="tab" id="profile-tab" role="tab" type="button"><i
-                                    class="bi bi-list fs-3"></i></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button aria-controls="contact" aria-selected="false" class="nav-link" data-bs-target="#contact"
-                                    data-bs-toggle="tab" id="contact-tab" role="tab" type="button"><i
-                                    class="bi bi-geo-alt-fill fs-3"></i></button>
-                        </li>
-                    </ul>
-                    <!--EINDE TABS-->
+
                     <!--START TAB-INHOUD-->
                     <div class="tab-content" id="myTabContent">
                         <!--START INHOUD MET CARDS-->
-                        <div aria-labelledby="home-tab" class="tab-pane fade show active" id="home" role="tabpanel">
-                            <div class="row row-cols-lg-3 g-4 mt-4">
+                        <div class="tab-pane fade show active" id="nav-cards" role="tabpanel" aria-labelledby="nav-cards-tab">
+                            <div class="row gy-3 row-cols-lg-3  g-md-4 ps-lg-5 g-xl-5 mt-4  ">
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3 ">Polydesk</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description ">Some quick example text to build on the card title
                                             and make up the bulk of the card's content. Lorem ipsum dolor sit amet
                                         </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                        <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                 style="width:1.3rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:1.3rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:1.3rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:1.6rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
+                                        <div class="row-cols-2">
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3 ">Cowork</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            and make up the bulk of the card's content. amet cumque ipsam molestiae nam
-                                            pariatur perferendis.
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/wifi.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/wifi.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" class="col" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3">Polyvalente ruimte</span>
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-2 ps-2 ">Meetdesk</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3">Coworking Desk</span>
+                                                <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3 ">Cowork</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3 ">Vergaderruimte</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div ;
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3 ">Polydesk</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet,
-                                            consectetur adipisicing elit.
-                                            Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
+                                <!--  SINGLE CARD GRID END -->
+                                <!--  SINGLE CARD GRID START -->
                                 <article class="card border-0 ">
+                                    <!--  IMG AS BG AND BADGE -->
                                     <a class="text-decoration-none" href="">
-                                        <div
-                                             class="position-relative overflow-hidden location_image mycard"
-                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')">
+                                        <div class="position-relative overflow-hidden location_image mycard"
+                                             style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
                                             <div class="position-absolute position">
-                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3 ">Vergaderruimte</span>
                                             </div>
                                         </div>
                                     </a>
-                                    <div class="card-body p-2">
-                                        <h3 class="card-title pt-2 pb-3 ">Card title</h3>
-                                        <p class="card-text inherit">Some quick example text to build on the card title
-                                            Adipisci, error.</p>
+                                    <!--  BODY -->
+                                    <div class="card-body p-2" >
+                                        <h3 class="card-title pt-2 pb-2 fs-6"> id punt | Groenbek 10, 9000 </h3>
+                                        <p class="card-text inherit fs-description">Some quick example text to build on the card title
+                                            and make up the bulk of the card's content. Lorem ipsum dolor sit amet
+                                        </p>
                                     </div>
+                                    <!-- FACILITY ICONS -->
                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
                                         <div class="row-cols-3">
-                                            <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                 style="width:2rem;">
-                                            <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                 style="width:2.2rem;">
+                                            <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                            <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
                                         </div>
-                                        <div class=" align-content-end">
-                                            <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                 style="width:1.8rem;">
-                                            <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                        <div class="align-content-end">
+                                            <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                 class="icon-size">
+                                            <span class="icon-size text-primary" > x 50</span>
                                         </div>
                                     </div>
                                 </article>
-                                <!-- <article class="card border-0 pb-5">
-                                     <a class="text-decoration-none" href="">
-                                       &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                                       <div class="position-relative overflow-hidden mycard">
-                                         <img class="card-img-top img-fluid "
-                                              src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                              style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                                       </div>
+                                <!--  SINGLE CARD GRID END -->
 
-                                       <div class="position-absolute ps-5 ">
-                                         <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                       </div>
-
-                                       <div class="card-body p-2" >
-                                         <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                                         <p class="card-text inherit">Some quick example text to build on the card title
-                                           and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                           Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                                           Adipisci, error.</p>
-                                       </div>
-                                       <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                         <div class="col-9">
-                                           <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                           <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                                           <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                                           <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                                         </div>
-                                         <div class="col-3 align-content-end">
-                                           <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                style="width:1.8rem;">
-                                           <span style="height:1.3rem;"> x 50</span>
-                                         </div>
-                                       </div>
-                                     </a>
-                                   </article>
-                                 <article class="card border-0 pb-5">
-                                   <a class="text-decoration-none" href="">
-                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                                     <div class="position-relative overflow-hidden mycard">
-                                       <img class="card-img-top img-fluid " src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                                     </div>
-
-                                     <div class="position-absolute ps-5 ">
-                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                     </div>
-
-                                     <div class="card-body p-2" >
-                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                                       <p class="card-text inherit">Some quick example text to build on the card title
-                                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-                                         Beatae dolores dolorum magnam quaerat quasi rem tenetur voluptatum? Eaque, laudantium odit.
-                                         Adipisci, error.</p>
-                                     </div>
-                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                       <div class="col-9">
-                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                                       </div>
-                                       <div class="col-3 align-content-end">
-                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                              style="width:1.8rem;">
-                                         <span style="height:1.3rem;"> x 50</span>
-                                       </div>
-                                     </div>
-                                   </a>
-                                 </article>
-                                 <article class="card border-0 pb-5">
-                                   <a class="text-decoration-none" href="">
-                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                                     <div class="position-relative overflow-hidden mycard">
-                                       <img class="card-img-top img-fluid "
-                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                                     </div>
-
-                                     <div class="position-absolute ps-5 ">
-                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                     </div>
-
-                                     <div class="card-body p-2" >
-                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                                       <p class="card-text inherit">Some quick example text to build on the card title
-                                         Adipisci, error. </p>
-                                     </div>
-                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                       <div class="col-9">
-                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                                       </div>
-                                       <div class="col-3 align-content-end">
-                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                              style="width:1.8rem;">
-                                         <span style="height:1.3rem;"> x 50</span>
-                                       </div>
-                                     </div>
-                                   </a>
-                                 </article>
-                                 <article class="card border-0 pb-5">
-                                   <a class="text-decoration-none" href="">
-                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                                     <div class="position-relative overflow-hidden mycard">
-                                       <img class="card-img-top img-fluid "
-                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                                     </div>
-
-                                     <div class="position-absolute ps-5 pb-2">
-                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                     </div>
-
-                                     <div class="card-body p-2" >
-                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                                       <p class="card-text inherit">Some quick example text to build on the card title
-                                         Aliquid amet cumque ipsam  nam pariatur perferendis.
-                                         Adipisci, error.</p>
-                                     </div>
-                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                       <div class="col-9">
-                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                                       </div>
-                                       <div class="col-3 align-content-end">
-                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                              style="width:1.8rem;">
-                                         <span style="height:1.3rem;"> x 50</span>
-                                       </div>
-                                     </div>
-                                   </a>
-                                 </article>
-                                 <article class="card border-0 pb-5">
-                                   <a class="text-decoration-none" href="">
-                                     &lt;!&ndash; LOCATIE TOEVOEGEN VAN DE RUIMTE&ndash;&gt;
-                                     <div class="position-relative overflow-hidden mycard">
-                                       <img class="card-img-top img-fluid "
-                                            src="assets/images/homepage/pexels-pixabay-416320.jpg"
-                                            style=" height: 445px; object-fit: cover; object-position: 100% ;">
-                                     </div>
-
-                                     <div class="position-absolute ps-5 pb-2">
-                                       <span class="badge round-pill bg-info text-white pe-4 ps-4">Flexdesk</span>
-                                     </div>
-
-                                     <div class="card-body p-2" >
-                                       <h5 class="card-title pt-2 pb-3 ">Card title</h5>
-                                       <p class="card-text inherit">Some quick example text to build on the card title
-                                         and make up the bulk of the card's content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                         Aliquid amet cumque ipsam molestiae nam pariatur perferendis.
-                                         Adipisci, error.</p>
-                                     </div>
-                                     <div class="d-flex justify-content-between pt-2 pb-3 ps-2">
-                                       <div class="col-9">
-                                         <img alt="icon" src="assets/images/logo-icons/wifi.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/computer.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/parking.svg" style="width:2rem;">
-                                         <img alt="icon" src="assets/images/logo-icons/fiets.svg" style="width:2.2rem;">
-                                       </div>
-                                       <div class="col-3 align-content-end">
-                                         <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                              style="width:1.8rem;">
-                                         <span style="height:1.3rem;"> x 50</span>
-                                       </div>
-                                     </div>
-                                   </a>
-                                 </article>-->
                             </div>
                         </div>
                         <!--EINDE INHOUD MET CARDS-->
                         <!-- LIJSTWEERGAVE START -->
-                        <div aria-labelledby="profile-tab" class="tab-pane fade" id="profile" role="tabpanel">...
+                        <div class="tab-pane fade mt-4  " id="nav-list" role="tabpanel" aria-labelledby="nav-list-tab">
+                            <div class="row row-cols-1 gy-3">
+                                <!--  SINGLE CARD LIST START -->
+                                <article class="card border-0 ps-lg-5 ">
+                                    <div class="row justify-content-between">
+                                        <!--  IMG: LOAD AS BACKGROUND -->
+                                        <div class="col-5 col-md-4 p-1 ">
+                                            <a class="text-decoration-none" href="">
+                                                <div class="position-relative overflow-hidden location_image mycard ps-sm-3"
+                                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                                    <div class="position-absolute position_list">
+                                                        <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3 ">Cowork</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--  CARD BODY  -->
+                                        <div class="col-7 col-md-8 p-0">
+                                            <div class="card-body ps-2 p-0 mt-md-3 mt-3" >
+                                                <h3 class="card-title pb-2 fs-6">id punt | Groenbek 10, 9000</h3>
+                                                <p class="card-text inherit fs-description d-none d-md-block">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                                                    ipsum dolor sit amet
+                                                </p>
+                                            </div>
+                                            <!--  FACILIITY ICONS -->
+                                            <div class=" row-cols-2 d-flex  pt-md-2 pb-3 ">
+                                                <div class=" p-0 ">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
+                                                </div>
+                                                <div class="align-content-center p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                         class="icon-size">
+                                                    <span class="icon-size text-primary" > x 50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
 
+                                </article>
+                                <!--  SINGLE CARD LIST END -->
+                                <!--  SINGLE CARD LIST START -->
+                                <article class="card border-0 ps-lg-5">
+                                    <div class="row justify-content-between">
+                                        <!--  IMG: LOAD AS BACKGROUND -->
+                                        <div class="col-5 col-md-4 p-1 ">
+                                            <a class="text-decoration-none" href="">
+                                                <div class="position-relative overflow-hidden location_image mycard ps-sm-3"
+                                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                                    <div class="position-absolute position_list">
+                                                        <span class="badge round-pill bg-meetdesk text-white pt-2 pb-2 pe-3 ps-3">meetdesk</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--  CARD BODY  -->
+                                        <div class="col-7 col-md-8 p-0">
+                                            <div class="card-body ps-2 p-0 mt-md-3 mt-3" >
+                                                <h3 class="card-title pb-2 fs-6">id punt | Groenbek 10, 9000</h3>
+                                                <p class="card-text inherit fs-description d-none d-md-block">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                                                    ipsum dolor sit amet
+                                                </p>
+                                            </div>
+                                            <!--  FACILIITY ICONS -->
+                                            <div class=" row-cols-2 d-flex  pt-md-2 pb-3 ">
+                                                <div class="row-cols-3 p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
+                                                </div>
+                                                <div class="align-content-center p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                         class="icon-size">
+                                                    <span class="icon-size text-primary" > x 50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </article>
+                                <!--  SINGLE CARD LIST END -->
+                                <!--  SINGLE CARD LIST START -->
+                                <article class="card border-0 ps-lg-5 ">
+                                    <div class="row justify-content-between">
+                                        <!--  IMG: LOAD AS BACKGROUND -->
+                                        <div class="col-5 col-md-4 p-1 ">
+                                            <a class="text-decoration-none" href="">
+                                                <div class="position-relative overflow-hidden location_image mycard ps-sm-3"
+                                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                                    <div class="position-absolute position_list">
+                                                        <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--  CARD BODY  -->
+                                        <div class="col-7 col-md-8 p-0">
+                                            <div class="card-body ps-2 p-0 mt-md-3 mt-3" >
+                                                <h3 class="card-title pb-2 fs-6">id punt | Groenbek 10, 9000</h3>
+                                                <p class="card-text inherit fs-description d-none d-md-block">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                                                    ipsum dolor sit amet
+                                                </p>
+                                            </div>
+                                            <!--  FACILIITY ICONS -->
+                                            <div class=" row-cols-2 d-flex  pt-md-2 pb-3 ">
+                                                <div class=" p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
+                                                </div>
+                                                <div class="align-content-center p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                         class="icon-size">
+                                                    <span class="icon-size text-primary" > x 50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </article>
+                                <!--  SINGLE CARD LIST END -->
+                                <!--  SINGLE CARD LIST START -->
+                                <article class="card border-0 ps-lg-5 ">
+                                    <div class="row justify-content-between">
+                                        <!--  IMG: LOAD AS BACKGROUND -->
+                                        <div class="col-5 col-md-4 p-1 ">
+                                            <a class="text-decoration-none" href="">
+                                                <div class="position-relative overflow-hidden location_image mycard ps-sm-3"
+                                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                                    <div class="position-absolute position_list">
+                                                        <span class="badge round-pill bg-polydesk text-white pt-2 pb-2 pe-3 ps-3">Vergaderruimte</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--  CARD BODY  -->
+                                        <div class="col-7 col-md-8 p-0">
+                                            <div class="card-body ps-2 p-0 mt-md-3 mt-3" >
+                                                <h3 class="card-title pb-2 fs-6">id punt | Groenbek 10, 9000</h3>
+                                                <p class="card-text inherit fs-description d-none d-md-block">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                                                    ipsum dolor sit amet
+                                                </p>
+                                            </div>
+                                            <!--  FACILIITY ICONS -->
+                                            <div class=" row-cols-2 d-flex  pt-md-2 pb-3 ">
+                                                <div class=" p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
+                                                </div>
+                                                <div class="align-content-center p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                         class="icon-size">
+                                                    <span class="icon-size text-primary" > x 50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </article>
+                                <!--  SINGLE CARD LIST END -->
+                                <!--  SINGLE CARD LIST START -->
+                                <article class="card border-0 ps-lg-5 ">
+                                    <div class="row justify-content-between">
+                                        <!--  IMG: LOAD AS BACKGROUND -->
+                                        <div class="col-5 col-md-4 p-1 ">
+                                            <a class="text-decoration-none" href="">
+                                                <div class="position-relative overflow-hidden location_image mycard ps-sm-3"
+                                                     style="background-image: url('./assets/images/homepage/pexels-pixabay-416320.jpg')";>
+                                                    <div class="position-absolute position_list">
+                                                        <span class="badge round-pill bg-cowodesk text-white pt-2 pb-2 pe-3 ps-3">cowork</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!--  CARD BODY  -->
+                                        <div class="col-7 col-md-8 p-0">
+                                            <div class="card-body ps-2 p-0 mt-md-3 mt-3" >
+                                                <h3 class="card-title pb-2 fs-6">id punt | Groenbek 10, 9000</h3>
+                                                <p class="card-text inherit fs-description d-none d-md-block">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content. Lorem ipsum dolor sit amet Lorem ipsum dolor sit
+                                                    ipsum dolor sit amet
+                                                </p>
+                                            </div>
+                                            <!--  FACILIITY ICONS -->
+                                            <div class=" row-cols-2 d-flex  pt-md-2 pb-3 ">
+                                                <div class=" p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size">
+                                                </div>
+                                                <div class="align-content-center p-0">
+                                                    <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                         class="icon-size">
+                                                    <span class="icon-size text-primary" > x 50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </article>
+                                <!--  SINGLE CARD LIST END -->
+                            </div>
                         </div>
                         <!-- LIJSTWEERGAVE EINDE -->
                         <!-- KAARTWEERGAVE START -->
                         <div aria-labelledby="contact-tab" class="tab-pane fade" id="contact" role="tabpanel">
-                            <div class="row justify-content-between">
+                            <div class="row justify-content-between mt-5">
                                 <div class="col-6">
                                     <article class="card-sm border-0 py-2">
                                         <div class="row align-items-center">
@@ -947,29 +1004,23 @@
                                                 </a>
                                             </div>
                                             <div class="col-8">
-                                                <div class="card-body pb-5">
+                                                <div class="card-body pb-1">
                                                     <h3 class="card-title">Card title</h3>
                                                 </div>
                                                 <div>
-                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                    <span class="badge round-pill bg-polydesk text-white pb-2 px-3 text-uppercase">Polyvalente Ruimte</span>
                                                 </div>
-                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                <div class="d-flex ps-auto ps-2 pt-2 justify-content-between">
                                                     <div class="row-cols-3">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                             style="width:1.6rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:2rem;">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size-small">
                                                     </div>
                                                     <div class=" align-content-end">
-                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                             style="width:1.8rem;">
-                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                        <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                             class="icon-size-small">
+                                                        <span class="aantal pe-3" style="height:1.3rem;"> x20</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -986,29 +1037,24 @@
                                                 </a>
                                             </div>
                                             <div class="col-8">
-                                                <div class="card-body pb-5">
+                                                <div class="card-body pb-1">
                                                     <h3 class="card-title">Card title</h3>
                                                 </div>
                                                 <div>
-                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                    <span class="badge round-pill bg-flexdesk text-white pb-2 px-3 text-uppercase">FLEXDESK</span>
                                                 </div>
-                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                <div class="d-flex ps-auto ps-2 pt-2 justify-content-between">
                                                     <div class="row-cols-3">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                             style="width:1.6rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:2rem;">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size-small">
                                                     </div>
                                                     <div class=" align-content-end">
-                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                             style="width:1.8rem;">
-                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                        <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                             class="icon-size-small">
+                                                        <span class="aantal pe-3" style="height:1.3rem;"> x1</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1025,29 +1071,23 @@
                                                 </a>
                                             </div>
                                             <div class="col-8">
-                                                <div class="card-body pb-5">
+                                                <div class="card-body pb-1">
                                                     <h3 class="card-title">Card title</h3>
                                                 </div>
                                                 <div>
-                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 text-uppercase">Vergaderruimte</span>
                                                 </div>
-                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                <div class="d-flex ps-auto ps-2 pt-2 justify-content-between">
                                                     <div class="row-cols-3">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                             style="width:1.6rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:2rem;">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/beamer.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size-small">
                                                     </div>
                                                     <div class=" align-content-end">
-                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                             style="width:1.8rem;">
-                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                        <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                             class="icon-size-small">
+                                                        <span class="aantal pe-3" style="height:1.3rem;"> x12</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1064,29 +1104,23 @@
                                                 </a>
                                             </div>
                                             <div class="col-8">
-                                                <div class="card-body pb-5">
+                                                <div class="card-body pb-1">
                                                     <h3 class="card-title">Card title</h3>
                                                 </div>
                                                 <div>
-                                                    <span class="badge round-pill bg-meetdesk text-white pb-2 px-3 ">Vergaderruimte</span>
+                                                    <span class="badge round-pill bg-cowodesk text-white pb-2 px-3 text-uppercase">kantoorruimte</span>
                                                 </div>
-                                                <div class="d-flex ps-auto ps-2 pt-2">
+                                                <div class="d-flex ps-auto ps-2 pt-2 justify-content-between">
                                                     <div class="row-cols-3">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/computer.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/parking.svg"
-                                                             style="width:1.3rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/fiets.svg"
-                                                             style="width:1.6rem;">
-                                                        <img alt="icon" src="assets/images/logo-icons/wifi.svg"
-                                                             style="width:2rem;">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/wifi.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/bus.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/eten.svg" class="icon-size-small">
+                                                        <img alt="icon" src="assets/images/zoekres/icons/koffie.svg" class="icon-size-small">
                                                     </div>
                                                     <div class=" align-content-end">
-                                                        <img alt="icon" src="assets/images/logo-icons/personen.svg"
-                                                             style="width:1.8rem;">
-                                                        <span class="aantal" style="height:1.3rem;"> x 50</span>
+                                                        <img alt="icon" src="assets/images/zoekres/icons/personen.svg"
+                                                             class="icon-size-small">
+                                                        <span class="aantal pe-3" style="height:1.3rem;"> x50</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1098,18 +1132,32 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- KAARTWEERGAVE EINDE -->
                     </div>
-                    <!-- KAARTWEERGAVE EINDE -->
+                    <div class="d-flex justify-content-center align-items-center mt-4">
+                        <div class="position-relative m-2" style="width: 35px">
+                            <div class="bg-primary" style="width: 100% ;padding-top: 100%; border-radius:7px ;transform: rotate(45deg);margin: auto" ></div>
+                            <div class="position-absolute top-50 start-50 translate-middle text-white ">1</div>
+                        </div>
+                        <div class="position-relative m-2" style="width: 35px">
+                            <a href="#">
+                                <div class="bg-secondary" style="width: 100% ;padding-top: 100%; border-radius:7px ;transform: rotate(45deg);margin: auto" ></div>
+                                <div class="position-absolute top-50 start-50 translate-middle text-white ">2</div>
+                            </a>
+                        </div>
+                        <div class="position-relative m-2" style="width: 35px">
+                            <a href="#">
+                                <div class="bg-secondary" style="width: 100% ;padding-top: 100%; border-radius:7px ;transform: rotate(45deg);margin: auto" ></div>
+                                <div class="position-absolute top-50 start-50 translate-middle text-white ">3</div>
+                            </a>
+                        </div>
+                    </div>
                 </section>
+                <!-- EINDE RESULTATEN -->
             </div>
-            <!--EINDE TAB-INHOUD-->
-        </div>
-        <!-- EIDE CARDWEERGAVE -->
+      </div>
 
-        <!--EINDE LOCATIES-->
         <!--EINDE MAIN -->
-
-    </div>
     </div>
 </main>
 <!--START FOOTER-->
@@ -1180,7 +1228,83 @@
                         <div class="nav-item">
                             <a class="nav-link" href="#"><i class="fs-3 bi bi-facebook"></i></a>
                         </div>
-                        f
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-instagram"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10 col-lg-10 mx-auto">
+            <div class="row justify-content-between">
+                <div class="col-12 col-sm-7">
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Onze diensten</h3>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Host worden</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Mijn account</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Aanbod</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">Reserveer nu</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Juridisch</h3>
+                            <ul class="nav d-flex flex-column ">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Algemene</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Voorwaarden</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Cookie Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 pt-5">
+                            <h3 class="fs-4 fw-bold pt-sm-5">Ons bedrijf</h3>
+                            <ul class="nav d-flex flex-column">
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 mt-3 nav-link text-dark fs-5" href="#">Over ons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">Contacteer ons</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-0 nav-link text-dark fs-5" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="ps-0 pb-3 nav-link text-dark fs-5" href="#">BE0771526914</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-sm-4 col-md-4 col-lg-3 mt-5 my-5">
+                    <img alt="" class="img-fluid mt-2" src="./assets/images/logo-icons/logo_proxpace.svg" width="375">
+                    <p class="fs-5 pt-3"><span class="fw-bold text-dark">stuur ons gerust een mailtje!</span><br>
+                        <a class="nav-link ps-0" href="mailto:info@proxpace.com">info@proxpace.com</a></p>
+                    <div class="d-flex nav pb-3">
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fs-3 bi bi-facebook"></i></a>
+                        </div>
                         <div class="nav-item">
                             <a class="nav-link" href="#"><i class="fs-3 bi bi-instagram"></i></a>
                         </div>
@@ -1193,7 +1317,6 @@
         </div>
     </div>
 </footer>
-
 <!--EINDE FOOTER-->
 <script src="./assets/js/bundle.min.js"></script>
 <!--scripts voor datepicker-->
