@@ -1,69 +1,69 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 300;
   src: url("../fonts/open-sans-latin-300-normal.woff2") format("woff2"), url("../fonts/open-sans-all-300-normal.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 400;
   src: url("../fonts/open-sans-latin-400-normal.woff2") format("woff2"), url("../fonts/open-sans-all-400-normal.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 500;
   src: url("../fonts/open-sans-latin-500-normal.woff2") format("woff2"), url("../fonts/open-sans-all-500-normal.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 600;
   src: url("../fonts/open-sans-latin-600-normal.woff2") format("woff2"), url("../fonts/open-sans-all-600-normal.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: normal;
   font-display: swap;
   font-weight: 700;
   src: url("../fonts/open-sans-latin-700-normal.woff2") format("woff2"), url("../fonts/open-sans-all-700-normal.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: italic;
   font-display: swap;
   font-weight: 300;
   src: url("../fonts/open-sans-latin-300-italic.woff2") format("woff2"), url("../fonts/open-sans-all-300-italic.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: italic;
   font-display: swap;
   font-weight: 400;
   src: url("../fonts/open-sans-latin-400-italic.woff2") format("woff2"), url("../fonts/open-sans-all-400-italic.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: italic;
   font-display: swap;
   font-weight: 500;
   src: url("../fonts/open-sans-latin-500-italic.woff2") format("woff2"), url("../fonts/open-sans-all-500-italic.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: italic;
   font-display: swap;
   font-weight: 600;
   src: url("../fonts/open-sans-latin-600-italic.woff2") format("woff2"), url("../fonts/open-sans-all-600-italic.woff") format("woff");
 }
 @font-face {
-  font-family: "Open SansVariable";
+  font-family: "Open Sans";
   font-style: italic;
   font-display: swap;
   font-weight: 700;
@@ -6280,6 +6280,22 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #381b52;
   --bs-body-bg: #fff;
+}
+
+.bg-flexdesk {
+  background-color: #7ccbde;
+}
+
+.bg-polydesk {
+  background-color: #dea04c;
+}
+
+.bg-meetdesk {
+  background-color: #42c356;
+}
+
+.bg-cowodesk {
+  background-color: #9e7cde;
 }
 
 *,
@@ -18117,7 +18133,7 @@ textarea.form-control-lg {
 }
 
 footer .nav-link:hover {
-  color: blue !important;
+  color: #381b52 !important;
   text-decoration: underline;
 }
 
@@ -18136,7 +18152,7 @@ footer .nav-link:hover {
   */
   /**EINDE REVIEW**/
   /**START LOCATIES**/
-  /** 2de styling **/
+  /***Hover cards***/
   /**EINDE LOCATIES**/
   /***EINDE MAIN***/
 }
@@ -18256,8 +18272,17 @@ footer .nav-link:hover {
 .home .hero-border-right:focus {
   border-right: none;
 }
+.home .hero-border-left-radius {
+  border-radius: 5px 0px 0px 5px;
+}
+.home .hero-border-right-radius {
+  border-radius: 0px 5px 5px 0px;
+}
 .home .hero-border-radius {
   border-radius: 0;
+}
+.home .hero-border {
+  border: white 3px solid;
 }
 .home .hero-block {
   position: relative;
@@ -18300,7 +18325,7 @@ footer .nav-link:hover {
   }
   .home .hero-input {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     right: 10%;
   }
 }
@@ -18311,7 +18336,7 @@ footer .nav-link:hover {
   }
   .home .hero-input {
     position: absolute;
-    bottom: 35%;
+    bottom: 25%;
     right: 10%;
   }
 }
@@ -18377,7 +18402,7 @@ footer .nav-link:hover {
   height: 11px;
 }
 .home .utg {
-  padding-bottom: 142px;
+  padding-bottom: 100px;
 }
 .home .mycard {
   border-radius: 25px;
@@ -18391,10 +18416,17 @@ footer .nav-link:hover {
   box-shadow: 1px 10px 20px #9e7cde;
   -webkit-transition: box-shadow 0.2s ease-in;
 }
+.home .badge {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.home .aantal {
+  color: #381b52;
+}
 .home .position-absolute {
   top: 60%;
-  left: 50%;
-  font-size: 18px;
+  right: 5%;
+  font-size: 20px;
   text-transform: uppercase;
   border-radius: 10%;
 }
@@ -18413,6 +18445,234 @@ footer .nav-link:hover {
 .home .cards:hover {
   box-shadow: 5px 6px 6px 2px #e9ecef;
   transform: scale(1.1);
+}
+
+.zoekres {
+  /*HERO*/
+  /* END HERO*/
+  /*SIDEBAR*/
+  /** styling checkboxes aanpassen **/
+  /** einde checkboxes aanpassen **/
+  /** start close-kruisje actieve filters **/
+  /** einde close-kruisje actieve filters **/
+  /** start verwijderen outline date-veld **/
+  /** einde verwijderen outline date-veld **/
+  /** start verwijderen outline rond inputvelden **/
+  /** einde verwijderen outline rond inputvelden **/
+  /** start afstand slider **/
+  /** einde afstand slider **/
+  /* END SIDEBAR*/
+  /* CARDS*/
+  /* END CARDS*/
+}
+.zoekres .center {
+  top: 50%;
+  bottom: 50%;
+  left: 10%;
+}
+.zoekres .hero-img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.zoekres .hero-triangle {
+  width: 30%;
+  bottom: 0;
+  right: 0;
+}
+.zoekres .square-line {
+  background-image: url("../images/zoekres/square_line_purple.png");
+  background-repeat: repeat-x;
+  height: 11px;
+}
+@media (min-width: 992px) {
+  .zoekres .hero-image {
+    object-fit: cover;
+    height: 100%;
+  }
+}
+.zoekres ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #381b52;
+  opacity: 1;
+  /* Firefox */
+}
+.zoekres :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #381b52;
+}
+.zoekres ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #381b52;
+}
+.zoekres .form-check-input {
+  position: absolute;
+  opacity: 0;
+}
+.zoekres .form-check-input + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.zoekres .form-check-input + label:before {
+  content: "";
+  margin-right: 10px;
+  margin-top: 3px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border: 2px solid #381b52;
+  border-radius: 25%;
+  transform: rotate(45deg);
+}
+.zoekres .form-check-input:checked + label:before {
+  background: #381b52;
+}
+.zoekres .kruisje {
+  transform: rotate(45deg);
+  z-index: 10;
+  transform-origin: 125% 43%;
+}
+@media (min-width: 768px) {
+  .zoekres .kruisje {
+    transform: rotate(45deg);
+    z-index: 10;
+    transform-origin: 142% 28%;
+  }
+}
+.zoekres .form-floating > .form-control {
+  padding: 0;
+  height: 1.5rem;
+  line-height: 0;
+  border: none;
+  position: relative;
+}
+.zoekres .datepickerMob {
+  transform: translate(-15%, -49%);
+  position: absolute;
+}
+.zoekres .form-floating > .form-control:focus ~ label, .zoekres .form-control:valid ~ label {
+  opacity: 0;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+@media (min-width: 768px) {
+  .zoekres .form-floating > .form-control {
+    padding: 0;
+    height: 1.5rem;
+    line-height: 0;
+    border: none;
+  }
+  .zoekres .datepickerDesk {
+    transform: translate(-15%, -50%);
+  }
+}
+.zoekres input:focus {
+  outline: none;
+}
+.zoekres [type=range] {
+  height: 36px;
+  -webkit-appearance: none;
+  width: 100%;
+}
+.zoekres [type=range]:focus {
+  outline: none;
+}
+.zoekres [type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 2px #A6A6A6;
+  margin: -6px -6px 0px -6px;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  background: #381b52;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transform: rotate(45deg);
+}
+.zoekres [type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 2px #A6A6A6;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  background: #381b52;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+.zoekres [type=range]::-ms-thumb {
+  box-shadow: 0px 0px 2px #A6A6A6;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  background: #381b52;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+.zoekres [type=range]::-ms-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.zoekres [type=range]:focus::-webkit-slider-runnable-track {
+  background: #381b52;
+}
+.zoekres [type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #381b52;
+  border-radius: 0px;
+}
+.zoekres [type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #381b52;
+  border-radius: 0px;
+}
+.zoekres .lijnInput {
+  border-bottom: 2px solid #381b52;
+}
+.zoekres article {
+  /***Hover cards***/
+}
+.zoekres article .location_image {
+  background-size: 150%;
+  background-position: center;
+  padding-top: 100%;
+  border-radius: 25px;
+  -webkit-transition: box-shadow 0.6s ease-out;
+  height: auto;
+  z-index: 1;
+}
+.zoekres article .position {
+  bottom: 25px;
+  right: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10%;
+}
+.zoekres article .cards {
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.zoekres article .cards:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+.zoekres article .mycard:hover {
+  box-shadow: 1px 10px 20px #9e7cde;
+  -webkit-transition: box-shadow 0.2s ease-in;
+}
+.zoekres .aantal {
+  color: #381b52;
 }
 
 /*# sourceMappingURL=style.css.map */
