@@ -1,4 +1,12 @@
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import "./mapradius";
+
+import * as mapHandler from "./mapradius";
+
+mapHandler.initMap();
+
+
+
 /****HOME****/
 /***START MAIN***/
 /**START HERO**/

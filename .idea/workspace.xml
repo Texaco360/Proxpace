@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b03e5cd-d249-44e9-a677-ed9affd89648" name="Changes" comment="">
+    <list default="true" id="55940aa6-8956-4018-85f0-e63b8fa12352" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zoekresultaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/zoekresultaten.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +18,17 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="24xYJu0cFP83KQ9Moj0ClhcNKFC" />
+  <component name="ProjectId" id="25pUtlm0vn1ezVp7jiFmpO8nTol" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,22 +38,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blogoop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\proxpace\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b03e5cd-d249-44e9-a677-ed9affd89648" name="Changes" comment="" />
-      <created>1644573637829</created>
+      <changelist id="55940aa6-8956-4018-85f0-e63b8fa12352" name="Changes" comment="" />
+      <created>1646223739589</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644573637829</updated>
-      <workItem from="1644573639537" duration="8943000" />
-      <workItem from="1644857404603" duration="1928000" />
-      <workItem from="1644928687887" duration="2430000" />
-      <workItem from="1644995556164" duration="5289000" />
+      <updated>1646223739589</updated>
+      <workItem from="1646223740987" duration="2820000" />
+      <workItem from="1646294842890" duration="12805000" />
     </task>
     <servers />
   </component>
@@ -58,6 +73,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
