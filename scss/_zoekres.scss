@@ -331,4 +331,23 @@ border-bottom: 2px solid $primary;
 
 
 /* END CARDS*/
+    /*START PAGINATION*/
+    #pagination{
+        a:hover > .rotated-page-link , .page-num:hover > .rotated-page-link{
+            background-color: $primary;
+        }
+        .rotated-page-link{
+            background-color: $secondary;
+            width: 100%;
+            padding-top: 100%;
+            border-radius:7px ;
+            transform: rotate(45deg);
+            margin: auto;
+
+        }
+
+    }
+
+    /*END PAGINATION*/
 }
+
