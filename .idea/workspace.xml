@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d1ed70-fe29-499a-897d-7a253c05d3ff" name="Changes" comment="">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Laag_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/Stap_1_bg_paars.png" afterDir="false" />
-=======
->>>>>>> viktorsprint2
+    <list default="true" id="7d41bbc4-9920-4eda-b4be-20cccf8c1058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/tekengebied1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> lodesprint2
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> michielsprint2
+      <change beforePath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verhuurderspagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/verhuurderspagina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,41 +17,25 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="tlubz126" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="ProjectId" id="24mnchwouujumPYgnui1xV8h7Ur" />
+  <component name="ProjectId" id="26Bbf7GPyXkfrlXoX5fF4JqgVMw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/verhuurderspagina" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
->>>>>>> viktorsprint2
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,34 +43,19 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lodeb\Desktop\Proxpace\assets\images\verhuurderspagina" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lodeb\Desktop\Proxpace\assets\images\verhuurderspagina" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70d1ed70-fe29-499a-897d-7a253c05d3ff" name="Changes" comment="" />
-      <created>1644244712845</created>
+      <changelist id="7d41bbc4-9920-4eda-b4be-20cccf8c1058" name="Changes" comment="" />
+      <created>1646900027257</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644244712845</updated>
-      <workItem from="1644244715456" duration="1556000" />
-      <workItem from="1644252153799" duration="13000" />
-      <workItem from="1644314330928" duration="9800000" />
-      <workItem from="1644337861644" duration="18000" />
-      <workItem from="1644495430294" duration="9810000" />
-      <workItem from="1644509752970" duration="654000" />
-      <workItem from="1644520149209" duration="3654000" />
-      <workItem from="1644765502699" duration="2828000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1644916360030" duration="1814000" />
-      <workItem from="1644920290587" duration="7347000" />
-      <workItem from="1644931975446" duration="750000" />
-=======
-      <workItem from="1644912098062" duration="7597000" />
->>>>>>> michielsprint2
-=======
-      <workItem from="1644848878596" duration="1282000" />
->>>>>>> viktorsprint2
+      <updated>1646900027257</updated>
+      <workItem from="1646900028514" duration="1835000" />
     </task>
     <servers />
   </component>

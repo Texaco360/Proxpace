@@ -1,5 +1,6 @@
 .verhuurderspagina {
   /*BEGIN LODE*/
+  overflow-x: hidden;
   .carousel-indicators {
     [data-bs-target] {
       margin: 10px;
@@ -25,12 +26,20 @@
     Left: 0;
     transform: translate(50%,-50%);
   }
+  .captionTekst2{
+    position:absolute;
+    z-index: 2000;
+    Top: 50%;
+    Right: 50%;
+    transform: translate(50%,-50%);
+  }
   .triangleHeroLb{
     position:absolute;
     z-index:2001;
     width: 21%;
     right:3%;
     bottom:0;
+    fill: white;
   }
   .tekst-primary{
     color:$primary;
