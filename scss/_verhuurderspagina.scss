@@ -208,6 +208,44 @@
 
 
   /**START REVIEW**/
+  .fotoreviews{
+    padding-left: 130px;
+    padding-bottom: 160px;
+  }
+  .imgbox2{
+
+    height:250px;
+    width:250px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-45deg) scale(1.6);
+  }
+  .largebox2{
+    height:600px;
+    width:600px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-45deg) scale(1.6);
+  }
+  .borderradius2{
+    overflow:hidden;
+    border-radius:15px;
+
+
+  }
+  .oh_bgcover2{
+    /*overflow:visible;*/
+    background-size:cover;
+  }
+  .rotate452{
+    transform:rotate(45deg);
+  }
+  .w-600 {
+    width: 600px;
+  }
+  .scale072{
+    transform:scale(0.71)}
+
 
   .pmichielverhuurder{
     padding-top: 200px;
