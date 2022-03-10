@@ -1,0 +1,147 @@
+
+//aanmaak van css variabelen niet toegelaten . deze worden in _eigen-variabelen gezet
+//classes die ook op andere pagina kunnen gebruikt worden voorzien in _global.scss (o.a. classes voor header en footer)
+
+//alle scss te voorzien in de home klasse . Ze wordt voorzien op de main tag van de pagina
+
+.detailpagina{
+  overflow: hidden;
+  /***START MAIN***/
+  /**START SLIDER**/
+  .vierkantlijn-slider {
+    background-image: url('/assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+    flex-grow: 1;
+  }
+
+  .mySlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  .demo {
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .active {
+    opacity: 1;
+  }
+  .text-purle-slider{
+    color: #876fae;
+  }
+  .text-blueapple-slider{
+    color: rgb(124,203,222);
+  }
+  .imgbox{
+    height:280px;
+    width:280px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-135deg) scale(1.6);
+  }
+  .largebox{
+    height:900px;
+    width:900px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-135deg) scale(1.6);
+  }
+  .borderradius{
+    overflow:hidden;
+    border-radius:1.2rem;
+  }
+  .oh_bgcover{
+    /*overflow:visible;*/
+    background-size:cover;
+  }
+  .rotate45{
+    transform:rotate(135deg);
+  }
+  .w-600 {
+    width: 900px;
+  }
+  .scale07{
+    transform:scale(0.20)}
+  @media (min-width: 576px) {
+    .scale07{
+      transform:scale(0.20)}
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .scale07{
+      transform:scale(0.35)}
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .scale07{
+      transform:scale(0.45)}
+
+  }
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .scale07{
+      transform:scale(0.55)}
+  }
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .scale07{
+      transform:scale(0.65)}
+  }
+  // XXx-Large devices (larger desktops, 2000px and up)
+  @media (min-width: 2000px) {
+    .scale07{
+      transform:scale(0.71)}
+  }
+  /**EINDE SLIDER**/
+  /**START Beschrijving**/
+  .m-rotation{
+    border: solid #8769ad 3px;
+    border-radius: 20px;
+  }
+  .m-iconColour{
+    filter: invert(24%) sepia(38%) saturate(3443%) hue-rotate(265deg) brightness(97%) contrast(93%);
+  }
+  /**EINDE Beschrijving**/
+  /**START MAPS**/
+  .vierkantlijn-slider-maps{
+    background-image: url('/assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+    width: 100%;
+  }
+  .border-radius-maps{
+    border-radius: 3rem;
+  }
+  /**EINDE MAPS**/
+  /**START HOST**/
+  .vierkantlijn-slider-host{
+    background-image: url('/assets/images/homepage/Rectangle32.png');
+    background-repeat: repeat-x;
+    height: 11px;
+    width: 100%;
+  }
+  /**EINDE HOST**/
+  /***EINDE MAIN***/
+}
+
