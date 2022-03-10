@@ -143,9 +143,67 @@
     text-decoration: none !important;
   }
 
-  .fotoreviews {
-    padding-top: 100px;
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) {
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
+    }
+    .hero-input{
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
+    }
+    .carousel-control-next {
+      position: absolute;
+      left: 20rem;
+      bottom: 40rem;
+    }
 
+    .carousel-control-prev {
+      position: absolute;
+      left: 7rem;
+      bottom: 40rem;
+    }
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
+    }
+    .hero-input{
+      position: absolute;
+      bottom: 25%;
+      right: 10%;
+    }
+  }
+  // X-Large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
+    }
+    .hero-input{
+      position: absolute;
+      bottom: 35%;
+      right: 10%;
+    }
+  }
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (min-width: 1400px) {
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
+    }
+    .hero-input{
+      position: absolute;
+      bottom: 35%;
+      right: 10%;
+    }
+    .fotoreviews{
+      padding-right: 160px;
+    }
   }
 
 
