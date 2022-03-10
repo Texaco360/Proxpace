@@ -7,16 +7,6 @@
 .detailpagina{
   /***START MAIN***/
   /**START SLIDER**/
-  .spinner-small{
-    position: absolute;
-    z-index: 10;
-    bottom: 55%;
-    left: 35%;
-  }
-  .spinner-large{
-    position: relative;
-    z-index: 12;
-  }
   .vierkantlijn-slider {
     background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
@@ -26,20 +16,7 @@
     bottom: 50%;
     z-index: -10;
   }
-  .buttons-slider{
-    position: absolute;
-    right: 15%;
-    bottom: 25%;
-  }
-  .w-35{
-    width: 37%;
-  }
-  .img-slider {
-    vertical-align: middle;
-  }
-  .container-slider {
-    position: relative;
-  }
+
   .mySlides {
     display: none;
   }
@@ -78,46 +55,65 @@
   .text-blueapple-slider{
     color: rgb(124,203,222);
   }
+  .imgbox{
+    height:280px;
+    width:280px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-135deg) scale(1.6);
+  }
+  .largebox{
+    height:900px;
+    width:900px;
+    background-position: center center;
+    background-size: cover;
+    transform: rotate(-135deg) scale(1.6);
+  }
+  .borderradius{
+    overflow:hidden;
+    border-radius:1.2rem;
+  }
+  .oh_bgcover{
+    /*overflow:visible;*/
+    background-size:cover;
+  }
+  .rotate45{
+    transform:rotate(135deg);
+  }
+  .w-600 {
+    width: 900px;
+  }
+  .scale07{
+    transform:scale(0.20)}
   @media (min-width: 576px) {
-
+    .scale07{
+      transform:scale(0.20)}
   }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
-
-
+    .scale07{
+      transform:scale(0.35)}
   }
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) {
-    .spinner-small{
-      position: absolute;
-      z-index: 10;
-      bottom: 55%;
-      left: 35%;
-    }
-    .spinner-large{
-      position: relative;
-      z-index: 12;
-    }
-    .buttons-slider{
-      position: absolute;
-      right: 15%;
-      bottom: 25%;
-    }
-    .w-35{
-      width: 37%;
-    }
+    .scale07{
+      transform:scale(0.45)}
+
   }
   // X-Large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
-
+    .scale07{
+      transform:scale(0.55)}
   }
   // XX-Large devices (larger desktops, 1400px and up)
   @media (min-width: 1400px) {
-
+    .scale07{
+      transform:scale(0.65)}
   }
   // XXx-Large devices (larger desktops, 2000px and up)
   @media (min-width: 2000px) {
-
+    .scale07{
+      transform:scale(0.71)}
   }
   /**EINDE SLIDER**/
   /**START Beschrijving**/
