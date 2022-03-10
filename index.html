@@ -18,6 +18,8 @@
     <meta property="og:description" content="Your office, outside the office" />
     <title>Proxpace Your office, outside the office </title>
     <link href="assets/css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+
 
 </head>
 <body>
@@ -121,11 +123,11 @@
                     <span class="input-group-text bg-transparent hero-border-right" id="basic-addon1"><i class="bi bi-search text-white"></i></span>
                     <input type="search" class="form-control hero-border-left" placeholder="Locatie" aria-label="Locatie" aria-describedby="basic-addon1">
                 </div>
-                <div class="input-group p-2">
-                    <div class="col-6 pe-2">
-                        <input type="date" class="form-control" placeholder="Datum" aria-label="Datum">
+                <div class="input-group p-2 ">
+                    <div class="col-6">
+                            <input type="text" name="datepicker" class="shadow-none form-control" required="" placeholder="Datum">
                     </div>
-                    <div class="col-6 ps-2">
+                    <div class="col-6 ps-4">
                         <div class="input-group">
                             <span class="input-group-text bg-transparent hero-border-right" id="basic-addon2"><i class="bi bi-person text-white"></i></span>
                             <input type="text" class="form-control hero-border-left" placeholder="Aantal Personen" aria-label="Aantal Personen" aria-describedby="basic-addon2">
@@ -453,5 +455,14 @@
 
 <!--EINDE FOOTER-->
 <script src="./assets/js/bundle.min.js"></script>
+<!--scripts voor datepicker-->
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/locales/nl-BE.js"></script>
+<script>
+    const elem1 = document.querySelector('input[name="datepicker"]');
+    const datepicker1 = new Datepicker(elem1, {
+        language: 'nl-BE',
+    });
+</script>
 </body>
 </html>
