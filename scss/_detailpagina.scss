@@ -7,15 +7,11 @@
 .detailpagina{
   /***START MAIN***/
   /**START SLIDER**/
-  .spinner-small{
-    position: absolute;
-    z-index: 10;
-    bottom: 55%;
-    left: 35%;
+  .rotate-45{
+    transform:rotate(45deg);
   }
-  .spinner-large{
-    position: relative;
-    z-index: 12;
+  .rotate-m-45{
+    transform:rotate(-45deg);
   }
   .vierkantlijn-slider {
     background-image: url('/assets/images/homepage/Rectangle32.png');
@@ -26,32 +22,14 @@
     bottom: 50%;
     z-index: -10;
   }
-  .buttons-slider{
-    position: absolute;
-    right: 15%;
-    bottom: 25%;
-  }
-  .w-35{
-    width: 37%;
-  }
   .img-slider {
     vertical-align: middle;
-  }
-  .container-slider {
-    position: relative;
   }
   .mySlides {
     display: none;
   }
   .cursor {
     cursor: pointer;
-  }
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
   }
   .caption-container {
     text-align: center;
@@ -88,24 +66,7 @@
   }
   // Large devices (desktops, 992px and up)
   @media (min-width: 992px) {
-    .spinner-small{
-      position: absolute;
-      z-index: 10;
-      bottom: 55%;
-      left: 35%;
-    }
-    .spinner-large{
-      position: relative;
-      z-index: 12;
-    }
-    .buttons-slider{
-      position: absolute;
-      right: 15%;
-      bottom: 25%;
-    }
-    .w-35{
-      width: 37%;
-    }
+
   }
   // X-Large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
