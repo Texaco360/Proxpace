@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d41bbc4-9920-4eda-b4be-20cccf8c1058" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/locatiegetuigenis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/locatiegetuigenis2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/locatiegetuigenis3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/persoongetuigenis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/persoongetuigenis2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/verhuurderspagina/persoongetuigenis3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Locatiegetuigenis3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/verhuurderspagina/Persoongetuigenis3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_verhuurderspagina.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verhuurderspagina.html" beforeDir="false" afterPath="$PROJECT_DIR$/verhuurderspagina.html" afterDir="false" />
     </list>
