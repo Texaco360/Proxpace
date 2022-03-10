@@ -5,16 +5,14 @@
 //alle scss te voorzien in de home klasse . Ze wordt voorzien op de main tag van de pagina
 
 .detailpagina{
+  overflow: hidden;
   /***START MAIN***/
   /**START SLIDER**/
   .vierkantlijn-slider {
     background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
     height: 11px;
-    width: 100%;
-    position: absolute;
-    bottom: 50%;
-    z-index: -10;
+    flex-grow: 1;
   }
 
   .mySlides {
@@ -117,6 +115,13 @@
   }
   /**EINDE SLIDER**/
   /**START Beschrijving**/
+  .m-rotation{
+    border: solid #8769ad 3px;
+    border-radius: 20px;
+  }
+  .m-iconColour{
+    filter: invert(24%) sepia(38%) saturate(3443%) hue-rotate(265deg) brightness(97%) contrast(93%);
+  }
   /**EINDE Beschrijving**/
   /**START MAPS**/
   .vierkantlijn-slider-maps{
