@@ -62,21 +62,25 @@
       border: white 3px solid;
       transform: rotate(45deg);
     }
+
     .active {
       background-color: white;
       color: white;
     }
   }
-  #carouselExampleCaptions{
-    position:relative;
+
+  #carouselExampleCaptions {
+    position: relative;
   }
-  .captionTekst{
-    position:absolute;
+
+  .captionTekst {
+    position: absolute;
     z-index: 2000;
     Top: 50%;
     Left: 0;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
   }
+<<<<<<< HEAD
   .captionTekst2{
     position:absolute;
     z-index: 2000;
@@ -91,53 +95,73 @@
     right:3%;
     bottom:0;
     fill: white;
+=======
+
+  .triangleHeroLb {
+    position: absolute;
+    z-index: 2001;
+    width: 21%;
+    right: 3%;
+    bottom: 0;
+>>>>>>> michielsprint4
   }
-  .tekst-primary{
-    color:$primary;
+
+  .tekst-primary {
+    color: $primary;
   }
+
   .vierkantlijn {
     background-image: url('/assets/images/homepage/Rectangle32.png');
     background-repeat: repeat-x;
     height: 11px;
     flex-grow: 1;
   }
-  #formulierRegistreer{
-    input{
+
+  #formulierRegistreer {
+    input {
       border: none;
       border-bottom: 1px solid $primary;
       width: 80%;
       color: $primary;
     }
+
     input::placeholder {
       color: $secondary;
       opacity: 1;
       font-weight: 500;
     }
-    input:focus{
+
+    input:focus {
       outline: none;
     }
-    .borderLb{
+
+    .borderLb {
       border: 2px solid black;
       border-radius: 0.7rem;
     }
   }
-  .border-80{
+
+  .border-80 {
     border-radius: 0.8rem;
   }
-  .sliderimg{
+
+  .sliderimg {
     height: 320px;
     object-fit: cover;
     object-position: bottom;
   }
-  .card-border{
+
+  .card-border {
     border: 7px solid $secondary;
     border-radius: 1rem;
   }
-  .rotate-45{
-    transform:rotate(45deg);
+
+  .rotate-45 {
+    transform: rotate(45deg);
   }
-  .rotate-m-45{
-    transform:rotate(-45deg);
+
+  .rotate-m-45 {
+    transform: rotate(-45deg);
   }
 
   /*EINDE LODE*/
@@ -147,21 +171,22 @@
     background-image: url(../images/homepage/Rectangle32.png);
     background-repeat: repeat-x;
     height: 11px;};*/
-  .leftArrow{
-    height:100%;
+  .leftArrow {
+    height: 100%;
   }
-  .rightArrow{
-    transform:rotate(180deg);
+
+  .rightArrow {
+    transform: rotate(180deg);
   }
 
   //QUERIES FOR ROTATION
-  @media only screen and (max-width:  767px) {
+  @media only screen and (max-width: 767px) {
     .leftArrow, .rightArrow {
       transform: rotate(90deg);
-      padding-left:25px;
-      width:35%;
+      padding-left: 25px;
+      width: 35%;
     }
-    .arrowContainer{
+    .arrowContainer {
     }
   }
   /*EINDE VIKTOR*/
@@ -187,414 +212,88 @@
     text-decoration: none !important;
   }
 
-  .containerruimtes {
-    position: relative;
-    text-align: center;
-  }
-
-  .centerflexdesk {
-    position: absolute;
-    align-content: center;
-    top: 85% !important;
-    left: 37% !important;
-  }
-
-  .centerpolyvalent {
-    position: absolute;
-    align-content: center;
-    top: 85% !important;
-    left: 22% !important;
-  }
-
-  .centervergader {
-    position: absolute;
-    align-content: center;
-    top: 85% !important;
-    left: 28% !important;
-  }
-
-  .centerkantoor {
-    position: absolute;
-    align-content: center;
-    top: 85% !important;
-    left: 28% !important;
-  }
-
-  /**START REVIEW**/
-  .floatingimages {
-    margin-bottom: 364px;
-    display: none;
-  }
-
-  .carousel-inner {
-    padding-bottom: 1px !important;
-  }
-
-  .locatiefoto {
-    overflow: visible !important;
-    top: 150% !important;
-    left: 30% !important;
-    border-radius: 10%;
-  }
-
-  // Extra-small devices (Mobile S, 320px and up)
-  @media (min-width: 320px) {
-    .floatingimages {
-      margin-bottom: 200px;
-      display: block !important;
-    }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 300% !important;
-      left: 15% !important;
-      border-radius: 10%;
-      width: 10rem;
-      display: none !important;
-    }
-    .persoonfoto {
-      display: block !important;
-      width: 11rem;
-      left: 4rem !important;
-    }
-    .titelreviews {
-      padding-left: 1rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 5rem !important;
-    }
-  }
-  // Extra-small devices (Mobile M, 375px and up)
-  @media (min-width: 375px) {
-    .floatingimages {
-      margin-bottom: 200px;
-      display: block !important;
-    }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 300% !important;
-      left: 15% !important;
-      border-radius: 10%;
-      width: 10rem;
-      display: none !important;
-    }
-    .persoonfoto {
-      display: block !important;
-      width: 11rem;
-      left: 5.5rem !important;
-    }
-    .titelreviews {
-      padding-left: 2rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 10rem !important;
-    }
-  }
-  // Extra-small devices (Mobile lg, 425 and up)
-  @media (min-width: 425px) {
-    .floatingimages {
-      margin-bottom: 200px;
-      display: block !important;
-    }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 300% !important;
-      left: 15% !important;
-      border-radius: 10%;
-      width: 10rem;
-      display: none !important;
-    }
-    .persoonfoto {
-      display: block !important;
-      width: 11rem;
-      left: 7rem !important;
-    }
-    .titelreviews {
-      padding-left: 3rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 10rem !important;
-    }
-  }
-
-
-  // Small devices (Tablet, 576px and up)
-  @media (min-width: 576px) {
-    .floatingimages {
-      margin-bottom: 364px;
-      display: block !important;
-    }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 150% !important;
-      left: 30% !important;
-      border-radius: 10%;
-    }
-    .persoonfoto {
-      display: block;
-      left: 16rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 12rem !important;
-    }
-  }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
-    .floatingimages {
-      display: block;
-      margin-bottom: 500px;
-      margin-top: 110px;
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
     }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 130% !important;
-      left: 40% !important;
-      border-radius: 10%;
-      width: 340px;
-      height: 340px;
-      display: block !important;
+    .hero-input{
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
     }
     .carousel-control-next {
       position: absolute;
-      left: 15rem !important;
-      margin-bottom: 650px;
-    }
-    .carousel-control-prev {
-      position: absolute;
-      margin-bottom: 650px;
-      left: 3rem !important;
-    }
-    .persoonfoto {
-      width: 170px;
-      height: 170px;
-      left: 6rem !important;
-    }
-    .titelreviews {
-      padding-left: 4.5rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 14rem !important;
+      left: 20rem;
+      bottom: 40rem;
     }
 
-  }
-  // Large devices (desktops, 900px and up)
-  @media (min-width: 900px) {
-    .locatiefoto {
-      overflow: visible !important;
-      top: 140% !important;
-      left: 45% !important;
-      font-size: 18px;
-      text-transform: uppercase;
-      border-radius: 10%;
-      width: 400px;
-      height: 400px;
-    }
-    .persoonfoto {
-      left: 20% !important;
-      width: 200px;
-      height: 200px;
-    }
-    .carousel-control-next {
-      position: absolute;
-      left: 13rem !important;
-      margin-bottom: 650px;
-    }
     .carousel-control-prev {
       position: absolute;
-      margin-bottom: 650px;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 15rem !important;
+      left: 7rem;
+      bottom: 40rem;
     }
   }
-  // X-Large devices (large desktops, 1024px and up)
-  @media (min-width: 1024px) {
-    .floatingimages {
-      display: block;
-      margin-bottom: 550px;
-      margin-top: 110px;
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
     }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 170% !important;
-      left: 46% !important;
-      font-size: 18px;
-      text-transform: uppercase;
-      border-radius: 10%;
-      width: 400px !important;
-      height: 400px !important;
-    }
-    .persoonfoto {
-      left: 23% !important;
-      top: 20% !important;
-      width: 200px !important;
-      height: 200px !important;
-    }
-    .carousel-control-next {
+    .hero-input{
       position: absolute;
-      left: 15rem !important;
-      margin-bottom: 650px;
-      //top:0rem;
-    }
-    .carousel-control-prev {
-      position: absolute;
-      margin-bottom: 650px;
-      //top:0rem;
-    }
-    .titelreviews {
-      padding-left: 5.5rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 15rem !important;
+      bottom: 25%;
+      right: 10%;
     }
   }
-
   // X-Large devices (large desktops, 1200px and up)
   @media (min-width: 1200px) {
-    .floatingimages {
-      display: block;
-      margin-bottom: 550px;
-      margin-top: 110px;
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
     }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 140% !important;
-      left: 26% !important;
-      font-size: 18px;
-      text-transform: uppercase;
-      border-radius: 10%;
-      width: 320px !important;
-      height: 320px !important;
-    }
-    .persoonfoto {
-      left: 1% !important;
-      top: 20% !important;
-      width: 160px !important;
-      height: 160px !important;
-    }
-    .carousel-control-next {
+    .hero-input{
       position: absolute;
-      left: 15rem !important;
-      margin-bottom: 650px;
-      //top:0rem;
-    }
-    .carousel-control-prev {
-      position: absolute;
-      margin-bottom: 650px;
-      //top:0rem;
-    }
-    .titelreviews {
-      padding-left: 5.5rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 15rem !important;
+      bottom: 35%;
+      right: 10%;
     }
   }
   // XX-Large devices (larger desktops, 1400px and up)
   @media (min-width: 1400px) {
-    .floatingimages {
-      display: block;
-      margin-bottom: 600px;
-      margin-top: 1px;
+    .hero-image{
+      object-fit: cover;
+      height: 100%;
     }
-    .locatiefoto {
-      overflow: visible !important;
-      top: 130% !important;
-      left: 30% !important;
-      font-size: 18px;
-      text-transform: uppercase;
-      border-radius: 10%;
-      width: 380px;
-      height: 380px;
+    .hero-input{
+      position: absolute;
+      bottom: 35%;
+      right: 10%;
     }
-    .persoonfoto {
-      width: 190px;
-      height: 190px;
-      left: 1% !important;
-    }
-    .titelreviews {
-      padding-left: 8rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 16rem !important;
+    .fotoreviews{
+      padding-right: 160px;
     }
   }
-  @media (min-width: 2000px) {
-    .locatiefoto {
-      overflow: visible !important;
-      top: 180% !important;
-      left: 30% !important;
-      font-size: 18px;
-      text-transform: uppercase;
-      border-radius: 10%;
-      width: 680px !important;
-      height: 680px !important;
-    }
-    .persoonfoto {
-      width: 340px !important;
-      height: 340px !important;
-      top: 1rem !important;
-    }
-    .floatingimages {
-      display: block;
-      margin-bottom: 900px;
-    }
-    .titelreviews {
-      padding-left: 14rem !important;
-    }
-    /*soorten ruimtes*/
-    .pmichielverhuurder {
-      padding-top: 16rem !important;
-    }
+
+
+  /**START REVIEW**/
+
+  .pmichielverhuurder{
+    padding-top: 200px;
+  }
+  .carousel-inner {
+    padding-bottom: 1px !important;
   }
 
 
   .carousel-control-next {
     position: absolute;
-    left: 13rem;
+    left: 20rem;
   }
 
   .carousel-control-prev {
     position: absolute;
-  }
-
-  .floatingimages {
-    max-width: 100%;
-  }
-
-  .persoon {
-    /*padding-top: 170px;*/
-  }
-
-  .locatie {
-    padding-top: 70px;
-  }
-
-  .persoonfoto {
-    overflow: visible;
-    margin-top: 40px;
-    border-radius: 10%;
-  }
-
-  .locatiefoto {
-    overflow: visible;
-    /*top: 150% !important;
-    left: 30% !important;*/
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 10%;
-  }
-
-  .floatinglocation {
-
+    left: 7rem;
   }
 
   .carousel-inner {
