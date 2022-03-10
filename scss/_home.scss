@@ -1,11 +1,10 @@
-
 //aanmaak van css variabelen niet toegelaten . deze worden in _eigen-variabelen gezet
 //classes die ook op andere pagina kunnen gebruikt worden voorzien in _global.scss (o.a. classes voor header en footer)
 
 //alle scss te voorzien in de home klasse . Ze wordt voorzien op de main tag van de pagina
 
-.home{
-/***START MAIN***/
+.home {
+  /***START MAIN***/
   /**START HERO**/
    input {
     color: white;
@@ -223,6 +222,7 @@
       right: 10%;
     }
   }
+
   /**EINDE HERO**/
   /**START REVIEW**/
   .carousel-control-next{
@@ -272,7 +272,6 @@
     width: 3rem;
     height: 3rem;
   }
-
 
   /**EINDE REVIEW**/
   /**START LOCATIES**/
@@ -339,4 +338,6 @@
   /**EINDE LOCATIES**/
     /***EINDE MAIN***/
   }
+
+
 

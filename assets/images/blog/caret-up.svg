@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 528.67517 235.6624"
+   version="1.1"
+   sodipodi:docname="driehoek.svg"
+   width="528.67517"
+   height="235.6624"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.842"
+     inkscape:cx="237.24213"
+     inkscape:cy="359.12052"
+     inkscape:window-width="3840"
+     inkscape:window-height="2083"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <path
+     id="Path_237"
+     data-name="Path 237"
+     d="M 313.28862,20.275819 528.6752,235.6624 H 0 L 215.38658,20.275819 c 27.0351,-27.0344253 70.86694,-27.0344253 97.90204,0 z"
+     fill="#fff"
+     style="fill:#ffffff;stroke-width:1.03666"
+     sodipodi:nodetypes="ccccc" />
+</svg>

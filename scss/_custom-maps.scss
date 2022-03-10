@@ -1,10 +1,9 @@
 // Create your own color map
 $custom-colors: (
-        "flexdesk":$flexdesk,
-        "polydesk":$polydesk,
-        "meetdesk":$meetdesk,
-        "cowodesk":$cowodesk,
-
+		"flexdesk": $flexdesk,
+		"polydesk": $polydesk,
+		"meetdesk": $meetdesk,
+		"cowodesk": $cowodesk,
 );
 
 @each $name , $color in $custom-colors {
@@ -15,17 +14,16 @@ $custom-colors: (
 
 // Merge the color maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
-$colors : map-merge($colors, $custom-colors);
-
+$colors: map-merge($colors, $custom-colors);
 
 // Create your own spacer map
 $custom-spacers: (
-        6: $spacer * 5,
+		6: $spacer * 5,
+);
 
+$gutters: (
+		6: $spacer * 5,
 );
 
 // Merge the color maps
 $spacers: map-merge($spacers, $custom-spacers);
-
-
-

@@ -1,14 +1,17 @@
-
 //font
+
 $font-family-base:'Open Sans';
+
+
+//$font-family-base: 'Open SansVariable';
 
 
 //color overrides
 //$primary:purple;
-$flexdesk:rgb(124,203,222);
-$polydesk:rgb(222,160,76);
-$meetdesk:rgb(66,195,86);
-$cowodesk:rgb(158,124,222);
+$flexdesk: rgb(124, 203, 222);
+$polydesk: rgb(222, 160, 76);
+$meetdesk: rgb(66, 195, 86);
+$cowodesk: rgb(158, 124, 222);
 
 
 
@@ -22,15 +25,12 @@ $cowodesk:rgb(158,124,222);
 //$enable-shadows: true;
 //$enable-gradients: true;
 
-
-
-
 // Changing the border radius of buttons
 //$border-radius: 15px;
 
 // Changing the theme colors
-$primary: rgb(56,27,82);
-$secondary: rgb(135,111,174);
+$primary: rgb(56, 27, 82);
+$secondary: rgb(135, 111, 174);
 $success: #2bc550;
 $info:#7ccbde;
 $warning: #ef8143;
@@ -38,10 +38,10 @@ $danger: #ff293a;
 $light: #dfe6ee;
 $dark: #0f1319;
 
-
 // Changing the body background and text
 //$body-bg: #d3e9eb;
 $body-color: $primary;
+$component-active-bg: $secondary;
 
 //background
 $component-active-bg:$secondary;
@@ -51,3 +51,10 @@ $btn-border-width:2px;
 //links
 
 $nav-link-color:$primary;
+
+// Other
+//$font-size-base: 1.25rem;
+$btn-border-width: 2px;
+$carousel-control-prev-icon-bg: url("data:image/svg+xml,<svg width='512' height='512' xmlns='http://www.w3.org/2000/svg'><g transform='translate(0 6.49)'><rect x='-46.258' y='216.093' width='291.891' height='291.891' rx='50.54' transform='rotate(-45)' style='stroke-width:.511641;fill:#8769ad'/><path style='color:#000;fill:#381b52;fill-opacity:1;stroke:none;stroke-width:30.325px;-inkscape-stroke:none' d='M164.296 21.189c3.057 0 6.114 1.21 8.533 3.63l.003.003 5.738 5.733c6.72 6.728 6.72 17.17-.005 23.895L77.48 155.535c-16.425 16.43-16.425 43.523 0 59.952l.002.002.003.003L178.571 316.5c6.72 6.728 6.719 17.17-.005 23.896l-5.733 5.728-.003.003c-4.84 4.84-12.227 4.84-17.067 0v-.001L3.63 194.02v-.001c-4.84-4.84-4.84-12.227 0-17.066L155.762 24.82l.001-.001c2.42-2.42 5.476-3.63 8.533-3.63z'/></g></svg>");
+$carousel-control-next-icon-bg: url("data:image/svg+xml,<svg width='512' height='512' xmlns='http://www.w3.org/2000/svg'><g transform='rotate(180 256 188.755)'><rect x='-46.258' y='216.093' width='291.891' height='291.891' rx='50.54' transform='rotate(-45)' style='stroke-width:.511641;fill:#8769ad'/><path style='color:#000;fill:#381b52;fill-opacity:1;stroke:none;stroke-width:30.325px;-inkscape-stroke:none' d='M164.296 21.189c3.057 0 6.114 1.21 8.533 3.63l.003.003 5.738 5.733c6.72 6.728 6.72 17.17-.005 23.895L77.48 155.535c-16.425 16.43-16.425 43.523 0 59.952l.002.002.003.003L178.571 316.5c6.72 6.728 6.719 17.17-.005 23.896l-5.733 5.728-.003.003c-4.84 4.84-12.227 4.84-17.067 0v-.001L3.63 194.02v-.001c-4.84-4.84-4.84-12.227 0-17.066L155.762 24.82l.001-.001c2.42-2.42 5.476-3.63 8.533-3.63z'/></g></svg>");
+

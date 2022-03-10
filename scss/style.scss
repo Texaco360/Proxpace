@@ -1,9 +1,9 @@
 // main.scss
 // Option B: Include parts of Bootstrap
 // 1.Importeer de fonts
-
 @import "fonts";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
 // 2. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
@@ -61,13 +61,5 @@
 @import "global";
 @import "home";
 @import "zoekres";
-
-
-
-
-
-
-
-
-
+@import "blog";
 
