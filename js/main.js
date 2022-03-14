@@ -1,9 +1,11 @@
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./mapradius";
 
-import * as mapHandler from "./mapradius";
+//import * as mapHandler from "./mapradius";
+//import * as slideHandler from "./detailpagina-slider";
 
-mapHandler.initMap();
+//mapHandler.initMap();
+//slideHandler.slideInit();
 
 
 
@@ -22,3 +24,6 @@ mapHandler.initMap();
 
 /**EINDE LOCATIES**/
 /***EINDE MAIN***/
+
+/**detailpagina**/
+
